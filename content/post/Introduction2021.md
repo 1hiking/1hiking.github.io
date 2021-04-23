@@ -11,4 +11,4 @@ copypaste.
 
 Another thing to note is that before choosing Hugo I tried JBake and Jekyll, I enjoyed the first hours of JBake not before realizing the lack of public themes to choose from... and with Jekyll it was a pain to install on Wingblows and I don't enjoy having to setup Cywing or having to use WSL.
 
-And before leaving my old repository to rest... shotouts to Jaafar for letting me copy some of the project files made for his webpage.
+And before leaving my old repository to rest... shotouts to [Jaafar](https://jaafard.codeberg.page/) for letting me copy some of the project files made for his webpage.
