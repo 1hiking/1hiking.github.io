@@ -52,10 +52,6 @@ title = "About"
 url = "/about/"
 
 [[params.nav.custom]]
-title = "F-droid"
-url = "/f-droid/"
-
-[[params.nav.custom]]
-title = "Hugo"
-url = "https://gohugo.io/"
+title = "Lists"
+url = "/lists/"
 

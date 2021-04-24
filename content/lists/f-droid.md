@@ -1,8 +1,9 @@
 +++
-title = "hiking's curated list of F-droid apps"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-author = "hiking"
+title = "Hiking's curated list of F-droid apps"
+author = "Hiking"
+date = "2021-04-23"
+description = "Part of my collection of lists"
+categories = ["List"]
 +++
 
 A curated list of some worth checking applications in the F-droid repo (and others too), short descriptions and notes are listed below.
