@@ -30,202 +30,253 @@ A curated list of some worth checking applications in the F-droid repo (and othe
 
 1. [Fennec F-Droid](https://github.com/mozilla-mobile/fenix) 
 
-    * _Browser that supports current and anticipated web standards._
+> Browser that supports current and anticipated web standards.
 
 2. [Bromite](https://github.com/bromite/bromite)  
 
-    * _Bromite is a Chromium fork with ad blocking and enhanced privacy; take back your browser._
+> Bromite is a Chromium fork with ad blocking and enhanced privacy; take back your browser.
 
-    * **Note**: Custom repo is [_required_](https://fdroid.bromite.org/fdroid/repo).
+Notes:
+
+* Custom repo is [required](https://fdroid.bromite.org/fdroid/repo).
 
 3. [Privacy Browser](https://git.stoutner.com/?p=PrivacyBrowser.git;a=summary) 
 
-    * _A web browser that respects your privacy._
+> A web browser that respects your privacy.
 
-    * **Note**: Uses WebView as their rendering engine.
+Notes:
+
+* Uses WebView as their rendering engine, so you have to keep that up-to-date.
 
 4. [Tor Browser](https://github.com/guardianproject/tor-android) 
 
-    * _Experience real private browsing without tracking, surveillance, or censorship._
-    
-    * **Note**: Custom repo is [required](https://guardianproject.info/fdroid/)
+> Experience real private browsing without tracking, surveillance, or censorship.
+
+Notes:
+
+* Custom repo is [required](https://guardianproject.info/fdroid/), however F-droid has that repository added by default.
 
 ## File managers
 
 1. [Simple File Manager](https://github.com/SimpleMobileTools/Simple-File-Manager) 
 
-    * _A simple file manager for browsing and editing files and directories._
+> A simple file manager for browsing and editing files and directories.
+
+Notes:
+
+* Part of "*Simple Tools*" collection, might wanna check more of [their programs here](https://www.simplemobiletools.com/).
 
 2. [Material Files](https://github.com/zhanghai/MaterialFiles) 
 
-    * _Open source Material Design file manager._
+> Open source Material Design file manager.
 
 3. [Amaze](https://github.com/TeamAmaze/AmazeFileManager) 
 
-    * _Manage local files._
+> Manage local files.
 
 ## Gallery
 
 1. [Simple Gallery Pro](https://github.com/SimpleMobileTools/Simple-Gallery) 
 
-    * _A premium app for managing and editing your photos, videos, GIFs without ads._
+> A premium app for managing and editing your photos, videos, GIFs without ads.
 
-    * **Note**: This app is part of a collection of Simple Apps.
+Notes:
+
+* This app is also part of the collection of "*Simple Tools*".
 
 ## EXIF / Metadata editors
 
 1. [Imagepipe](https://codeberg.org/Starfish/Imagepipe) 
 
-    * _Removes exif data and modifies images to reduce size before sharing._
+> Removes exif data and modifies images to reduce size before sharing.
 
 2. [Scrambled Exif](https://gitlab.com/juanitobananas/scrambled-exif/tree/HEAD) 
 
-    * _Remove the metadata from your pictures before sharing them._
+> Remove the metadata from your pictures before sharing them.
+
+Notes:
+
+* If you want to only remove EXIF data, use this one. For more features use ImagePipe.
 
 ## Music players
 
 1. [Vanilla Music](https://github.com/vanilla-music/vanilla) 
 
-    * _Listen to and manage songs._
+> Listen to and manage songs.
 
-(Add more here)
+Notes:
+
+* You could technically use Video Players (or any program that can process .mp3 files) as Music players.
 
 ## Video players
 
 1. [VLC](https://code.videolan.org/videolan/vlc-android) 
 
-    * _The best video and music player. Fast and “just works”, plays any file._
+> The best video and music player. Fast and “just works”, plays any file.
 
-2. [mpv](https://github.com/mpv-android/mpv-android) 
+2. [mpv-android](https://f-droid.org/en/packages/is.xyz.mpv/) 
 
-    * _mpv-android is a video player for Android based on libmpv._
+> mpv-android is a video player for Android based on libmpv.
 
 ## F-droid clients
 
 1. [F-Droid](https://gitlab.com/fdroid/fdroidclient) 
 
-    * _The app store that respects freedom and privacy._
+> The app store that respects freedom and privacy.
 
-    * **Note**: Users with root privileges may want to add: F-Droid Privileged Extension, however having a rooted device may compromise some of your security.
+Notes:
+
+* Users with root privileges may want to check: F-Droid Privileged Extension, however having a rooted device may compromise some of your security, I believe CalyxOS doesn't require this since it's built-in. 
 
 2. [Foxy Droid](https://github.com/kitsunyan/foxy-droid) 
 
-    * _Yet another F-Droid client._
+> Yet another F-Droid client.
+
+Notes:
+
+* Doesn't have a method to auto-update, basically "manual" mode.
 
 3. [Aurora Droid](https://gitlab.com/AuroraOSS/auroradroid) 
 
-    * _An alternative to the default F-Droid app with an intuitive UI and multiple great features..._
+> An alternative to the default F-Droid app with an intuitive UI and multiple great features...
 
-    * **Note**: Not to get confused with the Play Store client _Aurora Store._
+Notes:
+
+* Not to get confused with the Play Store client *Aurora Store*.
+
+* They also have a similar extension
 
 ## RSS clients
 
 1. [Feeder](https://gitlab.com/spacecowboy/Feeder) 
 
-    * _An awesome Free and Open Source RSS Feed reader._
+> An awesome Free and Open Source RSS Feed reader.
 
 ## E-mail clients
 
 1. [K-9 Mail](https://github.com/k9mail/k-9) 
 
-    * _Full-featured email client._
+> Full-featured email client.
 
-    * **NOTE**: For new design, choose the _latest_ release, not the recommended release.
+Notes:
 
-2. [FairEmail](https://github.com/M66B/FairEmail) 
+* For new design, choose the *latest* release, not the recommended release.
 
-    * _Fully featured email client. Neat, intuitive user interface. Privacy friendly._
+* [Developer is looking for funding, for more details click here.](https://k9mail.app/2021/02/14/K-9-Mail-is-looking-for-funding)
+
+2. [FairEmail](https://github.com/M66B/FairEmail)
+
+> Fully featured email client. Neat, intuitive user interface. Privacy friendly.
+
+Notes:
+
+* Includes paid features.
 
 ## Password Manager
 
 1. [Bitwarden](https://github.com/bitwarden/mobile) 
 
-    * _Open Source Password Management for You and Your Business_
+> Open Source Password Management for You and Your Business
+
+Notes:
+* They also have [their web vault if you don't want to install it](https://vault.bitwarden.com/).
 
 2. [KeePassDX](https://github.com/Kunzisoft/KeePassDX) 
 
-    * _Secure and open source password manager compatible with KeePass files._
+> Secure and open source password manager compatible with KeePass files.
 
 ## Social Media clients (Reddit, Facebook, etc)
 
 1. [Slide](https://github.com/ccrama/Slide) 
 
-   * _Companion app for reddit._
+*Companion app for reddit.*
 
 2. [Frost for Facebook](https://github.com/AllanWang/Frost-for-Facebook) 
 
-    * _A fast and extensive third party wrapper for Facebook._
+> A fast and extensive third party wrapper for Facebook.
 
-    * **Note**: Not to be confused with the Icon pack with a similar name
+Notes:
+
+* Not to be confused with the icon pack with a similar name.
 
 3. [Barinsta](https://github.com/austinhuang0131/barinsta) 
 
-    * _Simple yet advanced Instagram client._
+> Simple yet advanced Instagram client.
 
-    * **Note**: Used to be called InstaGrabber.
+Notes:
+
+* Used to be called InstaGrabber.
 
 4. [Element (Riot.im)](https://github.com/vector-im/element-android) 
 
-    * _Secure decentralised chat & VoIP. Keep your data safe from third parties._
+> Secure decentralised chat & VoIP. Keep your data safe from third parties.
 
 5. [NewPipe](https://github.com/TeamNewPipe/NewPipe) 
 
-    * _Lightweight YouTube frontend._
+> Lightweight YouTube frontend.
 
-    * **Note**: Also has his own repository.
+Notes:
+
+* They also have their [own repository](https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo/).
 
 ## Keyboards
 
 1. [AnySoftKeyboard](https://github.com/AnySoftKeyboard/AnySoftKeyboard) 
 
-    * _We live in a world full of languages. Why not use a multi-lingual keyboard?_
+> We live in a world full of languages. Why not use a multi-lingual keyboard?
 
-    * **Note**: This application in F-droid keeps getting their logo changed every day, this is their F-droid package [link](https://f-droid.org/en/packages/com.menny.android.anysoftkeyboard/).
+Notes:
+
+* This application in F-droid keeps getting their logo changed every day, this is their F-droid package [link](https://f-droid.org/en/packages/com.menny.android.anysoftkeyboard/).
 
 2. [OpenBoard](https://github.com/dslul/openboard) 
 
-    * _An opensource keyboard that does not spy on you!_
+> An opensource keyboard that does not spy on you!
+
+3. [FlorisBoard](https://f-droid.org/en/packages/dev.patrickgold.florisboard/)
+
+> An open-source keyboard which respects your privacy. Currently in early-beta stage
 
 ## Launchers & Icon Packs
 
 1. [KISS launcher](https://github.com/Neamar/KISS) 
 
-    * _Blazingly fast launcher focused on search._
+> Blazingly fast launcher focused on search.
 
 2. [Frost](https://github.com/dkanada/frost) 
 
-    * _Monotone icon pack._
+> Monotone icon pack.
 
 ## 2FA
 
 1. [Aegis](https://github.com/beemdevelopment/Aegis) 
 
-    * _Free, secure and open source 2FA app to manage tokens for your online services._
+> Free, secure and open source 2FA app to manage tokens for your online services.
 
 ## Games
 
 1. [Shattered Pixel Dungeon](https://github.com/00-Evan/shattered-pixel-dungeon) 
 
-     * _A roguelike game based on Pixel Dungeon._
+> A roguelike game based on Pixel Dungeon.
 
 2. [Mindustry](https://github.com/00-Evan/shattered-pixel-dungeon) 
 
-    * _A factory-based sandbox tower defense game._
+> A factory-based sandbox tower defense game.
 
 
 ## No category (for now)
 
-OsMand~ 
-ProtonVPN 
-OpenCamera 
-P!n 
-ClassyShark3xodus 
-Binary Eye 
-xBrowserSync
-Yet Another Call Blocker 
-WiFi Analyzer 
-MuPDF viewer 
-Recorder 
-monerujo 
-MoneyWaller 
-SyncThing 
+* OsMand~ (Maps) 
+* ProtonVPN (VPN)
+* OpenCamera (Camera)
+* P!n (Quick notes)
+* ClassyShark3xodus (Analize trackers)
+* Binary Eye (QR and More..)
+* xBrowserSync (Browser bookmarks)
+* Yet Another Call Blocker (Self-explanatory)
+* WiFi Analyzer (Self-explanatory)
+* MuPDF viewer (Self-explanatory)
+* Recorder (Self-explanatory) 
+* monerujo (Monero wallet) 
+* MoneyWaller (Money management)
+* SyncThing (Sync without a server) 
