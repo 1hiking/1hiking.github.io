@@ -3,7 +3,7 @@ title = "Hiking's curated list of F-droid apps"
 author = "Hiking"
 date = "2021-04-23"
 description = "Part of my collection of lists"
-categories = ["List"]
+categories = ["Lists" "F-droid"]
 +++
 
 A curated list of some worth checking applications in the F-droid repo (and others too), short descriptions and notes are listed below.
