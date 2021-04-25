@@ -8,6 +8,8 @@ categories = ["List"]
 
 A curated list of some worth checking applications in the F-droid repo (and others too), short descriptions and notes are listed below.
 
+This list is low-maintainance mode, since the purpose of this list is to give you a taste of high-quality programs... I believe there is a problem in F-droid in how they index and promote content in the front page, making harder for the user to find anything useful for their needs. Luckily [they are working on this](https://f-droid.org/en/2021/03/01/fdroid-metrics-and-clean-insights.html).
+
 # Table of Contents
 1. [Browsers](#Browsers)
 2. [File managers](#File-managers)
