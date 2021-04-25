@@ -23,6 +23,7 @@ slogan = "Look at him go!"
 license = "<a rel=license href=http://creativecommons.org/licenses/by-sa/4.0/><img alt=Creative Commons License style=border-width:0 src=https://i.creativecommons.org/l/by-sa/4.0/88x31.png /></a><br />This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-sa/4.0/>Creative Commons Attribution-ShareAlike 4.0 International License</a>."  # CC License
 fullRss = true # Puts entire HTML post into rss 'description' tag. If unset, default is false.
 ipv6ready = false # Show IPV6Ready logo on footer.
+mainSections = "posts" # Declares which folder from content will be shown in main page. This is behaviour of the theme.
 
 [params.comments]
 enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
