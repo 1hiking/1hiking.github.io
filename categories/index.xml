@@ -1,11 +1,10 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Hiking's webpage</title><link>https://1hiking.github.io/categories/</link><description>Recent content in Categories on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://1hiking.github.io/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>First post</title><link>https://1hiking.github.io/post/introduction2021/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/post/introduction2021/</guid><description>&lt;p>So after many time I finally decided to start using a static site generator, specifically Hugo.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Hiking's webpage</title><link>https://1hiking.github.io/categories/</link><description>Recent content in Categories on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>First post</title><link>https://1hiking.github.io/posts/introduction2021/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/introduction2021/</guid><description>&lt;p>So after many time I finally decided to start using a static site generator, specifically Hugo.
 In general I believe this will help me make my content more easy and I will not have to
 screw around all day with html and css, not because I hate it but because it&amp;rsquo;s very tiresome the
 copypaste.&lt;/p>
 &lt;p>Another thing to note is that before choosing Hugo I tried JBake and Jekyll, I enjoyed the first hours of JBake not before realizing the lack of public themes to choose from&amp;hellip; and with Jekyll it was a pain to install on Wingblows and I don&amp;rsquo;t enjoy having to setup Cywing or having to use WSL.&lt;/p>
 &lt;p>And before leaving my old repository to rest&amp;hellip; shotouts to &lt;a href="https://jaafard.codeberg.page/"target="_blank" rel="noopener noreferrer">Jaafar&lt;/a>
-for letting me copy some of the project files made for his webpage.&lt;/p></description></item><item><title>About</title><link>https://1hiking.github.io/about/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/about/</guid><description>&lt;p>Privacy enthusiast.&lt;/p>
-&lt;p>Weblate contributor.&lt;/p></description></item><item><title>hiking's curated list of F-droid apps</title><link>https://1hiking.github.io/f-droid/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/f-droid/</guid><description>&lt;p>A curated list of some worth checking applications in the F-droid repo (and others too), short descriptions and notes are listed below.&lt;/p>
+for letting me copy some of the project files made for his webpage.&lt;/p></description></item><item><title>Hiking's curated list of F-droid apps</title><link>https://1hiking.github.io/lists/f-droid/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/f-droid/</guid><description>&lt;p>A curated list of some worth checking applications in the F-droid repo (and others too), short descriptions and notes are listed below.&lt;/p>
 &lt;h1 id="table-of-contents">Table of Contents&lt;/h1>
 &lt;ol>
 &lt;li>&lt;a href="#Browsers">Browsers&lt;/a>
@@ -388,4 +387,4 @@ MuPDF viewer
 Recorder
 monerujo
 MoneyWaller
-SyncThing&lt;/p></description></item></channel></rss>
+SyncThing&lt;/p></description></item><item><title/><link>https://1hiking.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/about/</guid><description/></item></channel></rss>
