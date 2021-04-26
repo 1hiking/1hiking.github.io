@@ -1,5 +1,5 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lists on Hiking's webpage</title><link>https://1hiking.github.io/categories/lists/</link><description>Recent content in Lists on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/categories/lists/index.xml" rel="self" type="application/rss+xml"/><item><title>Making a browser from Scratch!</title><link>https://1hiking.github.io/posts/26042021-makingabrowser/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/26042021-makingabrowser/</guid><description>&lt;h1 id="introduction">Introduction&lt;/h1>
-&lt;p>So let&amp;rsquo;s talk about browser development, one of the most complex programs in your computer!&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lists on Hiking's webpage</title><link>https://1hiking.github.io/categories/lists/</link><description>Recent content in Lists on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/categories/lists/index.xml" rel="self" type="application/rss+xml"/><item><title>Making a browser from Scratch!</title><link>https://1hiking.github.io/posts/makingabrowserfromscratch/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/makingabrowserfromscratch/</guid><description>&lt;h1 id="introduction">Introduction&lt;/h1>
+&lt;p>So let&amp;rsquo;s talk about developing a browser, one of the most complex programs in your computer!&lt;/p>
 &lt;p>As most people know, since the 90&amp;rsquo;s web browsers have been an essential program in anyone&amp;rsquo;s computer, they allow you to connect with your friends online, play videogames, read scientific papers, or even niche functions to connect to FTP&amp;hellip;! oh actually nevermind.&lt;/p>
 &lt;p>Well with that quick recap, I will teach you how to make your own browser from scratch!&lt;/p>
 &lt;hr>
@@ -18,7 +18,7 @@
 &lt;hr>
 &lt;h2 id="conclusions">Conclusions&lt;/h2>
 &lt;p>Making a web browser was a real challenge, after all &lt;a href="https://en.wikipedia.org/wiki/Web_standards"target="_blank" rel="noopener noreferrer">you need to support all of the Web standards&lt;/a>
-:) and that&amp;rsquo;s soooo tiresome! Well I hope you guys have a good time goodbye and until our next blog!&lt;/p>
+:) and that&amp;rsquo;s soooo tiresome! Well I hope you guys have a good time, goodbye and until our next blog!&lt;/p>
 &lt;h2 id="inspired-by">Inspired by:&lt;/h2>
 &lt;ul>
 &lt;li>
@@ -27,13 +27,23 @@
 &lt;li>
 &lt;p>&lt;a href="https://www.producthunt.com/posts/sizzy-8#comment-789519">https://www.producthunt.com/posts/sizzy-8#comment-789519&lt;/a>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>First post</title><link>https://1hiking.github.io/posts/23042021-introduction2021/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/23042021-introduction2021/</guid><description>&lt;p>So after many time I finally decided to start using a static site generator, specifically Hugo.
+&lt;/ul></description></item><item><title>About</title><link>https://1hiking.github.io/about/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/about/</guid><description>&lt;p>Privacy enthusiast.&lt;/p>
+&lt;p>I contribute to Weblate.&lt;/p>
+&lt;p>Some outstanding programs I use are:&lt;/p>
+&lt;ul>
+&lt;li>Scoop as my Windows package manager.&lt;/li>
+&lt;li>VSCodium as my code editor.&lt;/li>
+&lt;li>IntelliJ as my IDE for Java.&lt;/li>
+&lt;li>Firefox Nightly/ Ungoogled-Chromium as my browsers.&lt;/li>
+&lt;li>and&amp;hellip; nothing more.&lt;/li>
+&lt;/ul>
+&lt;p>You might find me on Matrix channels.&lt;/p></description></item><item><title>First post</title><link>https://1hiking.github.io/posts/firstpost/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/firstpost/</guid><description>&lt;p>So after many time I finally decided to start using a static site generator, specifically Hugo.
 In general I believe this will help me make my content more easy and I will not have to
 screw around all day with html and css, not because I hate it but because it&amp;rsquo;s very tiresome the
 copypaste.&lt;/p>
 &lt;p>Another thing to note is that before choosing Hugo I tried JBake and Jekyll, I enjoyed the first hours of JBake not before realizing the lack of public themes to choose from&amp;hellip; and with Jekyll it was a pain to install on Wingblows and I don&amp;rsquo;t enjoy having to setup Cywing or having to use WSL.&lt;/p>
 &lt;p>And before leaving my old repository to rest&amp;hellip; shotouts to &lt;a href="https://jaafard.codeberg.page/"target="_blank" rel="noopener noreferrer">Jaafar&lt;/a>
-for letting me copy some of the project files made for his webpage.&lt;/p></description></item><item><title>Hiking's curated list of F-droid apps</title><link>https://1hiking.github.io/lists/f-droid/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/f-droid/</guid><description>&lt;p>A curated list of some worth checking applications in the F-droid repo (and others too), short descriptions and notes are listed below.&lt;/p>
+for letting me copy some of the project files made for his webpage.&lt;/p></description></item><item><title>Hiking's curated list of F-droid apps</title><link>https://1hiking.github.io/lists/hikingf-droidlist/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/hikingf-droidlist/</guid><description>&lt;p>A curated list of some worth checking applications in the F-droid repo (and others too), short descriptions and notes are listed below.&lt;/p>
 &lt;p>This list is low-maintainance mode, since the purpose of this list is to give you a taste of high-quality programs&amp;hellip; I believe there is a problem in F-droid in how they index and promote content in the front page, making harder for the user to find anything useful for their needs. Luckily &lt;a href="https://f-droid.org/en/2021/03/01/fdroid-metrics-and-clean-insights.html"target="_blank" rel="noopener noreferrer">they are working on this&lt;/a>
 .&lt;/p>
 &lt;h1 id="table-of-contents">Table of Contents&lt;/h1>
@@ -421,4 +431,4 @@ for letting me copy some of the project files made for his webpage.&lt;/p></desc
 &lt;li>monerujo (Monero wallet)&lt;/li>
 &lt;li>MoneyWaller (Money management)&lt;/li>
 &lt;li>SyncThing (Sync without a server)&lt;/li>
-&lt;/ul></description></item><item><title/><link>https://1hiking.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/about/</guid><description/></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
