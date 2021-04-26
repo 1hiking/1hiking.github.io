@@ -9,7 +9,7 @@ categories = ["Dev blogs"]
 
 # Introduction
 
-So let's talk about browser development, one of the most complex programs in your computer!
+So let's talk about developing a browser, one of the most complex programs in your computer!
 
 As most people know, since the 90's web browsers have been an essential program in anyone's computer, they allow you to connect with your friends online, play videogames, read scientific papers, or even niche functions to connect to FTP...! oh actually nevermind.
 
@@ -29,7 +29,7 @@ Well with that quick recap, I will teach you how to make your own browser from s
 
 ## Conclusions
 
-Making a web browser was a real challenge, after all [you need to support all of the Web standards](https://en.wikipedia.org/wiki/Web_standards) :) and that's soooo tiresome! Well I hope you guys have a good time goodbye and until our next blog!
+Making a web browser was a real challenge, after all [you need to support all of the Web standards](https://en.wikipedia.org/wiki/Web_standards) :) and that's soooo tiresome! Well I hope you guys have a good time, goodbye and until our next blog!
 
 ## Inspired by:
 
