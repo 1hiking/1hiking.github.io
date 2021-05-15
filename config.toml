@@ -56,3 +56,5 @@ url = "/about/"
 title = "Lists"
 url = "/lists/"
 
+[permalinks]
+  posts = "/:year/:month/:title/"
