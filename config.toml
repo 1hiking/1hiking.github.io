@@ -57,4 +57,4 @@ title = "Lists"
 url = "/lists/"
 
 [permalinks]
-  posts = "/:year/:month/:title/"
+  posts = "/:year/:month/:title/" # Adds url date to only posts folder
