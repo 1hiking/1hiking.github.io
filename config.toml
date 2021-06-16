@@ -13,7 +13,7 @@ codeFences = true
 noClasses = false
 
 [markup.goldmark.renderer]
-unsafe = false  # enable raw HTML in Markdown
+unsafe = true  # enable raw HTML in Markdown
 
 [params]
 style = "dark"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
@@ -29,7 +29,7 @@ mainSections = "posts" # Declares which folder from content will be shown in mai
 enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
 
 [params.math]
-enable = true  # optional: true, false. Enable globally, default: false. You can always enable math on per page.
+enable = false  # optional: true, false. Enable globally, default: false. You can always enable math on per page.
 use = "katex"  # option: "katex", "mathjax". default: "katex"
 
 [params.syntax]
