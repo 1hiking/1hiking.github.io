@@ -1,4 +1,78 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev blogs on Hiking's webpage</title><link>https://1hiking.github.io/categories/dev-blogs/</link><description>Recent content in Dev blogs on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 26 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/categories/dev-blogs/index.xml" rel="self" type="application/rss+xml"/><item><title>Making a browser from Scratch!</title><link>https://1hiking.github.io/2021/04/making-a-browser-from-scratch/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/04/making-a-browser-from-scratch/</guid><description>&lt;h1 id="introduction">Introduction&lt;/h1>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev blogs on Hiking's webpage</title><link>https://1hiking.github.io/categories/dev-blogs/</link><description>Recent content in Dev blogs on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 26 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/categories/dev-blogs/index.xml" rel="self" type="application/rss+xml"/><item><title>A comparison of FOSS Android Keyboards</title><link>https://1hiking.github.io/2021/05/a-comparison-of-foss-android-keyboards/</link><pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/05/a-comparison-of-foss-android-keyboards/</guid><description>&lt;p>It&amp;rsquo;s common for many Android enthusiasts to customize their devices and while Swiftkey and GBoard are good alternatives, the companies behind them don&amp;rsquo;t have a good privacy record , this turns many people for other alternatives, many which are found in the Play-Store and F-droid repositories, I will compare them and give my opinion over which one is &amp;ldquo;the best&amp;rdquo;.&lt;/p>
+&lt;ol>
+&lt;li>AnySoftKeyboard &lt;img src="https://1hiking.github.io/posts/AnySoftKeyboard.png"
+alt="AnySoftKeyboard logo"/>&lt;/li>
+&lt;/ol>
+&lt;p>This one is the most &amp;ldquo;feature-full&amp;rdquo; of all the ones I have found, since it&amp;rsquo;s the most customizable&amp;hellip; at least for now&amp;hellip;&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>You can change the bottom and top row based on a list of pre-sets.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>There are over 17 skins loaded, however some of them are very meh&amp;hellip; looking at you &amp;ldquo;Plain light&amp;rdquo; theme, and others are just slight modifications.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>It also has glide typing which has been on beta for quite a while and I would say it&amp;rsquo;s better than Floris right now, there is also gestures and they have good choices.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>One dislike I have over this Keyboard is that if you want a new language package, you have to install an &amp;ldquo;app&amp;rdquo; instead of using the System language configuration for this.
+If your language is not in the repo, then pick something else. I also cannot find documentation for making new layouts :/.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>As a note: on F-droid their name and icon every few days, I don&amp;rsquo;t know if this is to blame on the F-droid build services or in the ASK metadata.&lt;/p>
+&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/com.menny.android.anysoftkeyboard">https://f-droid.org/es/packages/com.menny.android.anysoftkeyboard&lt;/a>&lt;/p>
+&lt;p>&lt;br>&lt;/br>&lt;/p>
+&lt;ol start="2">
+&lt;li>FlorisBoard &lt;img src="https://1hiking.github.io/posts/FlorisBoard.png"
+alt="FlorisBoard logo"/>&lt;/li>
+&lt;/ol>
+&lt;p>As of posting this article, I believe FlorisBoard is the most youngest alternative out there in F-droid, and it really looks like a good alternative for those who can&amp;rsquo;t or don&amp;rsquo;t like to use ASK.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>It contains their own clipboard which is pretty nice since some phones don&amp;rsquo;t allow you to see the clipboard.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>There are 8 themes: 3 day themes and 5 dark themes, and they all look good.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>There is also a glide typing and gestures. I think Floris has better gestures than ASK but I might
+be a little biased.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Many features present in ASK will be here too, one of them being adaptative themes. Floris also has a better configuration app and other tiny good details, I think I will start recommending it once it leaves beta :).&lt;/p>
+&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/dev.patrickgold.florisboard/">https://f-droid.org/es/packages/dev.patrickgold.florisboard/&lt;/a>&lt;/p>
+&lt;p>&lt;br>&lt;/br>&lt;/p>
+&lt;ol start="3">
+&lt;li>OpenBoard &lt;img src="https://1hiking.github.io/posts/OpenBoard.png"
+alt="OpenBoard logo"/>&lt;/li>
+&lt;/ol>
+&lt;p>This is my mainly drive, at difference of ASK and FlorisBoard this one is very minimal. Some people compare the layout and design to GBoard too.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Configuration app is very &amp;ldquo;minimal&amp;rdquo;, in 3 panels you will change everything you need.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>No gestures, no glide typing&amp;hellip; so forget about that.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>All themes are based on Material and they are very similar and very good. There is also 2 Holo themes if you like 2010&amp;rsquo;s style&amp;hellip;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In general the presets are good enough, I have never experienced a lag or crash unlike others (FlorisBoard pleaseee&amp;hellip;)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/org.dslul.openboard.inputmethod.latin/">https://f-droid.org/es/packages/org.dslul.openboard.inputmethod.latin/&lt;/a>&lt;/p>
+&lt;p>&lt;br>&lt;/br>&lt;/p>
+&lt;ol start="4">
+&lt;li>aaaaa &lt;img src="https://1hiking.github.io/posts/aaaa.png"
+alt="aaaa logo"/>&lt;/li>
+&lt;/ol>
+&lt;p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa&lt;/p>
+&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/io.github.dkter.aaaaa/">https://f-droid.org/es/packages/io.github.dkter.aaaaa/&lt;/a>&lt;/p>
+&lt;p>&lt;br>&lt;/br>
+Who won?
+&lt;br>&lt;/br>
+aaaa, good night&lt;/p></description></item><item><title>Making a browser from Scratch!</title><link>https://1hiking.github.io/2021/04/making-a-browser-from-scratch/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/04/making-a-browser-from-scratch/</guid><description>&lt;h1 id="introduction">Introduction&lt;/h1>
 &lt;p>So let&amp;rsquo;s talk about developing a browser, one of the most complex programs in your computer!&lt;/p>
 &lt;p>As most people know, since the 90&amp;rsquo;s web browsers have been an essential program in anyone&amp;rsquo;s computer, they allow you to connect with your friends online, play videogames, read scientific papers, or even niche functions to connect to FTP&amp;hellip;! oh actually nevermind.&lt;/p>
 &lt;p>Well with that quick recap, I will teach you how to make your own browser from scratch!&lt;/p>
