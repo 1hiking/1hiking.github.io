@@ -1,7 +1,6 @@
 +++
-title = "A comparison of FOSS Android Keyboards"
-author = "hiking"
-date = 2021-05-25
+title = "A comparison of FOSS Android keyboards"
+date = 2021-06-18
 description = "An article about Android Keyboards"
 tags = ["F-droid", "Android", "Keyboards"]
 categories = ["Articles"]

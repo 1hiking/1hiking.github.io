@@ -1,6 +1,5 @@
 +++
 title = "First post"
-author = "hiking"
 date = 2021-04-23
 description = "Talking about my first webpage"
 tags = ["First-post", "Hugo"]
