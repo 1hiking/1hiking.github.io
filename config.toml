@@ -3,7 +3,7 @@ title = "Hiking's webpage"
 theme = "hugo-notepadium"
 # copyright = "©2021 hiking."
 
-languageCode = "en-Us"
+languageCode = "en-US"
 hasCJKLanguage = false
 
 enableRobotsTXT = true
