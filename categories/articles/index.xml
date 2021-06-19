@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Articles on Hiking's webpage</title><link>https://1hiking.github.io/categories/articles/</link><description>Recent content in Articles on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 25 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/categories/articles/index.xml" rel="self" type="application/rss+xml"/><item><title>A comparison of FOSS Android Keyboards</title><link>https://1hiking.github.io/2021/05/a-comparison-of-foss-android-keyboards/</link><pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/05/a-comparison-of-foss-android-keyboards/</guid><description>&lt;p>It&amp;rsquo;s common for many Android enthusiasts to customize their devices and while Swiftkey and GBoard are good alternatives, the companies behind them don&amp;rsquo;t have a good privacy record , this turns many people for other alternatives, many which are found in the Play-Store and F-droid repositories, I will compare them and give my opinion over which one is &amp;ldquo;the best&amp;rdquo;.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Articles on Hiking's webpage</title><link>https://1hiking.github.io/categories/articles/</link><description>Recent content in Articles on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-Us</language><lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/categories/articles/index.xml" rel="self" type="application/rss+xml"/><item><title>A comparison of FOSS Android keyboards</title><link>https://1hiking.github.io/2021/06/a-comparison-of-foss-android-keyboards/</link><pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/06/a-comparison-of-foss-android-keyboards/</guid><description>&lt;p>It&amp;rsquo;s common for many Android enthusiasts to customize their devices and while Swiftkey and GBoard are good alternatives, the companies behind them don&amp;rsquo;t have a good privacy record , this turns many people for other alternatives, many which are found in the Play-Store and F-droid repositories, I will compare them and give my opinion over which one is &amp;ldquo;the best&amp;rdquo;.&lt;/p>
 &lt;ol>
 &lt;li>AnySoftKeyboard &lt;img src="https://1hiking.github.io/posts/AnySoftKeyboard.png"
 alt="AnySoftKeyboard logo"/>&lt;/li>
@@ -101,14 +101,14 @@ aaaa, good night&lt;/p></description></item><item><title>Making a browser from S
 &lt;li>
 &lt;p>&lt;a href="https://www.producthunt.com/posts/sizzy-8#comment-789519">https://www.producthunt.com/posts/sizzy-8#comment-789519&lt;/a>&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>About</title><link>https://1hiking.github.io/about/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/about/</guid><description>&lt;p>Privacy enthusiast.&lt;/p>
-&lt;p>I contribute to Weblate.&lt;/p>
+&lt;/ul></description></item><item><title>About</title><link>https://1hiking.github.io/about/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/about/</guid><description>&lt;p>Privacy &amp;amp; Security enthusiast.
+I contribute to community projects like Weblate and OSM.&lt;/p>
 &lt;p>Some outstanding programs I use are:&lt;/p>
 &lt;ul>
 &lt;li>Scoop as my Windows package manager.&lt;/li>
 &lt;li>VSCodium as my code editor.&lt;/li>
 &lt;li>IntelliJ as my IDE for Java.&lt;/li>
-&lt;li>Firefox Nightly/ Ungoogled-Chromium as my browsers.&lt;/li>
+&lt;li>Firefox Nightly/Microsoft Edge as my browsers.&lt;/li>
 &lt;li>and&amp;hellip; nothing more.&lt;/li>
 &lt;/ul>
 &lt;p>You might find me on Matrix channels.&lt;/p></description></item><item><title>First post</title><link>https://1hiking.github.io/2021/04/first-post/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/04/first-post/</guid><description>&lt;p>So after many time I finally decided to start using a static site generator, specifically Hugo.
@@ -117,7 +117,7 @@ screw around all day with html and css, not because I hate it but because it&amp
 copypaste.&lt;/p>
 &lt;p>Another thing to note is that before choosing Hugo I tried JBake and Jekyll, I enjoyed the first hours of JBake not before realizing the lack of public themes to choose from&amp;hellip; and with Jekyll it was a pain to install on Wingblows and I don&amp;rsquo;t enjoy having to setup Cywing or having to use WSL.&lt;/p>
 &lt;p>And before leaving my old repository to rest&amp;hellip; shotouts to &lt;a href="https://jaafard.codeberg.page/"target="_blank" rel="noopener noreferrer">Jaafar&lt;/a>
-for letting me copy some of the project files made for his webpage.&lt;/p></description></item><item><title>Hiking's curated list of F-droid apps</title><link>https://1hiking.github.io/lists/hikingf-droidlist/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/hikingf-droidlist/</guid><description>&lt;p>A curated list of some worth checking applications in the F-droid repo (and others too), short descriptions and notes are listed below.&lt;/p>
+for letting me copy some of the project files made for his webpage.&lt;/p></description></item><item><title>Hiking's curated list of F-droid apps</title><link>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</guid><description>&lt;p>A curated list of some worth checking applications in the F-droid repo (and others too), short descriptions and notes are listed below.&lt;/p>
 &lt;p>This list is low-maintainance mode, since the purpose of this list is to give you a taste of high-quality programs&amp;hellip; I believe there is a problem in F-droid in how they index and promote content in the front page, making harder for the user to find anything useful for their needs. Luckily &lt;a href="https://f-droid.org/en/2021/03/01/fdroid-metrics-and-clean-insights.html"target="_blank" rel="noopener noreferrer">they are working on this&lt;/a>
 .&lt;/p>
 &lt;h1 id="table-of-contents">Table of Contents&lt;/h1>
