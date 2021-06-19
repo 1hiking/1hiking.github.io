@@ -3,7 +3,7 @@ title = "Hiking's webpage"
 theme = "hugo-notepadium"
 # copyright = "©2021 hiking."
 
-languageCode = "en-us"
+languageCode = "en-Us"
 hasCJKLanguage = false
 
 enableRobotsTXT = true
@@ -16,8 +16,9 @@ noClasses = false
 unsafe = true  # enable raw HTML in Markdown
 
 [params]
+author = "hiking" # all posts are made by me anyways
 style = "dark"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
-dateFormat = "02 of January of 2006"   # if unset, default is "2006-01-02" 
+dateFormat = "02 of January of 2006"   # if unset, default is "2006-01-02"
 logo = "assets/PolarBear.png"  # if you have a logo png
 slogan = "Look at him go!"
 license = "<a rel=license href=http://creativecommons.org/licenses/by-sa/4.0/><img alt=Creative Commons License style=border-width:0 src=https://i.creativecommons.org/l/by-sa/4.0/88x31.png /></a><br />This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-sa/4.0/>Creative Commons Attribution-ShareAlike 4.0 International License</a>."  # CC License
@@ -48,6 +49,10 @@ showTags = true             # /tags/
 
 # custom navigation items
 
+[params.profile]
+enable = true
+github = "1hiking"  # https://github.com/XXX
+
 [[params.nav.custom]]
 title = "About"
 url = "/about/"
@@ -57,4 +62,4 @@ title = "Lists"
 url = "/lists/"
 
 [permalinks]
-  posts = "/:year/:month/:title/" # Adds url date to only posts folder
+posts = "/:year/:month/:title/" # Adds url date to only posts folder

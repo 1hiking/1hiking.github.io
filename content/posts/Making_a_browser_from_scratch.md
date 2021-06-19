@@ -1,6 +1,5 @@
 +++
 title = "Making a browser from Scratch!"
-author = "hiking"
 date = 2021-04-26
 description = "A blog about my experiences making a web browser"
 tags = ["Web-dev", "Development", "Browser"]
