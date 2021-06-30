@@ -8,12 +8,14 @@ hasCJKLanguage = false
 
 enableRobotsTXT = true
 
+# markup
+
 [markup.highlight]
 codeFences = true
 noClasses = false
 
 [markup.goldmark.renderer]
-unsafe = true  # enable raw HTML in Markdown
+unsafe = false  # enable raw HTML in Markdown
 
 [params]
 author = "hiking" # all posts are made by me anyways
@@ -42,6 +44,8 @@ darkTheme = "xcode-dark"  # apply this theme in dark mode
 enable = false
 addThisId = ""
 inlineToolId = ""
+
+# custom header right items
 
 [params.nav]
 showCategories = true       # /categories/

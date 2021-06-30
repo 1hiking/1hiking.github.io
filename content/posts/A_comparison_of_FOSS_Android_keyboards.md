@@ -26,7 +26,7 @@ As a note: on F-droid their name and icon every few days, I don't know if this i
 
 Link: https://f-droid.org/es/packages/com.menny.android.anysoftkeyboard
 
-<br></br>
+---
 
 2. FlorisBoard ![FlorisBoard logo](/posts/FlorisBoard.png)
 
@@ -43,7 +43,7 @@ Many features present in ASK will be here too, one of them being adaptative them
 
 Link: https://f-droid.org/es/packages/dev.patrickgold.florisboard/
 
-<br></br>
+---
 
 3. OpenBoard ![OpenBoard logo](/posts/OpenBoard.png)
 
@@ -59,7 +59,7 @@ This is my mainly drive, at difference of ASK and FlorisBoard this one is very m
 
 Link: https://f-droid.org/es/packages/org.dslul.openboard.inputmethod.latin/
 
-<br></br>
+---
 
 4. aaaaa ![aaaa logo](/posts/aaaa.png)
 
@@ -67,7 +67,6 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 Link: https://f-droid.org/es/packages/io.github.dkter.aaaaa/
 
-<br></br>
-Who won?
-<br></br>
-aaaa, good night
+___
+
+Who won? aaaa, good night
