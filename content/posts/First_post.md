@@ -2,8 +2,8 @@
 title = "First post"
 date = 2021-04-23
 description = "Talking about my first webpage"
-tags = ["First-post", "Hugo"]
-categories = ["Blog management"]
+tags = ["Hugo"]
+categories = ["Blogs"]
 +++
 
 So after many time I finally decided to start using a static site generator, specifically Hugo.
