@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lists on Hiking's webpage</title><link>https://1hiking.github.io/categories/lists/</link><description>Recent content in Lists on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Fri, 23 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/categories/lists/index.xml" rel="self" type="application/rss+xml"/><item><title>A comparison of FOSS Android keyboards</title><link>https://1hiking.github.io/2021/06/a-comparison-of-foss-android-keyboards/</link><pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/06/a-comparison-of-foss-android-keyboards/</guid><description>&lt;p>It&amp;rsquo;s common for many Android enthusiasts to customize their devices and while Swiftkey and GBoard are good alternatives, the companies behind them don&amp;rsquo;t have a good privacy record , this turns many people for other alternatives, many which are found in the Play-Store and F-droid repositories, I will compare them and give my opinion over which one is &amp;ldquo;the best&amp;rdquo;.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lists on Hiking's webpage</title><link>https://1hiking.github.io/categories/lists/</link><description>Recent content in Lists on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><atom:link href="https://1hiking.github.io/categories/lists/index.xml" rel="self" type="application/rss+xml"/><item><title>A comparison of FOSS Android keyboards</title><link>https://1hiking.github.io/2021/06/a-comparison-of-foss-android-keyboards/</link><pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/06/a-comparison-of-foss-android-keyboards/</guid><description>&lt;p>It&amp;rsquo;s common for many Android enthusiasts to customize their devices and while Swiftkey and GBoard are good alternatives, the companies behind them don&amp;rsquo;t have a good privacy record , this turns many people for other alternatives, many which are found in the Play-Store and F-droid repositories, I will compare them and give my opinion over which one is &amp;ldquo;the best&amp;rdquo;.&lt;/p>
 &lt;ol>
 &lt;li>AnySoftKeyboard &lt;img src="https://1hiking.github.io/posts/AnySoftKeyboard.png"
 alt="AnySoftKeyboard logo"/>&lt;/li>
@@ -21,7 +21,7 @@ If your language is not in the repo, then pick something else. I also cannot fin
 &lt;/ul>
 &lt;p>As a note: on F-droid their name and icon every few days, I don&amp;rsquo;t know if this is to blame on the F-droid build services or in the ASK metadata.&lt;/p>
 &lt;p>Link: &lt;a href="https://f-droid.org/es/packages/com.menny.android.anysoftkeyboard">https://f-droid.org/es/packages/com.menny.android.anysoftkeyboard&lt;/a>&lt;/p>
-&lt;p>&lt;br>&lt;/br>&lt;/p>
+&lt;hr>
 &lt;ol start="2">
 &lt;li>FlorisBoard &lt;img src="https://1hiking.github.io/posts/FlorisBoard.png"
 alt="FlorisBoard logo"/>&lt;/li>
@@ -41,7 +41,7 @@ be a little biased.&lt;/p>
 &lt;/ul>
 &lt;p>Many features present in ASK will be here too, one of them being adaptative themes. Floris also has a better configuration app and other tiny good details, I think I will start recommending it once it leaves beta :).&lt;/p>
 &lt;p>Link: &lt;a href="https://f-droid.org/es/packages/dev.patrickgold.florisboard/">https://f-droid.org/es/packages/dev.patrickgold.florisboard/&lt;/a>&lt;/p>
-&lt;p>&lt;br>&lt;/br>&lt;/p>
+&lt;hr>
 &lt;ol start="3">
 &lt;li>OpenBoard &lt;img src="https://1hiking.github.io/posts/OpenBoard.png"
 alt="OpenBoard logo"/>&lt;/li>
@@ -62,17 +62,15 @@ alt="OpenBoard logo"/>&lt;/li>
 &lt;/li>
 &lt;/ul>
 &lt;p>Link: &lt;a href="https://f-droid.org/es/packages/org.dslul.openboard.inputmethod.latin/">https://f-droid.org/es/packages/org.dslul.openboard.inputmethod.latin/&lt;/a>&lt;/p>
-&lt;p>&lt;br>&lt;/br>&lt;/p>
+&lt;hr>
 &lt;ol start="4">
 &lt;li>aaaaa &lt;img src="https://1hiking.github.io/posts/aaaa.png"
 alt="aaaa logo"/>&lt;/li>
 &lt;/ol>
 &lt;p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa&lt;/p>
 &lt;p>Link: &lt;a href="https://f-droid.org/es/packages/io.github.dkter.aaaaa/">https://f-droid.org/es/packages/io.github.dkter.aaaaa/&lt;/a>&lt;/p>
-&lt;p>&lt;br>&lt;/br>
-Who won?
-&lt;br>&lt;/br>
-aaaa, good night&lt;/p></description></item><item><title>Making a browser from Scratch!</title><link>https://1hiking.github.io/2021/04/making-a-browser-from-scratch/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/04/making-a-browser-from-scratch/</guid><description>&lt;h1 id="introduction">Introduction&lt;/h1>
+&lt;hr>
+&lt;p>Who won? aaaa, good night&lt;/p></description></item><item><title>Making a browser from Scratch!</title><link>https://1hiking.github.io/2021/04/making-a-browser-from-scratch/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/04/making-a-browser-from-scratch/</guid><description>&lt;h1 id="introduction">Introduction&lt;/h1>
 &lt;p>So let&amp;rsquo;s talk about developing a browser, one of the most complex programs in your computer!&lt;/p>
 &lt;p>As most people know, since the 90&amp;rsquo;s web browsers have been an essential program in anyone&amp;rsquo;s computer, they allow you to connect with your friends online, play videogames, read scientific papers, or even niche functions to connect to FTP&amp;hellip;! oh actually nevermind.&lt;/p>
 &lt;p>Well with that quick recap, I will teach you how to make your own browser from scratch!&lt;/p>
@@ -117,7 +115,7 @@ screw around all day with html and css, not because I hate it but because it&amp
 copypaste.&lt;/p>
 &lt;p>Another thing to note is that before choosing Hugo I tried JBake and Jekyll, I enjoyed the first hours of JBake not before realizing the lack of public themes to choose from&amp;hellip; and with Jekyll it was a pain to install on Wingblows and I don&amp;rsquo;t enjoy having to setup Cywing or having to use WSL.&lt;/p>
 &lt;p>And before leaving my old repository to rest&amp;hellip; shotouts to &lt;a href="https://jaafard.codeberg.page/"target="_blank" rel="noopener noreferrer">Jaafar&lt;/a>
-for letting me copy some of the project files made for his webpage.&lt;/p></description></item><item><title>Hiking's curated list of F-droid apps</title><link>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</guid><description>&lt;p>A curated list of some worth checking applications in the F-droid repo (and others too), short descriptions and notes are listed below.&lt;/p>
+for letting me copy some of the project files made for his webpage.&lt;/p></description></item><item><title>Hiking's curated list of F-droid apps</title><link>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</guid><description>&lt;p>A curated list of some worth checking applications in the F-droid repo (and others too), short descriptions and notes are listed below.&lt;/p>
 &lt;p>This list is low-maintainance mode, since the purpose of this list is to give you a taste of high-quality programs&amp;hellip; I believe there is a problem in F-droid in how they index and promote content in the front page, making harder for the user to find anything useful for their needs. Luckily &lt;a href="https://f-droid.org/en/2021/03/01/fdroid-metrics-and-clean-insights.html"target="_blank" rel="noopener noreferrer">they are working on this&lt;/a>
 .&lt;/p>
 &lt;h1 id="table-of-contents">Table of Contents&lt;/h1>
