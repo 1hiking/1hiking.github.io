@@ -21,7 +21,7 @@ unsafe = false  # enable raw HTML in Markdown
 author = "hiking" # all posts are made by me anyways
 style = "dark"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
 dateFormat = "02 of January of 2006"   # if unset, default is "2006-01-02"
-logo = "assets/PolarBear.png"  # if you have a logo png
+logo = "/img/PolarBear.png"  # if you have a logo png
 slogan = "Look at him go!"
 license = "<a rel=license href=http://creativecommons.org/licenses/by-sa/4.0/><img alt=Creative Commons License style=border-width:0 src=https://i.creativecommons.org/l/by-sa/4.0/88x31.png /></a><br />This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-sa/4.0/>Creative Commons Attribution-ShareAlike 4.0 International License</a>."  # CC License
 fullRss = true # Puts entire HTML post into rss 'description' tag. If unset, default is false.
