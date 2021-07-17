@@ -6,7 +6,7 @@ tags = ["Web-dev", "Development"]
 categories = ["Blogs"]
 +++
 
-# Introduction
+## Introduction
 
 So let's talk about developing a browser, one of the most complex programs in your computer!
 
@@ -16,9 +16,9 @@ Well with that quick recap, I will teach you how to make your own browser from s
 
 ---
 
-## Requeriments:
+## Requeriments
 
-* Install latest Electron release on: https://github.com/electron/electron/releases.
+* Install latest Electron release on: <https://github.com/electron/electron/releases>.
 
 * Have a computer, buy one in your nearest Walmart :).
 
@@ -30,8 +30,8 @@ Well with that quick recap, I will teach you how to make your own browser from s
 
 Making a web browser was a real challenge, after all [you need to support all of the Web standards](https://en.wikipedia.org/wiki/Web_standards) :) and that's soooo tiresome! Well I hope you guys have a good time, goodbye and until our next blog!
 
-## Inspired by:
+## Inspired by
 
-* https://kilianvalkhof.com/2020/design/how-i-built-my-own-browser/ [Dead link, try finding on the archives]
+* <https://kilianvalkhof.com/2020/design/how-i-built-my-own-browser/> [Dead link, try finding on the archives]
 
-* https://www.producthunt.com/posts/sizzy-8#comment-789519
+* <https://www.producthunt.com/posts/sizzy-8#comment-789519>
