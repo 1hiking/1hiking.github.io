@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Hiking's webpage</title><link>https://1hiking.github.io/tags/</link><description>Recent content in Tags on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sat, 17 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Hiking's curated list of F-droid apps</title><link>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</link><pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</guid><description>&lt;p>A curated list of some worth checking applications in the F-droid repo (and others too), short descriptions and notes are listed below.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Hiking's webpage</title><link>https://1hiking.github.io/tags/</link><description>Recent content in Tags on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>©2021 hiking.</copyright><lastBuildDate>Sat, 17 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Hiking's curated list of F-droid apps</title><link>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</link><pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</guid><description>&lt;p>A curated list of some worth checking applications in the F-droid repo (and others too), short descriptions and notes are listed below.&lt;/p>
 &lt;p>This list is low-maintainance mode, since the purpose of this list is to give you a taste of high-quality programs&amp;hellip; I believe there is a problem in F-droid in how they index and promote content in the front page, making harder for the user to find anything useful for their needs. Luckily &lt;a href="https://f-droid.org/en/2021/03/01/fdroid-metrics-and-clean-insights.html"target="_blank" rel="noopener noreferrer">they are working on this&lt;/a>
 .&lt;/p>
 &lt;p>Consider that some programs that are not here (like &lt;a href="https://github.com/GrapheneOS/Vanadium"target="_blank" rel="noopener noreferrer">Vanadium&lt;/a>
@@ -414,6 +414,10 @@ Notes:
 &lt;/ul>
 &lt;h3 id="pgp-email-and-the-family">PGP, Email and the family&lt;/h3>
 &lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://restoreprivacy.com/let-pgp-die/">https://restoreprivacy.com/let-pgp-die/&lt;/a> &lt;a href="https://web.archive.org/web/20210719175620/https://restoreprivacy.com/let-pgp-die/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;/p>
+&lt;/li>
 &lt;li>
 &lt;p>&lt;a href="https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP">https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP&lt;/a> &lt;a href="https://web.archive.org/web/20210420201147/https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP%5B%5BArchive%2520Link%5D%5D%28%29"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
 &lt;/p>
