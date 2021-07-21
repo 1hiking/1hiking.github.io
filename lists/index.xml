@@ -390,54 +390,65 @@ Notes:
 &lt;li>MoneyWaller (Money management)&lt;/li>
 &lt;li>SyncThing (Sync without a server)&lt;/li>
 &lt;/ul></description></item><item><title>Security, privacy and cryptography</title><link>https://1hiking.github.io/lists/security_privacy_and_cryptography/</link><pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/security_privacy_and_cryptography/</guid><description>&lt;p>This page collects many URLs which write about various topics about security, privacy, cryptography, etc, or in the same way I do, collect more websites to validate their arguments for or against a technology or an ideology. I have &lt;strong>no affiliation&lt;/strong> with none of these sites and I just maintain it for my own pleasure.&lt;/p>
-&lt;p>Consider making a threat model that fits your needs and not randomly copypasting configuration settings or installing programs for the sake of it. &lt;a href="https://en.wikipedia.org/wiki/Security_theater">https://en.wikipedia.org/wiki/Security_theater&lt;/a> .&lt;/p>
+&lt;p>Consider making a threat model that fits your needs and not randomly copypasting configuration settings or installing programs for the sake of it. &lt;a href="https://en.wikipedia.org/wiki/Security_theater"target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Security_theater&lt;/a>
+.&lt;/p>
 &lt;p>Please don&amp;rsquo;t randomly post these links to try and win an argument war (&lt;del>like I do huehuehehehuehe&lt;/del>), read the articles and make &lt;strong>your own conclusions&lt;/strong>.&lt;/p>
 &lt;h3 id="cryptography">Cryptography&lt;/h3>
 &lt;ul>
-&lt;li>&lt;a href="https://cr.yp.to/">https://cr.yp.to/&lt;/a> &lt;a href="https://web.archive.org/web/20210508215838/https://cr.yp.to/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;li>&lt;a href="https://cr.yp.to/"target="_blank" rel="noopener noreferrer">https://cr.yp.to/&lt;/a>
+&lt;a href="https://web.archive.org/web/20210508215838/https://cr.yp.to/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;h3 id="miscellaneous">Miscellaneous&lt;/h3>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;a href="https://madaidans-insecurities.github.io/">https://madaidans-insecurities.github.io/&lt;/a> &lt;a href="https://web.archive.org/web/20210615142831/https://madaidans-insecurities.github.io/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;p>&lt;a href="https://madaidans-insecurities.github.io/"target="_blank" rel="noopener noreferrer">https://madaidans-insecurities.github.io/&lt;/a>
+&lt;a href="https://web.archive.org/web/20210615142831/https://madaidans-insecurities.github.io/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
 &lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://qua3k.github.io/ungoogled/">https://qua3k.github.io/ungoogled/&lt;/a> &lt;a href="https://web.archive.org/web/20210628080942/https://qua3k.github.io/ungoogled/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;p>&lt;a href="https://qua3k.github.io/ungoogled/"target="_blank" rel="noopener noreferrer">https://qua3k.github.io/ungoogled/&lt;/a>
+&lt;a href="https://web.archive.org/web/20210628080942/https://qua3k.github.io/ungoogled/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
 &lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://www.ranum.com/security/computer_security/editorials/dumb/">https://www.ranum.com/security/computer_security/editorials/dumb/&lt;/a> &lt;a href="https://web.archive.org/web/20210612220427/http://www.ranum.com/security/computer_security/editorials/dumb/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;p>&lt;a href="https://www.ranum.com/security/computer_security/editorials/dumb/"target="_blank" rel="noopener noreferrer">https://www.ranum.com/security/computer_security/editorials/dumb/&lt;/a>
+&lt;a href="https://web.archive.org/web/20210612220427/http://www.ranum.com/security/computer_security/editorials/dumb/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
 &lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;h3 id="pgp-email-and-the-family">PGP, Email and the family&lt;/h3>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;a href="https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP">https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP&lt;/a> &lt;a href="https://web.archive.org/web/20210420201147/https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP%5B%5BArchive%2520Link%5D%5D%28%29"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;p>&lt;a href="https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP"target="_blank" rel="noopener noreferrer">https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP&lt;/a>
+&lt;a href="https://web.archive.org/web/20210420201147/https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP%5B%5BArchive%2520Link%5D%5D%28%29"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
 &lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://latacora.micro.blog/2019/07/16/the-pgp-problem.html">https://latacora.micro.blog/2019/07/16/the-pgp-problem.html&lt;/a> &lt;a href="https://web.archive.org/web/20210526211311/https://latacora.micro.blog/2019/07/16/the-pgp-problem.html"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;p>&lt;a href="https://latacora.micro.blog/2019/07/16/the-pgp-problem.html"target="_blank" rel="noopener noreferrer">https://latacora.micro.blog/2019/07/16/the-pgp-problem.html&lt;/a>
+&lt;a href="https://web.archive.org/web/20210526211311/https://latacora.micro.blog/2019/07/16/the-pgp-problem.html"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
 &lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html">https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html&lt;/a> &lt;a href="https://web.archive.org/web/20210526211254/https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;p>&lt;a href="https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html"target="_blank" rel="noopener noreferrer">https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html&lt;/a>
+&lt;a href="https://web.archive.org/web/20210526211254/https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
 &lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://blog.hboeck.de/archives/893-efail-Outdated-Crypto-Standards-are-to-blame.html">https://blog.hboeck.de/archives/893-efail-Outdated-Crypto-Standards-are-to-blame.html&lt;/a> &lt;a href="https://web.archive.org/web/20210127130530/https://blog.hboeck.de/archives/893-efail-Outdated-Crypto-Standards-are-to-blame.html"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;p>&lt;a href="https://blog.hboeck.de/archives/893-efail-Outdated-Crypto-Standards-are-to-blame.html"target="_blank" rel="noopener noreferrer">https://blog.hboeck.de/archives/893-efail-Outdated-Crypto-Standards-are-to-blame.html&lt;/a>
+&lt;a href="https://web.archive.org/web/20210127130530/https://blog.hboeck.de/archives/893-efail-Outdated-Crypto-Standards-are-to-blame.html"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
 &lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;h3 id="openclosed-source-beliefs">Open/Closed Source beliefs:&lt;/h3>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;a href="https://web.archive.org/web/20210112132451/https://blog.blueboxsec.org/post/the-illusion-of-open-source/">https://web.archive.org/web/20210112132451/https://blog.blueboxsec.org/post/the-illusion-of-open-source/&lt;/a> (Archive.org since main page has a faulty cert)&lt;/p>
+&lt;p>&lt;a href="https://web.archive.org/web/20210112132451/https://blog.blueboxsec.org/post/the-illusion-of-open-source/"target="_blank" rel="noopener noreferrer">https://web.archive.org/web/20210112132451/https://blog.blueboxsec.org/post/the-illusion-of-open-source/&lt;/a>
+(Archive.org since main page has a faulty cert)&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://blog.invisiblethings.org/2009/01/26/closed-source-conspiracy.html">https://blog.invisiblethings.org/2009/01/26/closed-source-conspiracy.html&lt;/a> &lt;a href="https://web.archive.org/web/20180831193438/https://blog.invisiblethings.org/2009/01/26/closed-source-conspiracy.html"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;p>&lt;a href="https://blog.invisiblethings.org/2009/01/26/closed-source-conspiracy.html"target="_blank" rel="noopener noreferrer">https://blog.invisiblethings.org/2009/01/26/closed-source-conspiracy.html&lt;/a>
+&lt;a href="https://web.archive.org/web/20180831193438/https://blog.invisiblethings.org/2009/01/26/closed-source-conspiracy.html"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
 &lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://theinvisiblethings.blogspot.com/2009/01/closed-source-conspiracy.html"target="_blank" rel="noopener noreferrer">[Old Blogger Link]&lt;/a>
@@ -467,7 +478,8 @@ If your language is not in the repo, then pick something else. I also cannot fin
 &lt;/li>
 &lt;/ul>
 &lt;p>As a note: on F-droid their name and icon every few days, I don&amp;rsquo;t know if this is to blame on the F-droid build services or in the ASK metadata.&lt;/p>
-&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/com.menny.android.anysoftkeyboard">https://f-droid.org/es/packages/com.menny.android.anysoftkeyboard&lt;/a>&lt;/p>
+&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/com.menny.android.anysoftkeyboard"target="_blank" rel="noopener noreferrer">https://f-droid.org/es/packages/com.menny.android.anysoftkeyboard&lt;/a>
+&lt;/p>
 &lt;hr>
 &lt;/li>
 &lt;li>
@@ -487,7 +499,8 @@ be a little biased.&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;p>Many features present in ASK will be here too, one of them being adaptative themes. Floris also has a better configuration app and other tiny good details, I think I will start recommending it once it leaves beta :).&lt;/p>
-&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/dev.patrickgold.florisboard/">https://f-droid.org/es/packages/dev.patrickgold.florisboard/&lt;/a>&lt;/p>
+&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/dev.patrickgold.florisboard/"target="_blank" rel="noopener noreferrer">https://f-droid.org/es/packages/dev.patrickgold.florisboard/&lt;/a>
+&lt;/p>
 &lt;hr>
 &lt;/li>
 &lt;li>
@@ -508,14 +521,16 @@ alt="OpenBoard logo"/>&lt;/p>
 &lt;p>In general the presets are good enough, I have never experienced a lag or crash unlike others (FlorisBoard pleaseee&amp;hellip;)&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/org.dslul.openboard.inputmethod.latin/">https://f-droid.org/es/packages/org.dslul.openboard.inputmethod.latin/&lt;/a>&lt;/p>
+&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/org.dslul.openboard.inputmethod.latin/"target="_blank" rel="noopener noreferrer">https://f-droid.org/es/packages/org.dslul.openboard.inputmethod.latin/&lt;/a>
+&lt;/p>
 &lt;hr>
 &lt;/li>
 &lt;li>
 &lt;p>aaaaa &lt;img src="https://1hiking.github.io/posts/aaaa.png"
 alt="aaaa logo"/>&lt;/p>
 &lt;p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa&lt;/p>
-&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/io.github.dkter.aaaaa/">https://f-droid.org/es/packages/io.github.dkter.aaaaa/&lt;/a>&lt;/p>
+&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/io.github.dkter.aaaaa/"target="_blank" rel="noopener noreferrer">https://f-droid.org/es/packages/io.github.dkter.aaaaa/&lt;/a>
+&lt;/p>
 &lt;hr>
 &lt;/li>
 &lt;/ol>
@@ -527,7 +542,8 @@ alt="aaaa logo"/>&lt;/p>
 &lt;h2 id="requeriments">Requeriments&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;p>Install latest Electron release on: &lt;a href="https://github.com/electron/electron/releases">https://github.com/electron/electron/releases&lt;/a>.&lt;/p>
+&lt;p>Install latest Electron release on: &lt;a href="https://github.com/electron/electron/releases"target="_blank" rel="noopener noreferrer">https://github.com/electron/electron/releases&lt;/a>
+.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Have a computer, buy one in your nearest Walmart :).&lt;/p>
@@ -543,10 +559,12 @@ alt="aaaa logo"/>&lt;/p>
 &lt;h2 id="inspired-by">Inspired by&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;a href="https://kilianvalkhof.com/2020/design/how-i-built-my-own-browser/">https://kilianvalkhof.com/2020/design/how-i-built-my-own-browser/&lt;/a> [Dead link, try finding on the archives]&lt;/p>
+&lt;p>&lt;a href="https://kilianvalkhof.com/2020/design/how-i-built-my-own-browser/"target="_blank" rel="noopener noreferrer">https://kilianvalkhof.com/2020/design/how-i-built-my-own-browser/&lt;/a>
+[Dead link, try finding on the archives]&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;a href="https://www.producthunt.com/posts/sizzy-8#comment-789519">https://www.producthunt.com/posts/sizzy-8#comment-789519&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.producthunt.com/posts/sizzy-8#comment-789519"target="_blank" rel="noopener noreferrer">https://www.producthunt.com/posts/sizzy-8#comment-789519&lt;/a>
+&lt;/p>
 &lt;/li>
 &lt;/ul></description></item><item><title>About</title><link>https://1hiking.github.io/about/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/about/</guid><description>&lt;p>Privacy &amp;amp; Security enthusiast.
 I contribute to community projects like Weblate and OSM.&lt;/p>
