@@ -16,19 +16,18 @@ Consider that some programs that are not here (like [Vanadium](https://github.co
 
 1. [Browsers](#Browsers)
 2. [File managers](#File-managers)
-3. [Gallery](#Gallery)
-4. [EXIF / Metadata editors](#EXIF-/-Metadata-editors)
-5. [Music players](#Music-players)
-6. [Video players](#Video-players)
-7. [F-droid clients](#F-droid-clients)
-8. [RSS clients](#RSS-clients)
-9. [E-mail clients](#E-mail-clients)
-10. [Password Manager](#Password-Manager)
-11. [Social Media clients](#Social-Media-clients-(Reddit,-Facebook,-etc))
-12. [Keyboards](#Keyboards)
-13. [Launchers](#Launchers)
-14. [2FA](#2FA)
-15. [Games](#Games)
+3. [Images, Music and Videos](#Images,-Music-and-Videos)
+4. [Document Viewers](#Document-viewers)
+5. [EXIF / Metadata editors](#EXIF-/-Metadata-editors)
+6. [F-droid clients](#F-droid-clients)
+7. [RSS clients](#RSS-clients)
+8. [E-mail clients](#E-mail-clients)
+9. [Password Manager](#Password-Manager)
+10. [Social Media clients](#Social-Media-clients-(Reddit,-Facebook,-etc))
+11. [Keyboards](#Keyboards)
+12. [Launchers](#Launchers)
+13. [2FA](#2FA)
+14. [Games](#Games)
 
 ## Browsers
 
@@ -44,7 +43,7 @@ Consider that some programs that are not here (like [Vanadium](https://github.co
 
     * Custom repo is [required](https://fdroid.bromite.org/fdroid/repo).
 
-4. [Tor Browser](https://github.com/guardianproject/tor-android)
+3. [Tor Browser](https://github.com/guardianproject/tor-android)
 
     > Experience real private browsing without tracking, surveillance, or censorship.
 
@@ -62,23 +61,45 @@ Consider that some programs that are not here (like [Vanadium](https://github.co
 
     * Part of "*Simple Tools*" collection, might wanna check more of [their programs here](https://www.simplemobiletools.com/).
 
-    2. [Material Files](https://github.com/zhanghai/MaterialFiles)
+2. [Material Files](https://github.com/zhanghai/MaterialFiles)
 
     > Open source Material Design file manager.
 
-    3. [Amaze](https://github.com/TeamAmaze/AmazeFileManager)
+3. [Amaze](https://github.com/TeamAmaze/AmazeFileManager)
 
     > Manage local files.
 
-## Gallery
+## Images, Music and Videos
 
-    1. [Simple Gallery Pro](https://github.com/SimpleMobileTools/Simple-Gallery)
+1. [Simple Gallery Pro](https://github.com/SimpleMobileTools/Simple-Gallery)
 
     > A premium app for managing and editing your photos, videos, GIFs without ads.
 
     Notes:
 
     * This app is also part of the collection of "*Simple Tools*".
+
+2. [Vanilla Music](https://github.com/vanilla-music/vanilla)
+
+    > Listen to and manage songs.
+
+3. [VLC](https://code.videolan.org/videolan/vlc-android)
+
+    > The best video and music player. Fast and “just works”, plays any file.
+
+4. [mpv-android](https://f-droid.org/en/packages/is.xyz.mpv/)
+
+    > mpv-android is a video player for Android based on libmpv.
+
+## Document Viewers
+
+1. [Librera Reader](https://github.com/foobnix/LibreraReader)
+
+    > Book and PDF reader
+
+2. [MuPDF viewer](https://git.ghostscript.com/?p=mupdf-android-viewer.git;a=summary)
+
+    > Lightweight document viewer
 
 ## EXIF / Metadata editors
 
@@ -93,26 +114,6 @@ Consider that some programs that are not here (like [Vanadium](https://github.co
     Notes:
 
     * If you want to only remove EXIF data, use this one. For more features use ImagePipe.
-
-## Music players
-
-    1. [Vanilla Music](https://github.com/vanilla-music/vanilla)
-
-    > Listen to and manage songs.
-
-    Notes:
-
-    * You could technically use Video Players (or any program that can process .mp3 files) as Music players.
-
-## Video players
-
-1. [VLC](https://code.videolan.org/videolan/vlc-android)
-
-    > The best video and music player. Fast and “just works”, plays any file.
-
-2. [mpv-android](https://f-droid.org/en/packages/is.xyz.mpv/)
-
-    > mpv-android is a video player for Android based on libmpv.
 
 ## F-droid clients
 
@@ -154,12 +155,6 @@ Consider that some programs that are not here (like [Vanadium](https://github.co
 
     > Full-featured email client.
 
-    Notes:
-
-    * For new design, choose the *latest* release, not the recommended release.
-
-    * [Developer is looking for funding, for more details click here.](https://k9mail.app/2021/02/14/K-9-Mail-is-looking-for-funding)
-
 2. [FairEmail](https://github.com/M66B/FairEmail)
 
     > Fully featured email client. Neat, intuitive user interface. Privacy friendly.
@@ -174,19 +169,15 @@ Consider that some programs that are not here (like [Vanadium](https://github.co
 
     > Open Source Password Management for You and Your Business
 
-    Notes:
-
-    * They also have [their web vault if you don't want to install it](https://vault.bitwarden.com/).
-
 2. [KeePassDX](https://github.com/Kunzisoft/KeePassDX)
 
     > Secure and open source password manager compatible with KeePass files.
 
 ## Social Media clients (Reddit, Facebook, etc)
 
-1. [Slide](https://github.com/ccrama/Slide)
+1. [Infinity for Reddit](https://github.com/Docile-Alligator/Infinity-For-Reddit)
 
-    *Companion app for reddit.*
+    > A beautiful, feature-rich Reddit client.
 
 2. [Frost for Facebook](https://github.com/AllanWang/Frost-for-Facebook)
 
@@ -214,17 +205,17 @@ Consider that some programs that are not here (like [Vanadium](https://github.co
 
     Notes:
 
-    * They also have their [own repository](https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo/).
+    * I recommend using [their repository](https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo/).
 
 ## Keyboards
 
 1. [AnySoftKeyboard](https://github.com/AnySoftKeyboard/AnySoftKeyboard)
 
-> We live in a world full of languages. Why not use a multi-lingual keyboard?
+    > We live in a world full of languages. Why not use a multi-lingual keyboard?
 
     Notes:
 
-    * This application in F-droid keeps getting their logo changed every day, this is their F-droid package [link](https://f-droid.org/en/packages/com.menny.android.anysoftkeyboard/).
+    * This application keeps getting their logo changed every day, here is the coroect [package](https://f-droid.org/en/packages/com.menny.android.anysoftkeyboard/).
 
 2. [OpenBoard](https://github.com/dslul/openboard)
 
@@ -244,6 +235,10 @@ Consider that some programs that are not here (like [Vanadium](https://github.co
 
     > Monotone icon pack.
 
+3. [Arcticons](https://github.com/Donnnno/Arcticons)
+
+    > A monotone line-based icon pack
+
 ## 2FA
 
 1. [Aegis](https://github.com/beemdevelopment/Aegis)
@@ -260,18 +255,15 @@ Consider that some programs that are not here (like [Vanadium](https://github.co
 
     > A factory-based sandbox tower defense game.
 
-## No category (for now)
+## No category
 
 * OsMand~ (Maps)
-* ProtonVPN (VPN)
 * OpenCamera (Camera)
 * P!n (Quick notes)
 * ClassyShark3xodus (Analize trackers)
 * Binary Eye (QR and More..)
 * xBrowserSync (Browser bookmarks)
 * Yet Another Call Blocker (Self-explanatory)
-* WiFi Analyzer (Self-explanatory)
-* MuPDF viewer (Self-explanatory)
 * Recorder (Self-explanatory)
 * monerujo (Monero wallet)
 * MoneyWaller (Money management)
