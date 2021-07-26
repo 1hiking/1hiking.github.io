@@ -3,7 +3,7 @@ title = "A comparison of FOSS Android keyboards"
 date = 2021-06-18
 description = "An article about Android Keyboards"
 tags = ["F-droid", "Android", "Keyboards"]
-categories = ["Articles"]
+categories = ["Articles","Posts"]
 +++
 
 It's common for many Android enthusiasts to customize their devices and while Swiftkey and  GBoard are good alternatives, the companies behind them don't have a good privacy record , this turns many people for other alternatives, many which are found in the Play-Store and F-droid repositories, I will compare them and give my opinion over which one is "the best".
