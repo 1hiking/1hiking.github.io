@@ -1,4 +1,138 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Android on Hiking's webpage</title><link>https://1hiking.github.io/tags/android/</link><description>Recent content in Android on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>©2021 hiking.</copyright><lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/tags/android/index.xml" rel="self" type="application/rss+xml"/><item><title>Hiking's curated list of F-droid apps</title><link>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</link><pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</guid><description>&lt;p>A curated list of some worth checking applications in the F-droid repo (and others too), short descriptions and notes are listed below.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Android on Hiking's webpage</title><link>https://1hiking.github.io/tags/android/</link><description>Recent content in Android on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>©2021 hiking.</copyright><lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/tags/android/index.xml" rel="self" type="application/rss+xml"/><item><title>Security, privacy and cryptography</title><link>https://1hiking.github.io/lists/security_privacy_and_cryptography/</link><pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/security_privacy_and_cryptography/</guid><description>&lt;p>This page collects many URLs which write about various topics about security, privacy, cryptography, etc, or in the same way I do, collect more websites to validate their arguments for or against a technology or an ideology. I have &lt;strong>no affiliation&lt;/strong> with none of these sites and I just maintain it for my own pleasure.&lt;/p>
+&lt;p>Consider making a threat model that fits your needs and not randomly copypasting configuration settings or installing programs for the sake of it. &lt;a href="https://en.wikipedia.org/wiki/Security_theater"target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Security_theater&lt;/a>
+.&lt;/p>
+&lt;p>Please don&amp;rsquo;t randomly post these links to try and win an argument war (&lt;del>like I do huehuehehehuehe&lt;/del>), read the articles and make &lt;strong>your own conclusions&lt;/strong>.&lt;/p>
+&lt;h2 id="browsers">Browsers&lt;/h2>
+&lt;blockquote>
+&lt;p>This section is not greatly in-depth, for more information read the articles made by duck and madaidan, which are linked here.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="ungoogled-chromium">Ungoogled-Chromium&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://qua3k.github.io/ungoogled/"target="_blank" rel="noopener noreferrer">ungoogled-chromium by duck&lt;/a>
+&lt;a href="https://web.archive.org/web/20210628080942/https://qua3k.github.io/ungoogled/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/Eloston/ungoogled-chromium/commit/7f238719fa0a16e40559df36988aecf0082a8cf3"target="_blank" rel="noopener noreferrer">Disables Control Flow integrity&lt;/a>
+&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://clang.llvm.org/docs/ControlFlowIntegrity.html"target="_blank" rel="noopener noreferrer">Explanation of why this is not ideal.&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;h3 id="firefox">Firefox&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://wiki.mozilla.org/Project_Fission"target="_blank" rel="noopener noreferrer">Fission still has a long way to go and doesn&amp;rsquo;t fix all the issues present. See their bug tracker&lt;/a>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1565196"target="_blank" rel="noopener noreferrer">Lack of sandbox in Android&lt;/a>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://madaidans-insecurities.github.io/firefox-chromium.html"target="_blank" rel="noopener noreferrer">Firefox and Chromium by madaidan&lt;/a>
+&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="browser-extensions-also-known-as-addons">Browser extensions (also known as addons)&lt;/h2>
+&lt;blockquote>
+&lt;p>Privacy extensions could increase your attack surface, at any moment the developer could sell the extension or a vulnerability could be disclosed that might affect your security and privacy.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.eff.org/deeplinks/2020/10/privacy-badger-changing-protect-you-better"target="_blank" rel="noopener noreferrer">Privacy Badger Is Changing to Protect You Better by Andrés Arrieta, Bennett Cyphers, et al.&lt;/a>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/NanoAdblocker/NanoCore/issues/362#issuecomment-709428210"target="_blank" rel="noopener noreferrer">Nano Adblock sells out and the new developers add malicious code.&lt;/a>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Adblock sells out, literally type it in your search engine&amp;hellip; &lt;a href="https://duckduckgo.com/?q=adblock&amp;#43;sell&amp;#43;out"target="_blank" rel="noopener noreferrer">https://duckduckgo.com/?q=adblock+sell+out&lt;/a>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>There are probably more cases that I have not reported&amp;hellip;&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="cryptography">Cryptography&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://cr.yp.to/"target="_blank" rel="noopener noreferrer">https://cr.yp.to/&lt;/a>
+&lt;a href="https://web.archive.org/web/20210508215838/https://cr.yp.to/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://wiki.openssl.org/index.php/Elliptic_Curve_Cryptography"target="_blank" rel="noopener noreferrer">OpenSSL wiki: Elliptic Curve Cryptography&lt;/a>
+&lt;/p>
+&lt;ul>
+&lt;li>Use ECC over RSA if possible.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="miscellaneous">Miscellaneous&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://madaidans-insecurities.github.io/"target="_blank" rel="noopener noreferrer">Security &amp;amp; Privacy Evaluations by madaidan&lt;/a>
+&lt;a href="https://web.archive.org/web/20210615142831/https://madaidans-insecurities.github.io/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.ranum.com/security/computer_security/editorials/dumb/"target="_blank" rel="noopener noreferrer">The Six Dumbest Ideas in Computer Security&lt;/a>
+&lt;a href="https://web.archive.org/web/20210612220427/http://www.ranum.com/security/computer_security/editorials/dumb/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="pgp-email-and-the-family">PGP, Email and the family&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://restoreprivacy.com/let-pgp-die/"target="_blank" rel="noopener noreferrer">Let PGP Die: Why We Need a New Standard for Email Encryption by Sven Taylor&lt;/a>
+&lt;a href="https://web.archive.org/web/20210719175620/https://restoreprivacy.com/let-pgp-die/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP"target="_blank" rel="noopener noreferrer">Whonix wiki: Issues with PGP&lt;/a>
+&lt;a href="https://web.archive.org/web/20210420201147/https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP%5B%5BArchive%2520Link%5D%5D%28%29"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://latacora.micro.blog/2019/07/16/the-pgp-problem.html"target="_blank" rel="noopener noreferrer">The PGP Problem by Latacora&lt;/a>
+&lt;a href="https://web.archive.org/web/20210526211311/https://latacora.micro.blog/2019/07/16/the-pgp-problem.html"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html"target="_blank" rel="noopener noreferrer">Stop Using Encrypted Email by Latacora&lt;/a>
+&lt;a href="https://web.archive.org/web/20210526211254/https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://blog.hboeck.de/archives/893-efail-Outdated-Crypto-Standards-are-to-blame.html"target="_blank" rel="noopener noreferrer">efail: Outdated Crypto Standards are to blame by hanno&lt;/a>
+&lt;a href="https://web.archive.org/web/20210127130530/https://blog.hboeck.de/archives/893-efail-Outdated-Crypto-Standards-are-to-blame.html"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="openclosed-source-beliefs">Open/Closed Source beliefs&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://web.archive.org/web/20210112132451/https://blog.blueboxsec.org/post/the-illusion-of-open-source/"target="_blank" rel="noopener noreferrer">https://web.archive.org/web/20210112132451/https://blog.blueboxsec.org/post/the-illusion-of-open-source/&lt;/a>
+(Archive.org since main page has a faulty cert)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://blog.invisiblethings.org/2009/01/26/closed-source-conspiracy.html"target="_blank" rel="noopener noreferrer">Closed Source Conspiracy by Joanna Rutkowska&lt;/a>
+&lt;a href="https://web.archive.org/web/20180831193438/https://blog.invisiblethings.org/2009/01/26/closed-source-conspiracy.html"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
+&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://theinvisiblethings.blogspot.com/2009/01/closed-source-conspiracy.html"target="_blank" rel="noopener noreferrer">[Old Blogger Link]&lt;/a>
+&lt;a href="https://web.archive.org/web/20210628141919/https://theinvisiblethings.blogspot.com/2009/01/closed-source-conspiracy.html"target="_blank" rel="noopener noreferrer">[Old Blogger Archive]&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Hiking's curated list of F-droid apps</title><link>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</link><pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</guid><description>&lt;p>A curated list of some worth checking applications in the F-droid repo (and others too), short descriptions and notes are listed below.&lt;/p>
 &lt;p>This list is low-maintainance mode, since the purpose of this list is to give you a taste of high-quality programs&amp;hellip; I believe there is a problem in F-droid in how they index and promote content in the front page, making harder for the user to find anything useful for their needs. Luckily &lt;a href="https://f-droid.org/en/2021/03/01/fdroid-metrics-and-clean-insights.html"target="_blank" rel="noopener noreferrer">they are working on this&lt;/a>
 .&lt;/p>
 &lt;p>Consider that some programs that are not here (like &lt;a href="https://github.com/GrapheneOS/Vanadium"target="_blank" rel="noopener noreferrer">Vanadium&lt;/a>
@@ -9,13 +143,11 @@
 &lt;/li>
 &lt;li>&lt;a href="#File-managers">File managers&lt;/a>
 &lt;/li>
-&lt;li>&lt;a href="#Gallery">Gallery&lt;/a>
+&lt;li>&lt;a href="#Images,-Music-and-Videos">Images, Music and Videos&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="#Document-viewers">Document Viewers&lt;/a>
 &lt;/li>
 &lt;li>&lt;a href="#EXIF-/-Metadata-editors">EXIF / Metadata editors&lt;/a>
-&lt;/li>
-&lt;li>&lt;a href="#Music-players">Music players&lt;/a>
-&lt;/li>
-&lt;li>&lt;a href="#Video-players">Video players&lt;/a>
 &lt;/li>
 &lt;li>&lt;a href="#F-droid-clients">F-droid clients&lt;/a>
 &lt;/li>
@@ -83,28 +215,74 @@
 &lt;li>Part of &amp;ldquo;&lt;em>Simple Tools&lt;/em>&amp;rdquo; collection, might wanna check more of &lt;a href="https://www.simplemobiletools.com/"target="_blank" rel="noopener noreferrer">their programs here&lt;/a>
 .&lt;/li>
 &lt;/ul>
-&lt;ol start="2">
-&lt;li>&lt;a href="https://github.com/zhanghai/MaterialFiles"target="_blank" rel="noopener noreferrer">Material Files&lt;/a>
 &lt;/li>
-&lt;/ol>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/zhanghai/MaterialFiles"target="_blank" rel="noopener noreferrer">Material Files&lt;/a>
+&lt;/p>
 &lt;blockquote>
 &lt;p>Open source Material Design file manager.&lt;/p>
 &lt;/blockquote>
-&lt;ol start="3">
-&lt;li>&lt;a href="https://github.com/TeamAmaze/AmazeFileManager"target="_blank" rel="noopener noreferrer">Amaze&lt;/a>
 &lt;/li>
-&lt;/ol>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/TeamAmaze/AmazeFileManager"target="_blank" rel="noopener noreferrer">Amaze&lt;/a>
+&lt;/p>
 &lt;blockquote>
 &lt;p>Manage local files.&lt;/p>
 &lt;/blockquote>
 &lt;/li>
 &lt;/ol>
-&lt;h2 id="gallery">Gallery&lt;/h2>
-&lt;pre>&lt;code>1. [Simple Gallery Pro](https://github.com/SimpleMobileTools/Simple-Gallery)
-&amp;gt; A premium app for managing and editing your photos, videos, GIFs without ads.
-Notes:
-* This app is also part of the collection of &amp;quot;*Simple Tools*&amp;quot;.
-&lt;/code>&lt;/pre>
+&lt;h2 id="images-music-and-videos">Images, Music and Videos&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/SimpleMobileTools/Simple-Gallery"target="_blank" rel="noopener noreferrer">Simple Gallery Pro&lt;/a>
+&lt;/p>
+&lt;blockquote>
+&lt;p>A premium app for managing and editing your photos, videos, GIFs without ads.&lt;/p>
+&lt;/blockquote>
+&lt;p>Notes:&lt;/p>
+&lt;ul>
+&lt;li>This app is also part of the collection of &amp;ldquo;&lt;em>Simple Tools&lt;/em>&amp;rdquo;.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/vanilla-music/vanilla"target="_blank" rel="noopener noreferrer">Vanilla Music&lt;/a>
+&lt;/p>
+&lt;blockquote>
+&lt;p>Listen to and manage songs.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://code.videolan.org/videolan/vlc-android"target="_blank" rel="noopener noreferrer">VLC&lt;/a>
+&lt;/p>
+&lt;blockquote>
+&lt;p>The best video and music player. Fast and “just works”, plays any file.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://f-droid.org/en/packages/is.xyz.mpv/"target="_blank" rel="noopener noreferrer">mpv-android&lt;/a>
+&lt;/p>
+&lt;blockquote>
+&lt;p>mpv-android is a video player for Android based on libmpv.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="document-viewers">Document Viewers&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/foobnix/LibreraReader"target="_blank" rel="noopener noreferrer">Librera Reader&lt;/a>
+&lt;/p>
+&lt;blockquote>
+&lt;p>Book and PDF reader&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://git.ghostscript.com/?p=mupdf-android-viewer.git;a=summary"target="_blank" rel="noopener noreferrer">MuPDF viewer&lt;/a>
+&lt;/p>
+&lt;blockquote>
+&lt;p>Lightweight document viewer&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ol>
 &lt;h2 id="exif--metadata-editors">EXIF / Metadata editors&lt;/h2>
 &lt;ol>
 &lt;li>
@@ -124,29 +302,6 @@ Notes:
 &lt;ul>
 &lt;li>If you want to only remove EXIF data, use this one. For more features use ImagePipe.&lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;/ol>
-&lt;h2 id="music-players">Music players&lt;/h2>
-&lt;pre>&lt;code>1. [Vanilla Music](https://github.com/vanilla-music/vanilla)
-&amp;gt; Listen to and manage songs.
-Notes:
-* You could technically use Video Players (or any program that can process .mp3 files) as Music players.
-&lt;/code>&lt;/pre>
-&lt;h2 id="video-players">Video players&lt;/h2>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;a href="https://code.videolan.org/videolan/vlc-android"target="_blank" rel="noopener noreferrer">VLC&lt;/a>
-&lt;/p>
-&lt;blockquote>
-&lt;p>The best video and music player. Fast and “just works”, plays any file.&lt;/p>
-&lt;/blockquote>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://f-droid.org/en/packages/is.xyz.mpv/"target="_blank" rel="noopener noreferrer">mpv-android&lt;/a>
-&lt;/p>
-&lt;blockquote>
-&lt;p>mpv-android is a video player for Android based on libmpv.&lt;/p>
-&lt;/blockquote>
 &lt;/li>
 &lt;/ol>
 &lt;h2 id="f-droid-clients">F-droid clients&lt;/h2>
@@ -208,16 +363,6 @@ Notes:
 &lt;blockquote>
 &lt;p>Full-featured email client.&lt;/p>
 &lt;/blockquote>
-&lt;p>Notes:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>For new design, choose the &lt;em>latest&lt;/em> release, not the recommended release.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://k9mail.app/2021/02/14/K-9-Mail-is-looking-for-funding"target="_blank" rel="noopener noreferrer">Developer is looking for funding, for more details click here.&lt;/a>
-&lt;/p>
-&lt;/li>
-&lt;/ul>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;a href="https://github.com/M66B/FairEmail"target="_blank" rel="noopener noreferrer">FairEmail&lt;/a>
@@ -239,11 +384,6 @@ Notes:
 &lt;blockquote>
 &lt;p>Open Source Password Management for You and Your Business&lt;/p>
 &lt;/blockquote>
-&lt;p>Notes:&lt;/p>
-&lt;ul>
-&lt;li>They also have &lt;a href="https://vault.bitwarden.com/"target="_blank" rel="noopener noreferrer">their web vault if you don&amp;rsquo;t want to install it&lt;/a>
-.&lt;/li>
-&lt;/ul>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;a href="https://github.com/Kunzisoft/KeePassDX"target="_blank" rel="noopener noreferrer">KeePassDX&lt;/a>
@@ -256,9 +396,11 @@ Notes:
 &lt;h2 id="social-media-clients-reddit-facebook-etc">Social Media clients (Reddit, Facebook, etc)&lt;/h2>
 &lt;ol>
 &lt;li>
-&lt;p>&lt;a href="https://github.com/ccrama/Slide"target="_blank" rel="noopener noreferrer">Slide&lt;/a>
+&lt;p>&lt;a href="https://github.com/Docile-Alligator/Infinity-For-Reddit"target="_blank" rel="noopener noreferrer">Infinity for Reddit&lt;/a>
 &lt;/p>
-&lt;p>&lt;em>Companion app for reddit.&lt;/em>&lt;/p>
+&lt;blockquote>
+&lt;p>A beautiful, feature-rich Reddit client.&lt;/p>
+&lt;/blockquote>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;a href="https://github.com/AllanWang/Frost-for-Facebook"target="_blank" rel="noopener noreferrer">Frost for Facebook&lt;/a>
@@ -297,23 +439,25 @@ Notes:
 &lt;/blockquote>
 &lt;p>Notes:&lt;/p>
 &lt;ul>
-&lt;li>They also have their &lt;a href="https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo/"target="_blank" rel="noopener noreferrer">own repository&lt;/a>
+&lt;li>I recommend using &lt;a href="https://newpipe.net/FAQ/tutorials/install-add-fdroid-repo/"target="_blank" rel="noopener noreferrer">their repository&lt;/a>
 .&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ol>
 &lt;h2 id="keyboards">Keyboards&lt;/h2>
 &lt;ol>
-&lt;li>&lt;a href="https://github.com/AnySoftKeyboard/AnySoftKeyboard"target="_blank" rel="noopener noreferrer">AnySoftKeyboard&lt;/a>
-&lt;/li>
-&lt;/ol>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/AnySoftKeyboard/AnySoftKeyboard"target="_blank" rel="noopener noreferrer">AnySoftKeyboard&lt;/a>
+&lt;/p>
 &lt;blockquote>
 &lt;p>We live in a world full of languages. Why not use a multi-lingual keyboard?&lt;/p>
 &lt;/blockquote>
-&lt;pre>&lt;code>Notes:
-* This application in F-droid keeps getting their logo changed every day, this is their F-droid package [link](https://f-droid.org/en/packages/com.menny.android.anysoftkeyboard/).
-&lt;/code>&lt;/pre>
-&lt;ol start="2">
+&lt;p>Notes:&lt;/p>
+&lt;ul>
+&lt;li>This application keeps getting their logo changed every day, here is the coroect &lt;a href="https://f-droid.org/en/packages/com.menny.android.anysoftkeyboard/"target="_blank" rel="noopener noreferrer">package&lt;/a>
+.&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;li>
 &lt;p>&lt;a href="https://github.com/dslul/openboard"target="_blank" rel="noopener noreferrer">OpenBoard&lt;/a>
 &lt;/p>
@@ -345,6 +489,13 @@ Notes:
 &lt;p>Monotone icon pack.&lt;/p>
 &lt;/blockquote>
 &lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/Donnnno/Arcticons"target="_blank" rel="noopener noreferrer">Arcticons&lt;/a>
+&lt;/p>
+&lt;blockquote>
+&lt;p>A monotone line-based icon pack&lt;/p>
+&lt;/blockquote>
+&lt;/li>
 &lt;/ol>
 &lt;h2 id="2fa">2FA&lt;/h2>
 &lt;ol>
@@ -373,89 +524,19 @@ Notes:
 &lt;/blockquote>
 &lt;/li>
 &lt;/ol>
-&lt;h2 id="no-category-for-now">No category (for now)&lt;/h2>
+&lt;h2 id="no-category">No category&lt;/h2>
 &lt;ul>
 &lt;li>OsMand~ (Maps)&lt;/li>
-&lt;li>ProtonVPN (VPN)&lt;/li>
 &lt;li>OpenCamera (Camera)&lt;/li>
 &lt;li>P!n (Quick notes)&lt;/li>
 &lt;li>ClassyShark3xodus (Analize trackers)&lt;/li>
 &lt;li>Binary Eye (QR and More..)&lt;/li>
 &lt;li>xBrowserSync (Browser bookmarks)&lt;/li>
 &lt;li>Yet Another Call Blocker (Self-explanatory)&lt;/li>
-&lt;li>WiFi Analyzer (Self-explanatory)&lt;/li>
-&lt;li>MuPDF viewer (Self-explanatory)&lt;/li>
 &lt;li>Recorder (Self-explanatory)&lt;/li>
 &lt;li>monerujo (Monero wallet)&lt;/li>
 &lt;li>MoneyWaller (Money management)&lt;/li>
 &lt;li>SyncThing (Sync without a server)&lt;/li>
-&lt;/ul></description></item><item><title>Security, privacy and cryptography</title><link>https://1hiking.github.io/lists/security_privacy_and_cryptography/</link><pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/security_privacy_and_cryptography/</guid><description>&lt;p>This page collects many URLs which write about various topics about security, privacy, cryptography, etc, or in the same way I do, collect more websites to validate their arguments for or against a technology or an ideology. I have &lt;strong>no affiliation&lt;/strong> with none of these sites and I just maintain it for my own pleasure.&lt;/p>
-&lt;p>Consider making a threat model that fits your needs and not randomly copypasting configuration settings or installing programs for the sake of it. &lt;a href="https://en.wikipedia.org/wiki/Security_theater"target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Security_theater&lt;/a>
-.&lt;/p>
-&lt;p>Please don&amp;rsquo;t randomly post these links to try and win an argument war (&lt;del>like I do huehuehehehuehe&lt;/del>), read the articles and make &lt;strong>your own conclusions&lt;/strong>.&lt;/p>
-&lt;h3 id="cryptography">Cryptography&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a href="https://cr.yp.to/"target="_blank" rel="noopener noreferrer">https://cr.yp.to/&lt;/a>
-&lt;a href="https://web.archive.org/web/20210508215838/https://cr.yp.to/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="miscellaneous">Miscellaneous&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://madaidans-insecurities.github.io/"target="_blank" rel="noopener noreferrer">https://madaidans-insecurities.github.io/&lt;/a>
-&lt;a href="https://web.archive.org/web/20210615142831/https://madaidans-insecurities.github.io/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://qua3k.github.io/ungoogled/"target="_blank" rel="noopener noreferrer">https://qua3k.github.io/ungoogled/&lt;/a>
-&lt;a href="https://web.archive.org/web/20210628080942/https://qua3k.github.io/ungoogled/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://www.ranum.com/security/computer_security/editorials/dumb/"target="_blank" rel="noopener noreferrer">https://www.ranum.com/security/computer_security/editorials/dumb/&lt;/a>
-&lt;a href="https://web.archive.org/web/20210612220427/http://www.ranum.com/security/computer_security/editorials/dumb/"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
-&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="pgp-email-and-the-family">PGP, Email and the family&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP"target="_blank" rel="noopener noreferrer">https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP&lt;/a>
-&lt;a href="https://web.archive.org/web/20210420201147/https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP%5B%5BArchive%2520Link%5D%5D%28%29"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://latacora.micro.blog/2019/07/16/the-pgp-problem.html"target="_blank" rel="noopener noreferrer">https://latacora.micro.blog/2019/07/16/the-pgp-problem.html&lt;/a>
-&lt;a href="https://web.archive.org/web/20210526211311/https://latacora.micro.blog/2019/07/16/the-pgp-problem.html"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html"target="_blank" rel="noopener noreferrer">https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html&lt;/a>
-&lt;a href="https://web.archive.org/web/20210526211254/https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
-&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://blog.hboeck.de/archives/893-efail-Outdated-Crypto-Standards-are-to-blame.html"target="_blank" rel="noopener noreferrer">https://blog.hboeck.de/archives/893-efail-Outdated-Crypto-Standards-are-to-blame.html&lt;/a>
-&lt;a href="https://web.archive.org/web/20210127130530/https://blog.hboeck.de/archives/893-efail-Outdated-Crypto-Standards-are-to-blame.html"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
-&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="openclosed-source-beliefs">Open/Closed Source beliefs:&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://web.archive.org/web/20210112132451/https://blog.blueboxsec.org/post/the-illusion-of-open-source/"target="_blank" rel="noopener noreferrer">https://web.archive.org/web/20210112132451/https://blog.blueboxsec.org/post/the-illusion-of-open-source/&lt;/a>
-(Archive.org since main page has a faulty cert)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://blog.invisiblethings.org/2009/01/26/closed-source-conspiracy.html"target="_blank" rel="noopener noreferrer">https://blog.invisiblethings.org/2009/01/26/closed-source-conspiracy.html&lt;/a>
-&lt;a href="https://web.archive.org/web/20180831193438/https://blog.invisiblethings.org/2009/01/26/closed-source-conspiracy.html"target="_blank" rel="noopener noreferrer">[Archive Link]&lt;/a>
-&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://theinvisiblethings.blogspot.com/2009/01/closed-source-conspiracy.html"target="_blank" rel="noopener noreferrer">[Old Blogger Link]&lt;/a>
-&lt;a href="https://web.archive.org/web/20210628141919/https://theinvisiblethings.blogspot.com/2009/01/closed-source-conspiracy.html"target="_blank" rel="noopener noreferrer">[Old Blogger Archive]&lt;/a>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
 &lt;/ul></description></item><item><title>A comparison of FOSS Android keyboards</title><link>https://1hiking.github.io/2021/06/a-comparison-of-foss-android-keyboards/</link><pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/06/a-comparison-of-foss-android-keyboards/</guid><description>&lt;p>It&amp;rsquo;s common for many Android enthusiasts to customize their devices and while Swiftkey and GBoard are good alternatives, the companies behind them don&amp;rsquo;t have a good privacy record , this turns many people for other alternatives, many which are found in the Play-Store and F-droid repositories, I will compare them and give my opinion over which one is &amp;ldquo;the best&amp;rdquo;.&lt;/p>
 &lt;ol>
 &lt;li>

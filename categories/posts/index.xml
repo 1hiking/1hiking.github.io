@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hiking's webpage</title><link>https://1hiking.github.io/</link><description>Recent content on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>©2021 hiking.</copyright><lastBuildDate>Mon, 26 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Security, privacy and cryptography</title><link>https://1hiking.github.io/lists/security_privacy_and_cryptography/</link><pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/security_privacy_and_cryptography/</guid><description>&lt;p>This page collects many URLs which write about various topics about security, privacy, cryptography, etc, or in the same way I do, collect more websites to validate their arguments for or against a technology or an ideology. I have &lt;strong>no affiliation&lt;/strong> with none of these sites and I just maintain it for my own pleasure.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hiking's webpage</title><link>https://1hiking.github.io/categories/posts/</link><description>Recent content in Posts on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>©2021 hiking.</copyright><lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/categories/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Security, privacy and cryptography</title><link>https://1hiking.github.io/lists/security_privacy_and_cryptography/</link><pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/security_privacy_and_cryptography/</guid><description>&lt;p>This page collects many URLs which write about various topics about security, privacy, cryptography, etc, or in the same way I do, collect more websites to validate their arguments for or against a technology or an ideology. I have &lt;strong>no affiliation&lt;/strong> with none of these sites and I just maintain it for my own pleasure.&lt;/p>
 &lt;p>Consider making a threat model that fits your needs and not randomly copypasting configuration settings or installing programs for the sake of it. &lt;a href="https://en.wikipedia.org/wiki/Security_theater"target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Security_theater&lt;/a>
 .&lt;/p>
 &lt;p>Please don&amp;rsquo;t randomly post these links to try and win an argument war (&lt;del>like I do huehuehehehuehe&lt;/del>), read the articles and make &lt;strong>your own conclusions&lt;/strong>.&lt;/p>
@@ -540,7 +540,7 @@
 &lt;/ul></description></item><item><title>A comparison of FOSS Android keyboards</title><link>https://1hiking.github.io/2021/06/a-comparison-of-foss-android-keyboards/</link><pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/06/a-comparison-of-foss-android-keyboards/</guid><description>&lt;p>It&amp;rsquo;s common for many Android enthusiasts to customize their devices and while Swiftkey and GBoard are good alternatives, the companies behind them don&amp;rsquo;t have a good privacy record , this turns many people for other alternatives, many which are found in the Play-Store and F-droid repositories, I will compare them and give my opinion over which one is &amp;ldquo;the best&amp;rdquo;.&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>AnySoftKeyboard &lt;img src="./posts/AnySoftKeyboard.png"
+&lt;p>AnySoftKeyboard &lt;img src="../../posts/AnySoftKeyboard.png"
 alt="AnySoftKeyboard logo"/>&lt;/p>
 &lt;p>This one is the most &amp;ldquo;feature-full&amp;rdquo; of all the ones I have found, since it&amp;rsquo;s the most customizable&amp;hellip; at least for now&amp;hellip;&lt;/p>
 &lt;ul>
@@ -564,7 +564,7 @@ If your language is not in the repo, then pick something else. I also cannot fin
 &lt;hr>
 &lt;/li>
 &lt;li>
-&lt;p>FlorisBoard &lt;img src="./posts/FlorisBoard.png"
+&lt;p>FlorisBoard &lt;img src="../../posts/FlorisBoard.png"
 alt="FlorisBoard logo"/>&lt;/p>
 &lt;p>As of posting this article, I believe FlorisBoard is the most youngest alternative out there in F-droid, and it really looks like a good alternative for those who can&amp;rsquo;t or don&amp;rsquo;t like to use ASK.&lt;/p>
 &lt;ul>
@@ -585,7 +585,7 @@ be a little biased.&lt;/p>
 &lt;hr>
 &lt;/li>
 &lt;li>
-&lt;p>OpenBoard &lt;img src="./posts/OpenBoard.png"
+&lt;p>OpenBoard &lt;img src="../../posts/OpenBoard.png"
 alt="OpenBoard logo"/>&lt;/p>
 &lt;p>This is my mainly drive, at difference of ASK and FlorisBoard this one is very minimal. Some people compare the layout and design to GBoard too.&lt;/p>
 &lt;ul>
@@ -607,7 +607,7 @@ alt="OpenBoard logo"/>&lt;/p>
 &lt;hr>
 &lt;/li>
 &lt;li>
-&lt;p>aaaaa &lt;img src="./posts/aaaa.png"
+&lt;p>aaaaa &lt;img src="../../posts/aaaa.png"
 alt="aaaa logo"/>&lt;/p>
 &lt;p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa&lt;/p>
 &lt;p>Link: &lt;a href="https://f-droid.org/es/packages/io.github.dkter.aaaaa/"target="_blank" rel="noopener noreferrer">https://f-droid.org/es/packages/io.github.dkter.aaaaa/&lt;/a>

@@ -4,65 +4,130 @@
 <meta name=twitter:title content="Security, privacy and cryptography"><body><section id=header>
 <div class="header wrap"><span class="header left-side"><a class="site home" href=../../><img class="site logo" src=../../img/PolarBear.png alt><span class="site name">Hiking's webpage</span></a></span>
 <span class="header right-side"><div class="nav wrap"><nav class=nav><a class="nav item" href=../../categories/>Categories</a><a class="nav item" href=../../tags/>Tags</a><a class="nav item" href=../../about/>About</a><a class="nav item" href=../../lists/>Lists</a></nav></div></span></div><div class="site slogan"><span class=title>Look at him go!</span></div></section><section id=content><div class=article-container><section class="article header">
-<h1 class="article title">Security, privacy and cryptography</h1><p class="article date">17 of July of 2021</p></section><article class="article markdown-body"><p>This page collects many URLs which write about various topics about security, privacy, cryptography, etc, or in the same way I do, collect more websites to validate their arguments for or against a technology or an ideology. I have <strong>no affiliation</strong> with none of these sites and I just maintain it for my own pleasure.</p>
+<h1 class="article title">Security, privacy and cryptography</h1><p class="article date">26 of July of 2021</p></section><article class="article markdown-body"><p>This page collects many URLs which write about various topics about security, privacy, cryptography, etc, or in the same way I do, collect more websites to validate their arguments for or against a technology or an ideology. I have <strong>no affiliation</strong> with none of these sites and I just maintain it for my own pleasure.</p>
 <p>Consider making a threat model that fits your needs and not randomly copypasting configuration settings or installing programs for the sake of it. <a href=https://en.wikipedia.org/wiki/Security_theater target=_blank rel="noopener noreferrer">https://en.wikipedia.org/wiki/Security_theater</a>
 .</p>
 <p>Please don&rsquo;t randomly post these links to try and win an argument war (<del>like I do huehuehehehuehe</del>), read the articles and make <strong>your own conclusions</strong>.</p>
-<h3 id=cryptography>Cryptography</h3>
-<ul>
-<li><a href=https://cr.yp.to/ target=_blank rel="noopener noreferrer">https://cr.yp.to/</a>
-<a href=https://web.archive.org/web/20210508215838/https://cr.yp.to/ target=_blank rel="noopener noreferrer">[Archive Link]</a>
-</li>
-</ul>
-<h3 id=miscellaneous>Miscellaneous</h3>
+<h2 id=browsers>Browsers</h2>
+<blockquote>
+<p>This section is not greatly in-depth, for more information read the articles made by duck and madaidan, which are linked here.</p>
+</blockquote>
+<h3 id=ungoogled-chromium>Ungoogled-Chromium</h3>
 <ul>
 <li>
-<p><a href=https://madaidans-insecurities.github.io/ target=_blank rel="noopener noreferrer">https://madaidans-insecurities.github.io/</a>
-<a href=https://web.archive.org/web/20210615142831/https://madaidans-insecurities.github.io/ target=_blank rel="noopener noreferrer">[Archive Link]</a>
-</p>
-</li>
-<li>
-<p><a href=https://qua3k.github.io/ungoogled/ target=_blank rel="noopener noreferrer">https://qua3k.github.io/ungoogled/</a>
+<p><a href=https://qua3k.github.io/ungoogled/ target=_blank rel="noopener noreferrer">ungoogled-chromium by duck</a>
 <a href=https://web.archive.org/web/20210628080942/https://qua3k.github.io/ungoogled/ target=_blank rel="noopener noreferrer">[Archive Link]</a>
 </p>
 </li>
 <li>
-<p><a href=https://www.ranum.com/security/computer_security/editorials/dumb/ target=_blank rel="noopener noreferrer">https://www.ranum.com/security/computer_security/editorials/dumb/</a>
+<p><a href=https://github.com/Eloston/ungoogled-chromium/commit/7f238719fa0a16e40559df36988aecf0082a8cf3 target=_blank rel="noopener noreferrer">Disables Control Flow integrity</a>
+</p>
+<ul>
+<li><a href=https://clang.llvm.org/docs/ControlFlowIntegrity.html target=_blank rel="noopener noreferrer">Explanation of why this is not ideal.</a>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id=firefox>Firefox</h3>
+<ul>
+<li>
+<p><a href=https://wiki.mozilla.org/Project_Fission target=_blank rel="noopener noreferrer">Fission still has a long way to go and doesn&rsquo;t fix all the issues present. See their bug tracker</a>
+</p>
+</li>
+<li>
+<p><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1565196" target=_blank rel="noopener noreferrer">Lack of sandbox in Android</a>
+</p>
+</li>
+<li>
+<p><a href=https://madaidans-insecurities.github.io/firefox-chromium.html target=_blank rel="noopener noreferrer">Firefox and Chromium by madaidan</a>
+</p>
+</li>
+</ul>
+<h2 id=browser-extensions-also-known-as-addons>Browser extensions (also known as addons)</h2>
+<blockquote>
+<p>Privacy extensions could increase your attack surface, at any moment the developer could sell the extension or a vulnerability could be disclosed that might affect your security and privacy.</p>
+</blockquote>
+<ul>
+<li>
+<p><a href=https://www.eff.org/deeplinks/2020/10/privacy-badger-changing-protect-you-better target=_blank rel="noopener noreferrer">Privacy Badger Is Changing to Protect You Better by Andrés Arrieta, Bennett Cyphers, et al.</a>
+</p>
+</li>
+<li>
+<p><a href=https://github.com/NanoAdblocker/NanoCore/issues/362#issuecomment-709428210 target=_blank rel="noopener noreferrer">Nano Adblock sells out and the new developers add malicious code.</a>
+</p>
+</li>
+<li>
+<p>Adblock sells out, literally type it in your search engine&mldr; <a href="https://duckduckgo.com/?q=adblock+sell+out" target=_blank rel="noopener noreferrer">https://duckduckgo.com/?q=adblock+sell+out</a>
+</p>
+</li>
+<li>
+<p>There are probably more cases that I have not reported&mldr;</p>
+</li>
+</ul>
+<h2 id=cryptography>Cryptography</h2>
+<ul>
+<li>
+<p><a href=https://cr.yp.to/ target=_blank rel="noopener noreferrer">https://cr.yp.to/</a>
+<a href=https://web.archive.org/web/20210508215838/https://cr.yp.to/ target=_blank rel="noopener noreferrer">[Archive Link]</a>
+</p>
+</li>
+<li>
+<p><a href=https://wiki.openssl.org/index.php/Elliptic_Curve_Cryptography target=_blank rel="noopener noreferrer">OpenSSL wiki: Elliptic Curve Cryptography</a>
+</p>
+<ul>
+<li>Use ECC over RSA if possible.</li>
+</ul>
+</li>
+</ul>
+<h2 id=miscellaneous>Miscellaneous</h2>
+<ul>
+<li>
+<p><a href=https://madaidans-insecurities.github.io/ target=_blank rel="noopener noreferrer">Security & Privacy Evaluations by madaidan</a>
+<a href=https://web.archive.org/web/20210615142831/https://madaidans-insecurities.github.io/ target=_blank rel="noopener noreferrer">[Archive Link]</a>
+</p>
+</li>
+<li>
+<p><a href=https://www.ranum.com/security/computer_security/editorials/dumb/ target=_blank rel="noopener noreferrer">The Six Dumbest Ideas in Computer Security</a>
 <a href=https://web.archive.org/web/20210612220427/http://www.ranum.com/security/computer_security/editorials/dumb/ target=_blank rel="noopener noreferrer">[Archive Link]</a>
 </p>
 </li>
 </ul>
-<h3 id=pgp-email-and-the-family>PGP, Email and the family</h3>
+<h2 id=pgp-email-and-the-family>PGP, Email and the family</h2>
 <ul>
 <li>
-<p><a href=https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP target=_blank rel="noopener noreferrer">https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP</a>
+<p><a href=https://restoreprivacy.com/let-pgp-die/ target=_blank rel="noopener noreferrer">Let PGP Die: Why We Need a New Standard for Email Encryption by Sven Taylor</a>
+<a href=https://web.archive.org/web/20210719175620/https://restoreprivacy.com/let-pgp-die/ target=_blank rel="noopener noreferrer">[Archive Link]</a>
+</p>
+</li>
+<li>
+<p><a href=https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP target=_blank rel="noopener noreferrer">Whonix wiki: Issues with PGP</a>
 <a href=https://web.archive.org/web/20210420201147/https://www.whonix.org/wiki/OpenPGP#Issues_with_PGP%5B%5BArchive%2520Link%5D%5D%28%29 target=_blank rel="noopener noreferrer">[Archive Link]</a>
 </p>
 </li>
 <li>
-<p><a href=https://latacora.micro.blog/2019/07/16/the-pgp-problem.html target=_blank rel="noopener noreferrer">https://latacora.micro.blog/2019/07/16/the-pgp-problem.html</a>
+<p><a href=https://latacora.micro.blog/2019/07/16/the-pgp-problem.html target=_blank rel="noopener noreferrer">The PGP Problem by Latacora</a>
 <a href=https://web.archive.org/web/20210526211311/https://latacora.micro.blog/2019/07/16/the-pgp-problem.html target=_blank rel="noopener noreferrer">[Archive Link]</a>
 </p>
 </li>
 <li>
-<p><a href=https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html target=_blank rel="noopener noreferrer">https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html</a>
+<p><a href=https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html target=_blank rel="noopener noreferrer">Stop Using Encrypted Email by Latacora</a>
 <a href=https://web.archive.org/web/20210526211254/https://latacora.micro.blog/2020/02/19/stop-using-encrypted.html target=_blank rel="noopener noreferrer">[Archive Link]</a>
 </p>
 </li>
 <li>
-<p><a href=https://blog.hboeck.de/archives/893-efail-Outdated-Crypto-Standards-are-to-blame.html target=_blank rel="noopener noreferrer">https://blog.hboeck.de/archives/893-efail-Outdated-Crypto-Standards-are-to-blame.html</a>
+<p><a href=https://blog.hboeck.de/archives/893-efail-Outdated-Crypto-Standards-are-to-blame.html target=_blank rel="noopener noreferrer">efail: Outdated Crypto Standards are to blame by hanno</a>
 <a href=https://web.archive.org/web/20210127130530/https://blog.hboeck.de/archives/893-efail-Outdated-Crypto-Standards-are-to-blame.html target=_blank rel="noopener noreferrer">[Archive Link]</a>
 </p>
 </li>
 </ul>
-<h3 id=openclosed-source-beliefs>Open/Closed Source beliefs:</h3>
+<h2 id=openclosed-source-beliefs>Open/Closed Source beliefs</h2>
 <ul>
 <li>
 <p><a href=https://web.archive.org/web/20210112132451/https://blog.blueboxsec.org/post/the-illusion-of-open-source/ target=_blank rel="noopener noreferrer">https://web.archive.org/web/20210112132451/https://blog.blueboxsec.org/post/the-illusion-of-open-source/</a>
 (Archive.org since main page has a faulty cert)</p>
 </li>
 <li>
-<p><a href=https://blog.invisiblethings.org/2009/01/26/closed-source-conspiracy.html target=_blank rel="noopener noreferrer">https://blog.invisiblethings.org/2009/01/26/closed-source-conspiracy.html</a>
+<p><a href=https://blog.invisiblethings.org/2009/01/26/closed-source-conspiracy.html target=_blank rel="noopener noreferrer">Closed Source Conspiracy by Joanna Rutkowska</a>
 <a href=https://web.archive.org/web/20180831193438/https://blog.invisiblethings.org/2009/01/26/closed-source-conspiracy.html target=_blank rel="noopener noreferrer">[Archive Link]</a>
 </p>
 <ul>
