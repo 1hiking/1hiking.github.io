@@ -1,4 +1,145 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PGP on Hiking's webpage</title><link>https://1hiking.github.io/tags/pgp/</link><description>Recent content in PGP on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>©2021 hiking.</copyright><lastBuildDate>Mon, 26 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/tags/pgp/index.xml" rel="self" type="application/rss+xml"/><item><title>Security, privacy and cryptography</title><link>https://1hiking.github.io/lists/security_privacy_and_cryptography/</link><pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/security_privacy_and_cryptography/</guid><description>&lt;p>This page collects many URLs which write about various topics about security, privacy, cryptography, etc, or in the same way I do, collect more websites to validate their arguments for or against a technology or an ideology. I have &lt;strong>no affiliation&lt;/strong> with none of these sites and I just maintain it for my own pleasure.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PGP on Hiking's webpage</title><link>https://1hiking.github.io/tags/pgp/</link><description>Recent content in PGP on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>©2021 hiking.</copyright><lastBuildDate>Mon, 26 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/tags/pgp/index.xml" rel="self" type="application/rss+xml"/><item><title>Matrix 101 for your friends</title><link>https://1hiking.github.io/2021/07/matrix-101-for-your-friends/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/07/matrix-101-for-your-friends/</guid><description>&lt;p>In recent years the Matrix protocol, messaging service, decentralised conversation store or whatever you want to call it has been gaining a lot of traction as a replacement in many communities for many reasons, it might be because IRC isn&amp;rsquo;t cutting it or you are using a propietary service.&lt;/p>
+&lt;p>However many technical terms or technologies are not very well understood, for this reason I made this guide in hopes you can pick the service up easily.&lt;/p>
+&lt;h2 id="terminology">Terminology&lt;/h2>
+&lt;h3 id="server-and-guilds">Server and Guilds&lt;/h3>
+&lt;p>For starters, Discord has made a good job on picking up the term &lt;em>Server&lt;/em> and misusing it, when your favorite youtuber Timmy says &lt;em>&amp;ldquo;Join my Discord &lt;strong>Server&lt;/strong>&amp;quot;&lt;/em> you are not really joining his &lt;em>server&lt;/em> but Discord&amp;rsquo;s server which hosts Timmy&amp;rsquo;s guild.&lt;/p>
+&lt;p>Other services might have done the same or different&amp;hellip;&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Wait guild?&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;p>Yes, they are called guilds, even the Discord documentation &lt;a href="https://discord.com/developers/docs/resources/guild"target="_blank" rel="noopener noreferrer">says so&lt;/a>
+.&lt;/p>
+&lt;p>In Matrix, a &lt;strong>room&lt;/strong> is the equivalent to &lt;strong>a single Discord channel&lt;/strong>, and &lt;a href="https://element.io/blog/spaces-the-next-frontier/"target="_blank" rel="noopener noreferrer">currently Spaces&lt;/a>
+could be considered a &amp;ldquo;Guild&amp;rdquo; equivalent, altough it&amp;rsquo;s not exactly the same. I might add that in the past we had &amp;ldquo;communities&amp;rdquo; and &amp;ldquo;badges&amp;rdquo; but you will rarely see them now.&lt;/p>
+&lt;h3 id="homeservers-and-matrix">Homeservers and Matrix&lt;/h3>
+&lt;p>A homeserver is &lt;strong>the server&lt;/strong> of an individual or a collective (organizations and companies are welcome), for this reason &lt;a href="https://matrix.org"target="_blank" rel="noopener noreferrer">https://matrix.org&lt;/a>
+does not control the entirety of the &lt;a href="https://en.wikipedia.org/wiki/Distributed_social_network"target="_blank" rel="noopener noreferrer">Federation&lt;/a>
+&amp;hellip; this is the power of decentralization™ ladies and gentlemen.&lt;/p>
+&lt;p>So when little Timmy says &amp;ldquo;I am on matrix&amp;rdquo;, it could mean:&lt;/p>
+&lt;ul>
+&lt;li>His account is hosted on matrix.org&lt;/li>
+&lt;li>You can contact him on the matrix protocol, but not necesarily on matrix.org.&lt;/li>
+&lt;/ul>
+&lt;p>Get it now?&lt;/p>
+&lt;h3 id="clients-and-element">Clients and Element&lt;/h3>
+&lt;p>The same way Discord has unofficial clients like &lt;a href="https://cancel.fm/ripcord/"target="_blank" rel="noopener noreferrer">Ripcord&lt;/a>
+, Matrix has many clients, the only difference is that Matrix will not ban you and instead encourages the creation of them!.&lt;/p>
+&lt;p>The &amp;ldquo;main&amp;rdquo; client for Matrix is &lt;a href="https://element.io"target="_blank" rel="noopener noreferrer">Element&lt;/a>
+. But hopefully more clients will catch up to feature parity :)&lt;/p>
+&lt;h2 id="homeservers">Homeservers&lt;/h2>
+&lt;h3 id="choosing-your-server">Choosing your server&lt;/h3>
+&lt;p>If you want to play safe pick matrix.org but expect some lag since everyone is using it, if not, my rule of thumb for choosing a homeserver is:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>There is an organization behind it that is able to run it.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Said organization is financially stable.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>There is an upkeep of at least 90%&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&amp;hellip;or your friends Timmy &amp;amp; Bob are shilling X server.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Some examples are kde.org, matrix.org, etc.&lt;/p>
+&lt;p>There is not official list of all the possible servers but there are some &lt;a href="https://www.hello-matrix.net/public_servers.php"target="_blank" rel="noopener noreferrer">unofficial ones&lt;/a>
+.&lt;/p>
+&lt;h3 id="self-hosting">Self-hosting&lt;/h3>
+&lt;p>If you are able to host it yourself, go ahead!&lt;/p>
+&lt;p>You can find all the documentation on &lt;a href="https://matrix.org"target="_blank" rel="noopener noreferrer">https://matrix.org&lt;/a>
+. Or you could &lt;a href="https://element.io/pricing"target="_blank" rel="noopener noreferrer">pay someone to do it for you&lt;/a>
+.&lt;/p>
+&lt;p>There are risks and benefits of self-hosting, it&amp;rsquo;s all up to your ability to read the manuals and your piggy bank.&lt;/p>
+&lt;h3 id="changing-servers">Changing servers&lt;/h3>
+&lt;p>Nomad identities are not implemented yet (I think), this tool is currently what we have &amp;ndash;&amp;gt; &lt;a href="https://ems.element.io/tools/matrix-migration"target="_blank" rel="noopener noreferrer">https://ems.element.io/tools/matrix-migration&lt;/a>
+&lt;/p>
+&lt;h2 id="clients-aka-the-program-you-download-to-connect">Clients (a.k.a. the program you download to connect.)&lt;/h2>
+&lt;blockquote>
+&lt;p>The most feature full client currently it&amp;rsquo;s Element, you can either use the Desktop version or the Web client. The technologies are the same as Discord in regards to using Electron for the desktop client, so if you are not into that, pick other. Some parts of this guide will be focused on Element.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="choosing-your-client">Choosing your client&lt;/h3>
+&lt;p>The best way of picking a client is using the official comparison chart! &amp;ndash;&amp;gt; &lt;a href="https://matrix.org/clients-matrix"target="_blank" rel="noopener noreferrer">https://matrix.org/clients-matrix&lt;/a>
+&lt;/p>
+&lt;blockquote>
+&lt;p>Nooo don&amp;rsquo;t do this, choose for me!&lt;/p>
+&lt;/blockquote>
+&lt;p>Pick one of these:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Element (Electron)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fluffychat (Flutter)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Gomuks (I hope you enjoy the Terminal)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Nheko reborn (Qt)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>What you should look for primarily is that it &lt;strong>supports E2EE, since that&amp;rsquo;s one of the main benefits of Matrix&lt;/strong>&lt;/p>
+&lt;h2 id="encryption-keys">Encryption keys&lt;/h2>
+&lt;p>After you make your account in Element there will be 3~ pop-ups &lt;strong>read them&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>There is one asking for desktop notifications if you are on the web client.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Another asks you if you want to enable telemetry.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The third pop-up asks you to &amp;ldquo;save your keys&amp;rdquo;, or something along these lines. &lt;strong>That one is important&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>You either save your keys into a file safely.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You either copy that key into your clipboard, I recommend that you store it on your password manager if possible&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>I might be slightly wrong on that last part since it has been months after I signed up, but I am sure you will pick it up :)&lt;/p>
+&lt;p>That key will be important to verify your device in other clients you might be logging in, you can also verify with &lt;strong>emojis&lt;/strong>! (I am not kidding).&lt;/p>
+&lt;p>If your key is lost then all your messages are now lost :(, you gotta reset the keys on settings&amp;hellip; and this time be careful&amp;hellip;&lt;/p>
+&lt;h2 id="some-leaving-notes">Some leaving notes&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>On desktop, you can make a &lt;a href="https://github.com/vector-im/element-web/blob/develop/docs/config.md"target="_blank" rel="noopener noreferrer">config.json&lt;/a>
+. Some things it allows you to are:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Enable labs features(&lt;a href="https://katex.org"target="_blank" rel="noopener noreferrer">like Math notation with KaTeX&lt;/a>
+)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/aaronraimist/element-themes"target="_blank" rel="noopener noreferrer">Make or choose a custom theme.&lt;/a>
+&lt;/p>
+&lt;p>If you are on the web version, you will have to use the configuration made by whoever is hosting it. You could also use &lt;a href="https://develop.element.io/"target="_blank" rel="noopener noreferrer">Element develop to obtain labs&lt;/a>
+, instead of using the normal URL &lt;a href="https://element.io"target="_blank" rel="noopener noreferrer">https://element.io&lt;/a>
+.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Element was used to be called Riot.im, but was changed because issues with &lt;em>that&lt;/em> other Riot, and before that it was Vector (I think).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>There are some &amp;ldquo;problematic servers&amp;rdquo;, be wary of joining them since these servers might be not allowed to interact with other servers (&lt;a href="https://matrix.org/docs/guides/moderation#banning-servers-from-rooms-server-acls"target="_blank" rel="noopener noreferrer">called servers ACL&lt;/a>
+).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://matrix.org/bridges/"target="_blank" rel="noopener noreferrer">Some rooms are &amp;ldquo;bridged&amp;rdquo;&lt;/a>
+which means you can interact with people from other platforms!&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Have fun :)&lt;/p>
+&lt;h2 id="didnt-quite-get-it-all-read-the-official-faq">Didn&amp;rsquo;t quite get it all? Read the official FAQ&lt;/h2>
+&lt;p>&lt;a href="https://matrix.org/faq/"target="_blank" rel="noopener noreferrer">https://matrix.org/faq/&lt;/a>
+&lt;/p></description></item><item><title>Security, privacy and cryptography</title><link>https://1hiking.github.io/lists/security_privacy_and_cryptography/</link><pubDate>Mon, 26 Jul 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/security_privacy_and_cryptography/</guid><description>&lt;p>This page collects many URLs which write about various topics about security, privacy, cryptography, etc, or in the same way I do, collect more websites to validate their arguments for or against a technology or an ideology. I have &lt;strong>no affiliation&lt;/strong> with none of these sites and I just maintain it for my own pleasure.&lt;/p>
 &lt;p>Consider making a threat model that fits your needs and not randomly copypasting configuration settings or installing programs for the sake of it. &lt;a href="https://en.wikipedia.org/wiki/Security_theater"target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Security_theater&lt;/a>
 .&lt;/p>
 &lt;p>Please don&amp;rsquo;t randomly post these links to try and win an argument war (&lt;del>like I do huehuehehehuehe&lt;/del>), read the articles and make &lt;strong>your own conclusions&lt;/strong>.&lt;/p>
