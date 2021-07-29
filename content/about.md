@@ -10,7 +10,7 @@ I contribute to community projects like Weblate and OSM.
 Some outstanding programs I use are:
 
 * Scoop as my Windows package manager.
-* VSCodium as my code editor.
+* VSCode as my code editor.
 * IntelliJ as my IDE for Java.
 * Firefox Nightly/Microsoft Edge as my browsers.
 * and... nothing more.
