@@ -52,6 +52,8 @@ Please don't randomly post these links to try and win an argument war (~~like I 
 
 ## Cryptography
 
+> Cryptography is a very overlooked topic when it comes to security, mainly because there is a high barrier of entry for newcomers.
+
 * <https://cr.yp.to/> [[Archive Link]](https://web.archive.org/web/20210508215838/https://cr.yp.to/)
 
 * [OpenSSL wiki: Elliptic Curve Cryptography](https://wiki.openssl.org/index.php/Elliptic_Curve_Cryptography)
@@ -60,11 +62,15 @@ Please don't randomly post these links to try and win an argument war (~~like I 
 
 ## Miscellaneous
 
+> Some webpages which I recommend reading but don't have a dedicated section (yet).
+
 * [Security & Privacy Evaluations by madaidan](https://madaidans-insecurities.github.io/) [[Archive Link]](https://web.archive.org/web/20210615142831/https://madaidans-insecurities.github.io/)
 
 * [The Six Dumbest Ideas in Computer Security](https://www.ranum.com/security/computer_security/editorials/dumb/) [[Archive Link]](https://web.archive.org/web/20210612220427/http://www.ranum.com/security/computer_security/editorials/dumb/)
 
 ## PGP, Email and the family
+
+> I consider Pretty Good Privacy to be very archaic technology that has not greatly adapted to modern needs and thus it should be avoided when possible, here are many views from professionals and researchers.
 
 * [Let PGP Die: Why We Need a New Standard for Email Encryption by Sven Taylor](https://restoreprivacy.com/let-pgp-die/) [[Archive Link]](https://web.archive.org/web/20210719175620/https://restoreprivacy.com/let-pgp-die/)
 
@@ -77,6 +83,8 @@ Please don't randomly post these links to try and win an argument war (~~like I 
 * [efail: Outdated Crypto Standards are to blame by hanno](https://blog.hboeck.de/archives/893-efail-Outdated-Crypto-Standards-are-to-blame.html) [[Archive Link]](https://web.archive.org/web/20210127130530/https://blog.hboeck.de/archives/893-efail-Outdated-Crypto-Standards-are-to-blame.html)
 
 ## Open/Closed Source beliefs
+
+> Because there are many programs that are secure _and_ open source, many people make the correlation that all FOSS programs are secure by default, which is untrue.
 
 * <https://web.archive.org/web/20210112132451/https://blog.blueboxsec.org/post/the-illusion-of-open-source/> (Archive.org since main page has a faulty cert)
 
