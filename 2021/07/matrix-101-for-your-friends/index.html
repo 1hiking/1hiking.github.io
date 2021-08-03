@@ -4,90 +4,96 @@
 <meta name=twitter:title content="Matrix 101 for your friends"><body><section id=header>
 <div class="header wrap"><span class="header left-side"><a class="site home" href=../../../><img class="site logo" src=../../../img/PolarBear.png alt><span class="site name">Hiking's webpage</span></a></span>
 <span class="header right-side"><div class="nav wrap"><nav class=nav><a class="nav item" href=../../../categories/>Categories</a><a class="nav item" href=../../../tags/>Tags</a><a class="nav item" href=../../../about/>About</a><a class="nav item" href=../../../lists/>Lists</a></nav></div></span></div><div class="site slogan"><span class=title>Look at him go!</span></div></section><section id=content><div class=article-container><section class="article header">
-<h1 class="article title">Matrix 101 for your friends</h1><p class="article date">28 of July of 2021</p></section><article class="article markdown-body"><p>In recent years the Matrix protocol, messaging service, decentralised conversation store or whatever you want to call it has been gaining a lot of traction as a replacement in many communities for many reasons, it might be because IRC isn&rsquo;t cutting it or you are using a propietary service.</p>
-<p>However many technical terms or technologies are not very well understood, for this reason I made this guide in hopes you can pick the service up easily.</p>
+<h1 class="article title">Matrix 101 for your friends</h1><p class="article date">28 of July of 2021<span class=lastmod> • edited 02 of August of 2021</span></p></section><article class="article markdown-body"><p>In recent years the Matrix protocol, messaging service, decentralised conversation store or whatever you want to call it has been gaining a lot of traction as a replacement in many communities for many reasons, it might be because IRC isn&rsquo;t cutting it or you are using a service which doesn&rsquo;t respect your privacy or has horrible security.</p>
+<p>However many technical terms or user choices are hard to understand for newcomers, because of this I made this guide (is it one? 🤔) in hopes you can pick the service up easily.</p>
 <h2 id=terminology>Terminology</h2>
 <h3 id=server-and-guilds>Server and Guilds</h3>
 <p>For starters, Discord has made a good job on picking up the term <em>Server</em> and misusing it, when your favorite youtuber Timmy says <em>&ldquo;Join my Discord <strong>Server</strong>"</em> you are not really joining his <em>server</em> but Discord&rsquo;s server which hosts Timmy&rsquo;s guild.</p>
 <p>Other services might have done the same or different&mldr;</p>
 <blockquote>
-<p><strong>Wait guild?</strong></p>
+<p><strong>What do you mean by guild?</strong></p>
 </blockquote>
-<p>Yes, they are called guilds, even the Discord documentation <a href=https://discord.com/developers/docs/resources/guild target=_blank rel="noopener noreferrer">says so</a>
+<p>Yes, the correct term would be guilds, even the Discord developer documentation <a href=https://discord.com/developers/docs/resources/guild target=_blank rel="noopener noreferrer">says so</a>
 .</p>
-<p>In Matrix, a <strong>room</strong> is the equivalent to <strong>a single Discord channel</strong>, and <a href=https://element.io/blog/spaces-the-next-frontier/ target=_blank rel="noopener noreferrer">currently Spaces</a>
-could be considered a &ldquo;Guild&rdquo; equivalent, altough it&rsquo;s not exactly the same. I might add that in the past we had &ldquo;communities&rdquo; and &ldquo;badges&rdquo; but you will rarely see them now.</p>
-<h3 id=homeservers-and-matrix>Homeservers and Matrix</h3>
-<p>A homeserver is <strong>the server</strong> of an individual or a collective (organizations and companies are welcome), for this reason <a href=https://matrix.org target=_blank rel="noopener noreferrer">https://matrix.org</a>
-does not control the entirety of the <a href=https://en.wikipedia.org/wiki/Distributed_social_network target=_blank rel="noopener noreferrer">Federation</a>
-&mldr; this is the power of decentralization™ ladies and gentlemen.</p>
-<p>So when little Timmy says &ldquo;I am on matrix&rdquo;, it could mean:</p>
+<p>In Matrix, a <strong>room</strong> could be considered the equivalent of <strong>a single Discord channel</strong>, and <a href=https://element.io/blog/spaces-the-next-frontier/ target=_blank rel="noopener noreferrer">currently Spaces</a>
+could be considered a &ldquo;Guild&rdquo; equivalent, altough it&rsquo;s not exactly the same</p>
+<p><del>I might add that in the past we had <a href=../../../posts/matrix101/oldmeme.png>&ldquo;communities&rdquo; and &ldquo;badges&rdquo;</a>
+but you will rarely see them now.</del></p>
+<h3 id=homeservers-and-their-relationship-with-matrix>Homeservers and their relationship with Matrix</h3>
+<p>Because matrix is <a href=https://en.wikipedia.org/wiki/Distributed_social_network target=_blank rel="noopener noreferrer">federated</a>
+and not centralized, you will be presented with the term of homeservers.</p>
+<p>Homeservers are <strong>physical servers</strong> controlled by an individual or a collective (organizations, companies, governments, etc), this means that nobody will ever control 100% of the federation!</p>
+<p>Some <em>public</em> homeservers are: the <a href=https://community.kde.org/Matrix target=_blank rel="noopener noreferrer">KDE server</a>
+, <a href=https://matrix.org target=_blank rel="noopener noreferrer">the Matrix server</a>
+, <a href=https://envs.net/ target=_blank rel="noopener noreferrer">envs.net server</a>
+, etc.</p>
+<p>Now that you had a quick overview of what are homeserver you will understand that when your friend Tim says &ldquo;I am on matrix&rdquo;, it could mean:</p>
 <ul>
 <li>His account is hosted on matrix.org</li>
 <li>You can contact him on the matrix protocol, but not necesarily on matrix.org.</li>
 </ul>
-<p>Get it now?</p>
-<h3 id=clients-and-element>Clients and Element</h3>
-<p>The same way Discord has unofficial clients like <a href=https://cancel.fm/ripcord/ target=_blank rel="noopener noreferrer">Ripcord</a>
-, Matrix has many clients, the only difference is that Matrix will not ban you and instead encourages the creation of them!.</p>
-<p>The &ldquo;main&rdquo; client for Matrix is <a href=https://element.io target=_blank rel="noopener noreferrer">Element</a>
-. But hopefully more clients will catch up to feature parity :)</p>
+<h3 id=clients-and-their-relationship-with-element>Clients and their relationship with Element</h3>
+<p>The same way Discord has <strong>unofficial</strong> clients (i.e the program you download to connect to their server) like <a href=https://cancel.fm/ripcord/ target=_blank rel="noopener noreferrer">Ripcord</a>
+, there are many clients to connect to Matrix.</p>
+<p>However because Matrix is an open standard, <a href="https://old.reddit.com/r/discordapp/comments/8tukek/ripcord_unofficial_native_discord_client_no/e1toruy/?context=8&depth=9" target=_blank rel="noopener noreferrer">nobody can&rsquo;t ban you</a>
+and actually they encourage their creation, here is for example one table <a href=https://matrix.org/clients/ target=_blank rel="noopener noreferrer">showcasing some of them</a>
+.</p>
+<p>You might hear about the Element client, many people view it as the &ldquo;official&rdquo; client since quite a few matrix developers also work on that client and because it&rsquo;s the client with the most features currently. It is quite mature and it <em>just werks</em>.</p>
 <h2 id=homeservers>Homeservers</h2>
-<h3 id=choosing-your-server>Choosing your server</h3>
-<p>If you want to play safe pick matrix.org but expect some lag since everyone is using it, if not, my rule of thumb for choosing a homeserver is:</p>
+<h3 id=what-server-to-pick>What server to pick</h3>
+<p>I recommend for a new user to pick <a href=https://matrix.org target=_blank rel="noopener noreferrer">matrix.org</a>
+, the only downside is probably lag since everyone is using it, if you want to change a homeserver (and also offload some of the bandwith from them haha) my rules of thumb for choosing are:</p>
 <ul>
 <li>
-<p>There is an organization behind it that is able to run it.</p>
+<p>There is an organization that is capable to host it and maintain it (servers don&rsquo;t grow in trees :P)</p>
 </li>
 <li>
-<p>Said organization is financially stable.</p>
-</li>
-<li>
-<p>There is an upkeep of at least 90%</p>
+<p>They have a good upkeep.</p>
 </li>
 <li>
 <p>&mldr;or your friends Timmy & Bob are shilling X server.</p>
 </li>
 </ul>
-<p>Some examples are kde.org, matrix.org, etc.</p>
-<p>There is not official list of all the possible servers but there are some <a href=https://www.hello-matrix.net/public_servers.php target=_blank rel="noopener noreferrer">unofficial ones</a>
+<p>There is not an official list of all the possible servers (there are hundreds!) but there are some <a href=https://www.hello-matrix.net/public_servers.php target=_blank rel="noopener noreferrer">unofficial ones</a>
 .</p>
 <h3 id=self-hosting>Self-hosting</h3>
-<p>If you are able to host it yourself, go ahead!</p>
-<p>You can find all the documentation on <a href=https://matrix.org target=_blank rel="noopener noreferrer">https://matrix.org</a>
-. Or you could <a href=https://element.io/pricing target=_blank rel="noopener noreferrer">pay someone to do it for you</a>
-.</p>
-<p>There are risks and benefits of self-hosting, it&rsquo;s all up to your ability to read the manuals and your piggy bank.</p>
-<h3 id=changing-servers>Changing servers</h3>
-<p>Nomad identities are not implemented yet (I think), this tool is currently what we have &ndash;> <a href=https://ems.element.io/tools/matrix-migration target=_blank rel="noopener noreferrer">https://ems.element.io/tools/matrix-migration</a>
-</p>
-<h2 id=clients-aka-the-program-you-download-to-connect>Clients (a.k.a. the program you download to connect.)</h2>
 <blockquote>
-<p>The most feature full client currently it&rsquo;s Element, you can either use the Desktop version or the Web client. The technologies are the same as Discord in regards to using Electron for the desktop client, so if you are not into that, pick other. Some parts of this guide will be focused on Element.</p>
+<p>What is selfhosting? Answer: <a href=https://wikipedia.org/wiki/Self-hosting_%28web_services%29 target=_blank rel="noopener noreferrer">https://wikipedia.org/wiki/Self-hosting_(web_services)</a>
+</p>
 </blockquote>
-<h3 id=choosing-your-client>Choosing your client</h3>
+<p>If you are able to host it yourself, go ahead! But you should also consider the risks.</p>
+<p>You can find all the <a href=https://matrix.org/docs/guides/installing-synapse target=_blank rel="noopener noreferrer">documentation on their webpage</a>
+. Or you could <a href=https://element.io/pricing target=_blank rel="noopener noreferrer">pay someone to do it for you</a>
+. You might also want to use a VPS, but that&rsquo;s out of scope for this section.</p>
+<h3 id=migrating-from-your-server>Migrating from your server</h3>
+<p>Nomad identities are not implemented yet (I think), this tool is currently what we have &ndash;> <a href=https://ems.element.io/tools/matrix-migration target=_blank rel="noopener noreferrer">https://ems.element.io/tools/matrix-migration</a>
+.</p>
+<h2 id=clients>Clients</h2>
+<p>As I said, Element is the most feature complete client so you will probably want to start with this one. However you might not like it for X or Y, so you can choose another client!</p>
+<h3 id=alternative-clients>Alternative clients</h3>
 <p>The best way of picking a client is using the official comparison chart! &ndash;> <a href=https://matrix.org/clients-matrix target=_blank rel="noopener noreferrer">https://matrix.org/clients-matrix</a>
 </p>
-<blockquote>
-<p>Nooo don&rsquo;t do this, choose for me!</p>
-</blockquote>
-<p>Pick one of these:</p>
+<p>If you are looking for my opinion, here is a quick overview of the most popular ones:</p>
 <ul>
 <li>
-<p>Element (Electron)</p>
+<p>Fluffychat:</p>
+<p>Good on Android, very laggy on desktop. The UX feels as <em>glossy</em> as in Element, it supports a &ldquo;custom&rdquo; type of emojis
+that no other client implement (even Element, which is weird).</p>
 </li>
 <li>
-<p>Fluffychat (Flutter)</p>
+<p>Gomuks:</p>
+<p>This is a Terminal client (i.e Windows Terminal, Alacritty, etc), so if you are not it cya!. It supports ASCII image rendering and you can download them with shortcuts if you were curious about that.</p>
 </li>
 <li>
-<p>Gomuks (I hope you enjoy the Terminal)</p>
-</li>
-<li>
-<p>Nheko reborn (Qt)</p>
+<p>Nheko reborn:</p>
+<p>Not a lot to say about this one, but that it&rsquo;s written in Qt at contrast Element is made on Electron, which some groups dislike.</p>
 </li>
 </ul>
-<p>What you should look for primarily is that it <strong>supports E2EE, since that&rsquo;s one of the main benefits of Matrix</strong></p>
+<p>What you should look for primarily is that it <strong>supports E2EE</strong>, since that&rsquo;s one of the main benefits of Matrix</p>
 <h2 id=encryption-keys>Encryption keys</h2>
+<blockquote>
+<p>Oh here we go again.</p>
+</blockquote>
 <p>After you make your account in Element there will be 3~ pop-ups <strong>read them</strong>:</p>
 <ul>
 <li>
@@ -108,9 +114,9 @@ does not control the entirety of the <a href=https://en.wikipedia.org/wiki/Distr
 </ul>
 </li>
 </ul>
-<p>I might be slightly wrong on that last part since it has been months after I signed up, but I am sure you will pick it up :)</p>
-<p>That key will be important to verify your device in other clients you might be logging in, you can also verify with <strong>emojis</strong>! (I am not kidding).</p>
-<p>If your key is lost then all your messages are now lost :(, you gotta reset the keys on settings&mldr; and this time be careful&mldr;</p>
+<p>I might be slightly wrong on that last part since it has been months after I signed up, but I am sure you will pick it up!</p>
+<p>That key will be important to verify your device in other clients you might be logging in, some clients allow you to verify with Emojis (😎😎😎) but if they don&rsquo;t support it you will have to import that key.</p>
+<p>If your key is lost then all your messages are now lost 😢, you gotta reset the keys on settings&mldr; and this time be careful&mldr;</p>
 <h2 id=some-leaving-notes>Some leaving notes</h2>
 <ul>
 <li>
@@ -131,7 +137,7 @@ does not control the entirety of the <a href=https://en.wikipedia.org/wiki/Distr
 </ul>
 </li>
 <li>
-<p>Element was used to be called Riot.im, but was changed because issues with <em>that</em> other Riot, and before that it was Vector (I think).</p>
+<p>Element was used to be called Riot.im, but was changed because issues with the game company&mldr; and also the real riots 😳.</p>
 </li>
 <li>
 <p>There are some &ldquo;problematic servers&rdquo;, be wary of joining them since these servers might be not allowed to interact with other servers (<a href=https://matrix.org/docs/guides/moderation#banning-servers-from-rooms-server-acls target=_blank rel="noopener noreferrer">called servers ACL</a>
@@ -139,7 +145,8 @@ does not control the entirety of the <a href=https://en.wikipedia.org/wiki/Distr
 </li>
 <li>
 <p><a href=https://matrix.org/bridges/ target=_blank rel="noopener noreferrer">Some rooms are &ldquo;bridged&rdquo;</a>
-which means you can interact with people from other platforms!</p>
+which means you can interact with people from other platforms!
+a bridged user normally will have a weird MXID such as @_discord_563563485638563:example.com which you can infer it&rsquo;s a Discord.</p>
 </li>
 </ul>
 <p>Have fun :)</p>

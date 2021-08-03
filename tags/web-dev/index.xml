@@ -1,87 +1,93 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web-dev on Hiking's webpage</title><link>https://1hiking.github.io/tags/web-dev/</link><description>Recent content in Web-dev on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>©2021 hiking.</copyright><lastBuildDate>Mon, 26 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/tags/web-dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Matrix 101 for your friends</title><link>https://1hiking.github.io/2021/07/matrix-101-for-your-friends/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/07/matrix-101-for-your-friends/</guid><description>&lt;p>In recent years the Matrix protocol, messaging service, decentralised conversation store or whatever you want to call it has been gaining a lot of traction as a replacement in many communities for many reasons, it might be because IRC isn&amp;rsquo;t cutting it or you are using a propietary service.&lt;/p>
-&lt;p>However many technical terms or technologies are not very well understood, for this reason I made this guide in hopes you can pick the service up easily.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web-dev on Hiking's webpage</title><link>https://1hiking.github.io/tags/web-dev/</link><description>Recent content in Web-dev on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>©2021 hiking.</copyright><lastBuildDate>Mon, 26 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/tags/web-dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Matrix 101 for your friends</title><link>https://1hiking.github.io/2021/07/matrix-101-for-your-friends/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/07/matrix-101-for-your-friends/</guid><description>&lt;p>In recent years the Matrix protocol, messaging service, decentralised conversation store or whatever you want to call it has been gaining a lot of traction as a replacement in many communities for many reasons, it might be because IRC isn&amp;rsquo;t cutting it or you are using a service which doesn&amp;rsquo;t respect your privacy or has horrible security.&lt;/p>
+&lt;p>However many technical terms or user choices are hard to understand for newcomers, because of this I made this guide (is it one? 🤔) in hopes you can pick the service up easily.&lt;/p>
 &lt;h2 id="terminology">Terminology&lt;/h2>
 &lt;h3 id="server-and-guilds">Server and Guilds&lt;/h3>
 &lt;p>For starters, Discord has made a good job on picking up the term &lt;em>Server&lt;/em> and misusing it, when your favorite youtuber Timmy says &lt;em>&amp;ldquo;Join my Discord &lt;strong>Server&lt;/strong>&amp;quot;&lt;/em> you are not really joining his &lt;em>server&lt;/em> but Discord&amp;rsquo;s server which hosts Timmy&amp;rsquo;s guild.&lt;/p>
 &lt;p>Other services might have done the same or different&amp;hellip;&lt;/p>
 &lt;blockquote>
-&lt;p>&lt;strong>Wait guild?&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>What do you mean by guild?&lt;/strong>&lt;/p>
 &lt;/blockquote>
-&lt;p>Yes, they are called guilds, even the Discord documentation &lt;a href="https://discord.com/developers/docs/resources/guild"target="_blank" rel="noopener noreferrer">says so&lt;/a>
+&lt;p>Yes, the correct term would be guilds, even the Discord developer documentation &lt;a href="https://discord.com/developers/docs/resources/guild"target="_blank" rel="noopener noreferrer">says so&lt;/a>
 .&lt;/p>
-&lt;p>In Matrix, a &lt;strong>room&lt;/strong> is the equivalent to &lt;strong>a single Discord channel&lt;/strong>, and &lt;a href="https://element.io/blog/spaces-the-next-frontier/"target="_blank" rel="noopener noreferrer">currently Spaces&lt;/a>
-could be considered a &amp;ldquo;Guild&amp;rdquo; equivalent, altough it&amp;rsquo;s not exactly the same. I might add that in the past we had &amp;ldquo;communities&amp;rdquo; and &amp;ldquo;badges&amp;rdquo; but you will rarely see them now.&lt;/p>
-&lt;h3 id="homeservers-and-matrix">Homeservers and Matrix&lt;/h3>
-&lt;p>A homeserver is &lt;strong>the server&lt;/strong> of an individual or a collective (organizations and companies are welcome), for this reason &lt;a href="https://matrix.org"target="_blank" rel="noopener noreferrer">https://matrix.org&lt;/a>
-does not control the entirety of the &lt;a href="https://en.wikipedia.org/wiki/Distributed_social_network"target="_blank" rel="noopener noreferrer">Federation&lt;/a>
-&amp;hellip; this is the power of decentralization™ ladies and gentlemen.&lt;/p>
-&lt;p>So when little Timmy says &amp;ldquo;I am on matrix&amp;rdquo;, it could mean:&lt;/p>
+&lt;p>In Matrix, a &lt;strong>room&lt;/strong> could be considered the equivalent of &lt;strong>a single Discord channel&lt;/strong>, and &lt;a href="https://element.io/blog/spaces-the-next-frontier/"target="_blank" rel="noopener noreferrer">currently Spaces&lt;/a>
+could be considered a &amp;ldquo;Guild&amp;rdquo; equivalent, altough it&amp;rsquo;s not exactly the same&lt;/p>
+&lt;p>&lt;del>I might add that in the past we had &lt;a href="../../posts/matrix101/oldmeme.png">&amp;ldquo;communities&amp;rdquo; and &amp;ldquo;badges&amp;rdquo;&lt;/a>
+but you will rarely see them now.&lt;/del>&lt;/p>
+&lt;h3 id="homeservers-and-their-relationship-with-matrix">Homeservers and their relationship with Matrix&lt;/h3>
+&lt;p>Because matrix is &lt;a href="https://en.wikipedia.org/wiki/Distributed_social_network"target="_blank" rel="noopener noreferrer">federated&lt;/a>
+and not centralized, you will be presented with the term of homeservers.&lt;/p>
+&lt;p>Homeservers are &lt;strong>physical servers&lt;/strong> controlled by an individual or a collective (organizations, companies, governments, etc), this means that nobody will ever control 100% of the federation!&lt;/p>
+&lt;p>Some &lt;em>public&lt;/em> homeservers are: the &lt;a href="https://community.kde.org/Matrix"target="_blank" rel="noopener noreferrer">KDE server&lt;/a>
+, &lt;a href="https://matrix.org"target="_blank" rel="noopener noreferrer">the Matrix server&lt;/a>
+, &lt;a href="https://envs.net/"target="_blank" rel="noopener noreferrer">envs.net server&lt;/a>
+, etc.&lt;/p>
+&lt;p>Now that you had a quick overview of what are homeserver you will understand that when your friend Tim says &amp;ldquo;I am on matrix&amp;rdquo;, it could mean:&lt;/p>
 &lt;ul>
 &lt;li>His account is hosted on matrix.org&lt;/li>
 &lt;li>You can contact him on the matrix protocol, but not necesarily on matrix.org.&lt;/li>
 &lt;/ul>
-&lt;p>Get it now?&lt;/p>
-&lt;h3 id="clients-and-element">Clients and Element&lt;/h3>
-&lt;p>The same way Discord has unofficial clients like &lt;a href="https://cancel.fm/ripcord/"target="_blank" rel="noopener noreferrer">Ripcord&lt;/a>
-, Matrix has many clients, the only difference is that Matrix will not ban you and instead encourages the creation of them!.&lt;/p>
-&lt;p>The &amp;ldquo;main&amp;rdquo; client for Matrix is &lt;a href="https://element.io"target="_blank" rel="noopener noreferrer">Element&lt;/a>
-. But hopefully more clients will catch up to feature parity :)&lt;/p>
+&lt;h3 id="clients-and-their-relationship-with-element">Clients and their relationship with Element&lt;/h3>
+&lt;p>The same way Discord has &lt;strong>unofficial&lt;/strong> clients (i.e the program you download to connect to their server) like &lt;a href="https://cancel.fm/ripcord/"target="_blank" rel="noopener noreferrer">Ripcord&lt;/a>
+, there are many clients to connect to Matrix.&lt;/p>
+&lt;p>However because Matrix is an open standard, &lt;a href="https://old.reddit.com/r/discordapp/comments/8tukek/ripcord_unofficial_native_discord_client_no/e1toruy/?context=8&amp;amp;depth=9"target="_blank" rel="noopener noreferrer">nobody can&amp;rsquo;t ban you&lt;/a>
+and actually they encourage their creation, here is for example one table &lt;a href="https://matrix.org/clients/"target="_blank" rel="noopener noreferrer">showcasing some of them&lt;/a>
+.&lt;/p>
+&lt;p>You might hear about the Element client, many people view it as the &amp;ldquo;official&amp;rdquo; client since quite a few matrix developers also work on that client and because it&amp;rsquo;s the client with the most features currently. It is quite mature and it &lt;em>just werks&lt;/em>.&lt;/p>
 &lt;h2 id="homeservers">Homeservers&lt;/h2>
-&lt;h3 id="choosing-your-server">Choosing your server&lt;/h3>
-&lt;p>If you want to play safe pick matrix.org but expect some lag since everyone is using it, if not, my rule of thumb for choosing a homeserver is:&lt;/p>
+&lt;h3 id="what-server-to-pick">What server to pick&lt;/h3>
+&lt;p>I recommend for a new user to pick &lt;a href="https://matrix.org"target="_blank" rel="noopener noreferrer">matrix.org&lt;/a>
+, the only downside is probably lag since everyone is using it, if you want to change a homeserver (and also offload some of the bandwith from them haha) my rules of thumb for choosing are:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>There is an organization behind it that is able to run it.&lt;/p>
+&lt;p>There is an organization that is capable to host it and maintain it (servers don&amp;rsquo;t grow in trees :P)&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Said organization is financially stable.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>There is an upkeep of at least 90%&lt;/p>
+&lt;p>They have a good upkeep.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&amp;hellip;or your friends Timmy &amp;amp; Bob are shilling X server.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>Some examples are kde.org, matrix.org, etc.&lt;/p>
-&lt;p>There is not official list of all the possible servers but there are some &lt;a href="https://www.hello-matrix.net/public_servers.php"target="_blank" rel="noopener noreferrer">unofficial ones&lt;/a>
+&lt;p>There is not an official list of all the possible servers (there are hundreds!) but there are some &lt;a href="https://www.hello-matrix.net/public_servers.php"target="_blank" rel="noopener noreferrer">unofficial ones&lt;/a>
 .&lt;/p>
 &lt;h3 id="self-hosting">Self-hosting&lt;/h3>
-&lt;p>If you are able to host it yourself, go ahead!&lt;/p>
-&lt;p>You can find all the documentation on &lt;a href="https://matrix.org"target="_blank" rel="noopener noreferrer">https://matrix.org&lt;/a>
-. Or you could &lt;a href="https://element.io/pricing"target="_blank" rel="noopener noreferrer">pay someone to do it for you&lt;/a>
-.&lt;/p>
-&lt;p>There are risks and benefits of self-hosting, it&amp;rsquo;s all up to your ability to read the manuals and your piggy bank.&lt;/p>
-&lt;h3 id="changing-servers">Changing servers&lt;/h3>
-&lt;p>Nomad identities are not implemented yet (I think), this tool is currently what we have &amp;ndash;&amp;gt; &lt;a href="https://ems.element.io/tools/matrix-migration"target="_blank" rel="noopener noreferrer">https://ems.element.io/tools/matrix-migration&lt;/a>
-&lt;/p>
-&lt;h2 id="clients-aka-the-program-you-download-to-connect">Clients (a.k.a. the program you download to connect.)&lt;/h2>
 &lt;blockquote>
-&lt;p>The most feature full client currently it&amp;rsquo;s Element, you can either use the Desktop version or the Web client. The technologies are the same as Discord in regards to using Electron for the desktop client, so if you are not into that, pick other. Some parts of this guide will be focused on Element.&lt;/p>
+&lt;p>What is selfhosting? Answer: &lt;a href="https://wikipedia.org/wiki/Self-hosting_%28web_services%29"target="_blank" rel="noopener noreferrer">https://wikipedia.org/wiki/Self-hosting_(web_services)&lt;/a>
+&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="choosing-your-client">Choosing your client&lt;/h3>
+&lt;p>If you are able to host it yourself, go ahead! But you should also consider the risks.&lt;/p>
+&lt;p>You can find all the &lt;a href="https://matrix.org/docs/guides/installing-synapse"target="_blank" rel="noopener noreferrer">documentation on their webpage&lt;/a>
+. Or you could &lt;a href="https://element.io/pricing"target="_blank" rel="noopener noreferrer">pay someone to do it for you&lt;/a>
+. You might also want to use a VPS, but that&amp;rsquo;s out of scope for this section.&lt;/p>
+&lt;h3 id="migrating-from-your-server">Migrating from your server&lt;/h3>
+&lt;p>Nomad identities are not implemented yet (I think), this tool is currently what we have &amp;ndash;&amp;gt; &lt;a href="https://ems.element.io/tools/matrix-migration"target="_blank" rel="noopener noreferrer">https://ems.element.io/tools/matrix-migration&lt;/a>
+.&lt;/p>
+&lt;h2 id="clients">Clients&lt;/h2>
+&lt;p>As I said, Element is the most feature complete client so you will probably want to start with this one. However you might not like it for X or Y, so you can choose another client!&lt;/p>
+&lt;h3 id="alternative-clients">Alternative clients&lt;/h3>
 &lt;p>The best way of picking a client is using the official comparison chart! &amp;ndash;&amp;gt; &lt;a href="https://matrix.org/clients-matrix"target="_blank" rel="noopener noreferrer">https://matrix.org/clients-matrix&lt;/a>
 &lt;/p>
-&lt;blockquote>
-&lt;p>Nooo don&amp;rsquo;t do this, choose for me!&lt;/p>
-&lt;/blockquote>
-&lt;p>Pick one of these:&lt;/p>
+&lt;p>If you are looking for my opinion, here is a quick overview of the most popular ones:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>Element (Electron)&lt;/p>
+&lt;p>Fluffychat:&lt;/p>
+&lt;p>Good on Android, very laggy on desktop. The UX feels as &lt;em>glossy&lt;/em> as in Element, it supports a &amp;ldquo;custom&amp;rdquo; type of emojis
+that no other client implement (even Element, which is weird).&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Fluffychat (Flutter)&lt;/p>
+&lt;p>Gomuks:&lt;/p>
+&lt;p>This is a Terminal client (i.e Windows Terminal, Alacritty, etc), so if you are not it cya!. It supports ASCII image rendering and you can download them with shortcuts if you were curious about that.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Gomuks (I hope you enjoy the Terminal)&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Nheko reborn (Qt)&lt;/p>
+&lt;p>Nheko reborn:&lt;/p>
+&lt;p>Not a lot to say about this one, but that it&amp;rsquo;s written in Qt at contrast Element is made on Electron, which some groups dislike.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;p>What you should look for primarily is that it &lt;strong>supports E2EE, since that&amp;rsquo;s one of the main benefits of Matrix&lt;/strong>&lt;/p>
+&lt;p>What you should look for primarily is that it &lt;strong>supports E2EE&lt;/strong>, since that&amp;rsquo;s one of the main benefits of Matrix&lt;/p>
 &lt;h2 id="encryption-keys">Encryption keys&lt;/h2>
+&lt;blockquote>
+&lt;p>Oh here we go again.&lt;/p>
+&lt;/blockquote>
 &lt;p>After you make your account in Element there will be 3~ pop-ups &lt;strong>read them&lt;/strong>:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -102,9 +108,9 @@ does not control the entirety of the &lt;a href="https://en.wikipedia.org/wiki/D
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>I might be slightly wrong on that last part since it has been months after I signed up, but I am sure you will pick it up :)&lt;/p>
-&lt;p>That key will be important to verify your device in other clients you might be logging in, you can also verify with &lt;strong>emojis&lt;/strong>! (I am not kidding).&lt;/p>
-&lt;p>If your key is lost then all your messages are now lost :(, you gotta reset the keys on settings&amp;hellip; and this time be careful&amp;hellip;&lt;/p>
+&lt;p>I might be slightly wrong on that last part since it has been months after I signed up, but I am sure you will pick it up!&lt;/p>
+&lt;p>That key will be important to verify your device in other clients you might be logging in, some clients allow you to verify with Emojis (😎😎😎) but if they don&amp;rsquo;t support it you will have to import that key.&lt;/p>
+&lt;p>If your key is lost then all your messages are now lost 😢, you gotta reset the keys on settings&amp;hellip; and this time be careful&amp;hellip;&lt;/p>
 &lt;h2 id="some-leaving-notes">Some leaving notes&lt;/h2>
 &lt;ul>
 &lt;li>
@@ -125,7 +131,7 @@ does not control the entirety of the &lt;a href="https://en.wikipedia.org/wiki/D
 &lt;/ul>
 &lt;/li>
 &lt;li>
-&lt;p>Element was used to be called Riot.im, but was changed because issues with &lt;em>that&lt;/em> other Riot, and before that it was Vector (I think).&lt;/p>
+&lt;p>Element was used to be called Riot.im, but was changed because issues with the game company&amp;hellip; and also the real riots 😳.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>There are some &amp;ldquo;problematic servers&amp;rdquo;, be wary of joining them since these servers might be not allowed to interact with other servers (&lt;a href="https://matrix.org/docs/guides/moderation#banning-servers-from-rooms-server-acls"target="_blank" rel="noopener noreferrer">called servers ACL&lt;/a>
@@ -133,7 +139,8 @@ does not control the entirety of the &lt;a href="https://en.wikipedia.org/wiki/D
 &lt;/li>
 &lt;li>
 &lt;p>&lt;a href="https://matrix.org/bridges/"target="_blank" rel="noopener noreferrer">Some rooms are &amp;ldquo;bridged&amp;rdquo;&lt;/a>
-which means you can interact with people from other platforms!&lt;/p>
+which means you can interact with people from other platforms!
+a bridged user normally will have a weird MXID such as @_discord_563563485638563:example.com which you can infer it&amp;rsquo;s a Discord.&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;p>Have fun :)&lt;/p>
@@ -273,7 +280,133 @@ which means you can interact with people from other platforms!&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Hiking's curated list of F-droid apps</title><link>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</link><pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</guid><description>&lt;p>A curated list of some worth checking applications in the F-droid repo (and others too), short descriptions and notes are listed below.&lt;/p>
+&lt;/ul></description></item><item><title>A comparison of FOSS Android keyboards</title><link>https://1hiking.github.io/2021/06/a-comparison-of-foss-android-keyboards/</link><pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/06/a-comparison-of-foss-android-keyboards/</guid><description>&lt;p>It&amp;rsquo;s common for many Android enthusiasts to customize their devices and while Swiftkey and GBoard are good alternatives, the companies behind them don&amp;rsquo;t have a good privacy record , this turns many people for other alternatives, many which are found in the Play-Store and F-droid repositories, I will compare them and give my opinion over which one is &amp;ldquo;the best&amp;rdquo;.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>AnySoftKeyboard &lt;img src="../../posts/fosskeybaords/AnySoftKeyboard.png"
+alt="AnySoftKeyboard logo"/>&lt;/p>
+&lt;p>This one is the most &amp;ldquo;feature-full&amp;rdquo; of all the ones I have found, since it&amp;rsquo;s the most customizable&amp;hellip; at least for now&amp;hellip;&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>You can change the bottom and top row based on a list of pre-sets.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>There are over 17 skins loaded, however some of them are very meh&amp;hellip; looking at you &amp;ldquo;Plain light&amp;rdquo; theme, and others are just slight modifications.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>It also has glide typing which has been on beta for quite a while and I would say it&amp;rsquo;s better than Floris right now, there is also gestures and they have good choices.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>One dislike I have over this Keyboard is that if you want a new language package, you have to install an &amp;ldquo;app&amp;rdquo; instead of using the System language configuration for this.
+If your language is not in the repo, then pick something else. I also cannot find documentation for making new layouts :/.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>As a note: on F-droid their name and icon every few days, I don&amp;rsquo;t know if this is to blame on the F-droid build services or in the ASK metadata.&lt;/p>
+&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/com.menny.android.anysoftkeyboard"target="_blank" rel="noopener noreferrer">https://f-droid.org/es/packages/com.menny.android.anysoftkeyboard&lt;/a>
+&lt;/p>
+&lt;hr>
+&lt;/li>
+&lt;li>
+&lt;p>FlorisBoard &lt;img src="../../posts/fosskeyboards/FlorisBoard.png"
+alt="FlorisBoard logo"/>&lt;/p>
+&lt;p>As of posting this article, I believe FlorisBoard is the most youngest alternative out there in F-droid, and it really looks like a good alternative for those who can&amp;rsquo;t or don&amp;rsquo;t like to use ASK.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>It contains their own clipboard which is pretty nice since some phones don&amp;rsquo;t allow you to see the clipboard.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>There are 8 themes: 3 day themes and 5 dark themes, and they all look good.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>There is also a glide typing and gestures. I think Floris has better gestures than ASK but I might
+be a little biased.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Many features present in ASK will be here too, one of them being adaptative themes. Floris also has a better configuration app and other tiny good details, I think I will start recommending it once it leaves beta :).&lt;/p>
+&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/dev.patrickgold.florisboard/"target="_blank" rel="noopener noreferrer">https://f-droid.org/es/packages/dev.patrickgold.florisboard/&lt;/a>
+&lt;/p>
+&lt;hr>
+&lt;/li>
+&lt;li>
+&lt;p>OpenBoard &lt;img src="../../posts/fosskeyboards/OpenBoard.png"
+alt="OpenBoard logo"/>&lt;/p>
+&lt;p>This is my mainly drive, at difference of ASK and FlorisBoard this one is very minimal. Some people compare the layout and design to GBoard too.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Configuration app is very &amp;ldquo;minimal&amp;rdquo;, in 3 panels you will change everything you need.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>No gestures, no glide typing&amp;hellip; so forget about that.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>All themes are based on Material and they are very similar and very good. There is also 2 Holo themes if you like 2010&amp;rsquo;s style&amp;hellip;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In general the presets are good enough, I have never experienced a lag or crash unlike others (FlorisBoard pleaseee&amp;hellip;)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/org.dslul.openboard.inputmethod.latin/"target="_blank" rel="noopener noreferrer">https://f-droid.org/es/packages/org.dslul.openboard.inputmethod.latin/&lt;/a>
+&lt;/p>
+&lt;hr>
+&lt;/li>
+&lt;li>
+&lt;p>aaaaa &lt;img src="../../posts/fosskeyboards/aaaa.png"
+alt="aaaa logo"/>&lt;/p>
+&lt;p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa&lt;/p>
+&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/io.github.dkter.aaaaa/"target="_blank" rel="noopener noreferrer">https://f-droid.org/es/packages/io.github.dkter.aaaaa/&lt;/a>
+&lt;/p>
+&lt;hr>
+&lt;/li>
+&lt;/ol>
+&lt;p>Who won? aaaa, good night&lt;/p></description></item><item><title>Making a browser from Scratch!</title><link>https://1hiking.github.io/2021/04/making-a-browser-from-scratch/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/04/making-a-browser-from-scratch/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>So let&amp;rsquo;s talk about developing a browser, one of the most complex programs in your computer!&lt;/p>
+&lt;p>As most people know, since the 90&amp;rsquo;s web browsers have been an essential program in anyone&amp;rsquo;s computer, they allow you to connect with your friends online, play videogames, read scientific papers, or even niche functions to connect to FTP&amp;hellip;! oh actually nevermind.&lt;/p>
+&lt;p>Well with that quick recap, I will teach you how to make your own browser from scratch!&lt;/p>
+&lt;hr>
+&lt;h2 id="requeriments">Requeriments&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Install latest Electron release on: &lt;a href="https://github.com/electron/electron/releases"target="_blank" rel="noopener noreferrer">https://github.com/electron/electron/releases&lt;/a>
+.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Have a computer, buy one in your nearest Walmart :).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>An Operating System, the choice is yours!.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="conclusions">Conclusions&lt;/h2>
+&lt;p>Making a web browser was a real challenge, after all &lt;a href="https://en.wikipedia.org/wiki/Web_standards"target="_blank" rel="noopener noreferrer">you need to support all of the Web standards&lt;/a>
+:) and that&amp;rsquo;s soooo tiresome! Well I hope you guys have a good time, goodbye and until our next blog!&lt;/p>
+&lt;h2 id="inspired-by">Inspired by&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://kilianvalkhof.com/2020/design/how-i-built-my-own-browser/"target="_blank" rel="noopener noreferrer">https://kilianvalkhof.com/2020/design/how-i-built-my-own-browser/&lt;/a>
+[Dead link, try finding on the archives]&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.producthunt.com/posts/sizzy-8#comment-789519"target="_blank" rel="noopener noreferrer">https://www.producthunt.com/posts/sizzy-8#comment-789519&lt;/a>
+&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>About</title><link>https://1hiking.github.io/about/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/about/</guid><description>&lt;p>Privacy &amp;amp; Security enthusiast.
+I contribute to community projects like Weblate and OSM.&lt;/p>
+&lt;p>Some outstanding programs I use are:&lt;/p>
+&lt;ul>
+&lt;li>Scoop as my Windows package manager.&lt;/li>
+&lt;li>VSCode as my code editor.&lt;/li>
+&lt;li>IntelliJ as my IDE for Java.&lt;/li>
+&lt;li>Firefox Nightly/Microsoft Edge as my browsers.&lt;/li>
+&lt;li>and&amp;hellip; nothing more.&lt;/li>
+&lt;/ul>
+&lt;p>You might find me on Matrix channels.&lt;/p></description></item><item><title>First post</title><link>https://1hiking.github.io/2021/04/first-post/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/04/first-post/</guid><description>&lt;p>So after many time I finally decided to start using a static site generator, specifically Hugo.
+In general I believe this will help me make my content more easy and I will not have to
+screw around all day with html and css, not because I hate it but because it&amp;rsquo;s very tiresome the
+copypaste.&lt;/p>
+&lt;p>Another thing to note is that before choosing Hugo I tried JBake and Jekyll, I enjoyed the first hours of JBake not before realizing the lack of public themes to choose from&amp;hellip; and with Jekyll it was a pain to install on Wingblows and I don&amp;rsquo;t enjoy having to setup Cywing or having to use WSL.&lt;/p>
+&lt;p>And before leaving my old repository to rest&amp;hellip; shotouts to &lt;a href="https://jaafard.codeberg.page/"target="_blank" rel="noopener noreferrer">Jaafar&lt;/a>
+for letting me copy some of the project files made for his webpage.&lt;/p></description></item><item><title>Hiking's curated list of F-droid apps</title><link>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</link><pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/lists/hikings_curated_list_of_f-droid_apps/</guid><description>&lt;p>A curated list of some worth checking applications in the F-droid repo (and others too), short descriptions and notes are listed below.&lt;/p>
 &lt;p>This list is low-maintainance mode, since the purpose of this list is to give you a taste of high-quality programs&amp;hellip; I believe there is a problem in F-droid in how they index and promote content in the front page, making harder for the user to find anything useful for their needs. Luckily &lt;a href="https://f-droid.org/en/2021/03/01/fdroid-metrics-and-clean-insights.html"target="_blank" rel="noopener noreferrer">they are working on this&lt;/a>
 .&lt;/p>
 &lt;p>Consider that some programs that are not here (like &lt;a href="https://github.com/GrapheneOS/Vanadium"target="_blank" rel="noopener noreferrer">Vanadium&lt;/a>
@@ -678,130 +811,4 @@ which means you can interact with people from other platforms!&lt;/p>
 &lt;li>monerujo (Monero wallet)&lt;/li>
 &lt;li>MoneyWaller (Money management)&lt;/li>
 &lt;li>SyncThing (Sync without a server)&lt;/li>
-&lt;/ul></description></item><item><title>A comparison of FOSS Android keyboards</title><link>https://1hiking.github.io/2021/06/a-comparison-of-foss-android-keyboards/</link><pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/06/a-comparison-of-foss-android-keyboards/</guid><description>&lt;p>It&amp;rsquo;s common for many Android enthusiasts to customize their devices and while Swiftkey and GBoard are good alternatives, the companies behind them don&amp;rsquo;t have a good privacy record , this turns many people for other alternatives, many which are found in the Play-Store and F-droid repositories, I will compare them and give my opinion over which one is &amp;ldquo;the best&amp;rdquo;.&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>AnySoftKeyboard &lt;img src="../../posts/AnySoftKeyboard.png"
-alt="AnySoftKeyboard logo"/>&lt;/p>
-&lt;p>This one is the most &amp;ldquo;feature-full&amp;rdquo; of all the ones I have found, since it&amp;rsquo;s the most customizable&amp;hellip; at least for now&amp;hellip;&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>You can change the bottom and top row based on a list of pre-sets.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>There are over 17 skins loaded, however some of them are very meh&amp;hellip; looking at you &amp;ldquo;Plain light&amp;rdquo; theme, and others are just slight modifications.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>It also has glide typing which has been on beta for quite a while and I would say it&amp;rsquo;s better than Floris right now, there is also gestures and they have good choices.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>One dislike I have over this Keyboard is that if you want a new language package, you have to install an &amp;ldquo;app&amp;rdquo; instead of using the System language configuration for this.
-If your language is not in the repo, then pick something else. I also cannot find documentation for making new layouts :/.&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>As a note: on F-droid their name and icon every few days, I don&amp;rsquo;t know if this is to blame on the F-droid build services or in the ASK metadata.&lt;/p>
-&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/com.menny.android.anysoftkeyboard"target="_blank" rel="noopener noreferrer">https://f-droid.org/es/packages/com.menny.android.anysoftkeyboard&lt;/a>
-&lt;/p>
-&lt;hr>
-&lt;/li>
-&lt;li>
-&lt;p>FlorisBoard &lt;img src="../../posts/FlorisBoard.png"
-alt="FlorisBoard logo"/>&lt;/p>
-&lt;p>As of posting this article, I believe FlorisBoard is the most youngest alternative out there in F-droid, and it really looks like a good alternative for those who can&amp;rsquo;t or don&amp;rsquo;t like to use ASK.&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>It contains their own clipboard which is pretty nice since some phones don&amp;rsquo;t allow you to see the clipboard.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>There are 8 themes: 3 day themes and 5 dark themes, and they all look good.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>There is also a glide typing and gestures. I think Floris has better gestures than ASK but I might
-be a little biased.&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>Many features present in ASK will be here too, one of them being adaptative themes. Floris also has a better configuration app and other tiny good details, I think I will start recommending it once it leaves beta :).&lt;/p>
-&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/dev.patrickgold.florisboard/"target="_blank" rel="noopener noreferrer">https://f-droid.org/es/packages/dev.patrickgold.florisboard/&lt;/a>
-&lt;/p>
-&lt;hr>
-&lt;/li>
-&lt;li>
-&lt;p>OpenBoard &lt;img src="../../posts/OpenBoard.png"
-alt="OpenBoard logo"/>&lt;/p>
-&lt;p>This is my mainly drive, at difference of ASK and FlorisBoard this one is very minimal. Some people compare the layout and design to GBoard too.&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Configuration app is very &amp;ldquo;minimal&amp;rdquo;, in 3 panels you will change everything you need.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>No gestures, no glide typing&amp;hellip; so forget about that.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>All themes are based on Material and they are very similar and very good. There is also 2 Holo themes if you like 2010&amp;rsquo;s style&amp;hellip;&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>In general the presets are good enough, I have never experienced a lag or crash unlike others (FlorisBoard pleaseee&amp;hellip;)&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/org.dslul.openboard.inputmethod.latin/"target="_blank" rel="noopener noreferrer">https://f-droid.org/es/packages/org.dslul.openboard.inputmethod.latin/&lt;/a>
-&lt;/p>
-&lt;hr>
-&lt;/li>
-&lt;li>
-&lt;p>aaaaa &lt;img src="../../posts/aaaa.png"
-alt="aaaa logo"/>&lt;/p>
-&lt;p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa&lt;/p>
-&lt;p>Link: &lt;a href="https://f-droid.org/es/packages/io.github.dkter.aaaaa/"target="_blank" rel="noopener noreferrer">https://f-droid.org/es/packages/io.github.dkter.aaaaa/&lt;/a>
-&lt;/p>
-&lt;hr>
-&lt;/li>
-&lt;/ol>
-&lt;p>Who won? aaaa, good night&lt;/p></description></item><item><title>Making a browser from Scratch!</title><link>https://1hiking.github.io/2021/04/making-a-browser-from-scratch/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/04/making-a-browser-from-scratch/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>So let&amp;rsquo;s talk about developing a browser, one of the most complex programs in your computer!&lt;/p>
-&lt;p>As most people know, since the 90&amp;rsquo;s web browsers have been an essential program in anyone&amp;rsquo;s computer, they allow you to connect with your friends online, play videogames, read scientific papers, or even niche functions to connect to FTP&amp;hellip;! oh actually nevermind.&lt;/p>
-&lt;p>Well with that quick recap, I will teach you how to make your own browser from scratch!&lt;/p>
-&lt;hr>
-&lt;h2 id="requeriments">Requeriments&lt;/h2>
-&lt;ul>
-&lt;li>
-&lt;p>Install latest Electron release on: &lt;a href="https://github.com/electron/electron/releases"target="_blank" rel="noopener noreferrer">https://github.com/electron/electron/releases&lt;/a>
-.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Have a computer, buy one in your nearest Walmart :).&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>An Operating System, the choice is yours!.&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="conclusions">Conclusions&lt;/h2>
-&lt;p>Making a web browser was a real challenge, after all &lt;a href="https://en.wikipedia.org/wiki/Web_standards"target="_blank" rel="noopener noreferrer">you need to support all of the Web standards&lt;/a>
-:) and that&amp;rsquo;s soooo tiresome! Well I hope you guys have a good time, goodbye and until our next blog!&lt;/p>
-&lt;h2 id="inspired-by">Inspired by&lt;/h2>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://kilianvalkhof.com/2020/design/how-i-built-my-own-browser/"target="_blank" rel="noopener noreferrer">https://kilianvalkhof.com/2020/design/how-i-built-my-own-browser/&lt;/a>
-[Dead link, try finding on the archives]&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://www.producthunt.com/posts/sizzy-8#comment-789519"target="_blank" rel="noopener noreferrer">https://www.producthunt.com/posts/sizzy-8#comment-789519&lt;/a>
-&lt;/p>
-&lt;/li>
-&lt;/ul></description></item><item><title>About</title><link>https://1hiking.github.io/about/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/about/</guid><description>&lt;p>Privacy &amp;amp; Security enthusiast.
-I contribute to community projects like Weblate and OSM.&lt;/p>
-&lt;p>Some outstanding programs I use are:&lt;/p>
-&lt;ul>
-&lt;li>Scoop as my Windows package manager.&lt;/li>
-&lt;li>VSCode as my code editor.&lt;/li>
-&lt;li>IntelliJ as my IDE for Java.&lt;/li>
-&lt;li>Firefox Nightly/Microsoft Edge as my browsers.&lt;/li>
-&lt;li>and&amp;hellip; nothing more.&lt;/li>
-&lt;/ul>
-&lt;p>You might find me on Matrix channels.&lt;/p></description></item><item><title>First post</title><link>https://1hiking.github.io/2021/04/first-post/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/04/first-post/</guid><description>&lt;p>So after many time I finally decided to start using a static site generator, specifically Hugo.
-In general I believe this will help me make my content more easy and I will not have to
-screw around all day with html and css, not because I hate it but because it&amp;rsquo;s very tiresome the
-copypaste.&lt;/p>
-&lt;p>Another thing to note is that before choosing Hugo I tried JBake and Jekyll, I enjoyed the first hours of JBake not before realizing the lack of public themes to choose from&amp;hellip; and with Jekyll it was a pain to install on Wingblows and I don&amp;rsquo;t enjoy having to setup Cywing or having to use WSL.&lt;/p>
-&lt;p>And before leaving my old repository to rest&amp;hellip; shotouts to &lt;a href="https://jaafard.codeberg.page/"target="_blank" rel="noopener noreferrer">Jaafar&lt;/a>
-for letting me copy some of the project files made for his webpage.&lt;/p></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>
