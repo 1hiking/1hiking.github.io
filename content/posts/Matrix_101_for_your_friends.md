@@ -1,14 +1,15 @@
 +++
 title = "Matrix 101 for your friends"
 date = 2021-07-28
+lastmod = 2021-08-02
 description = "A guide for your Discord user to understand principles of Matrix and its ecosystem"
 tags = ["Matrix","Discord"]
 categories = ["Guides","Matrix","Articles","Posts"]
 +++
 
-In recent years the Matrix protocol, messaging service, decentralised conversation store or whatever you want to call it has been gaining a lot of traction as a replacement in many communities for many reasons, it might be because IRC isn't cutting it or you are using a propietary service.
+In recent years the Matrix protocol, messaging service, decentralised conversation store or whatever you want to call it has been gaining a lot of traction as a replacement in many communities for many reasons, it might be because IRC isn't cutting it or you are using a service which doesn't respect your privacy or has horrible security.
 
-However many technical terms or technologies are not very well understood, for this reason I made this guide in hopes you can pick the service up easily.
+However many technical terms or user choices are hard to understand for newcomers, because of this I made this guide (is it one? 🤔) in hopes you can pick the service up easily.
 
 ## Terminology
 
@@ -18,82 +19,89 @@ For starters, Discord has made a good job on picking up the term _Server_ and mi
 
 Other services might have done the same or different...
 
-> **Wait guild?**
+> **What do you mean by guild?**
 
-Yes, they are called guilds, even the Discord documentation [says so](https://discord.com/developers/docs/resources/guild).
+Yes, the correct term would be guilds, even the Discord developer documentation [says so](https://discord.com/developers/docs/resources/guild).
 
-In Matrix, a **room** is the equivalent to **a single Discord channel**, and [currently Spaces](https://element.io/blog/spaces-the-next-frontier/) could be considered a "Guild" equivalent, altough it's not exactly the same. I might add that in the past we had "communities" and "badges" but you will rarely see them now.
+In Matrix, a **room** could be considered the equivalent of **a single Discord channel**, and [currently Spaces](https://element.io/blog/spaces-the-next-frontier/) could be considered a "Guild" equivalent, altough it's not exactly the same
 
-### Homeservers and Matrix
+~~I might add that in the past we had ["communities" and "badges"](/posts/matrix101/oldmeme.png) but you will rarely see them now.~~
 
-A homeserver is **the server** of an individual or a collective (organizations and companies are welcome), for this reason <https://matrix.org> does not control the entirety of the [Federation](https://en.wikipedia.org/wiki/Distributed_social_network)... this is the power of decentralization™ ladies and gentlemen.
+### Homeservers and their relationship with Matrix
 
-So when little Timmy says "I am on matrix", it could mean:
+Because matrix is [federated](https://en.wikipedia.org/wiki/Distributed_social_network) and not centralized, you will be presented with the term of homeservers.
+
+Homeservers are **physical servers** controlled by an individual or a collective (organizations, companies, governments, etc), this means that nobody will ever control 100% of the federation!
+
+Some _public_ homeservers are: the [KDE server](https://community.kde.org/Matrix), [the Matrix server](https://matrix.org), [envs.net server](https://envs.net/), etc.
+
+Now that you had a quick overview of what are homeserver you will understand that when your friend Tim says "I am on matrix", it could mean:
 
 * His account is hosted on matrix.org
 * You can contact him on the matrix protocol, but not necesarily on matrix.org.
 
-Get it now?
+### Clients and their relationship with Element
 
-### Clients and Element
+The same way Discord has **unofficial** clients (i.e the program you download to connect to their server) like [Ripcord](https://cancel.fm/ripcord/), there are many clients to connect to Matrix.
 
-The same way Discord has unofficial clients like [Ripcord](https://cancel.fm/ripcord/), Matrix has many clients, the only difference is that Matrix will not ban you and instead encourages the creation of them!.
+However because Matrix is an open standard, [nobody can't ban you](https://old.reddit.com/r/discordapp/comments/8tukek/ripcord_unofficial_native_discord_client_no/e1toruy/?context=8&depth=9) and actually they encourage their creation, here is for example one table [showcasing some of them](https://matrix.org/clients/).
 
-The "main" client for Matrix is [Element](https://element.io). But hopefully more clients will catch up to feature parity :)
+You might hear about the Element client, many people view it as the "official" client since quite a few matrix developers also work on that client and because it's the client with the most features currently. It is quite mature and it _just werks_.
 
 ## Homeservers
 
-### Choosing your server
+### What server to pick
 
-If you want to play safe pick matrix.org but expect some lag since everyone is using it, if not, my rule of thumb for choosing a homeserver is:
+I recommend for a new user to pick [matrix.org](https://matrix.org), the only downside is probably lag since everyone is using it, if you want to change a homeserver (and also offload some of the bandwith from them haha) my rules of thumb for choosing are:
 
-* There is an organization behind it that is able to run it.
+* There is an organization that is capable to host it and maintain it (servers don't grow in trees :P)
 
-* Said organization is financially stable.
-
-* There is an upkeep of at least 90%
+* They have a good upkeep.
 
 * ...or your friends Timmy & Bob are shilling X server.
 
-Some examples are kde.org, matrix.org, etc.
-
-There is not official list of all the possible servers but there are some [unofficial ones](https://www.hello-matrix.net/public_servers.php).
+There is not an official list of all the possible servers (there are hundreds!) but there are some [unofficial ones](https://www.hello-matrix.net/public_servers.php).
 
 ### Self-hosting
 
-If you are able to host it yourself, go ahead!
+> What is selfhosting? Answer: <https://wikipedia.org/wiki/Self-hosting_(web_services)>
 
-You can find all the documentation on <https://matrix.org>. Or you could [pay someone to do it for you](https://element.io/pricing).
+If you are able to host it yourself, go ahead! But you should also consider the risks.
 
-There are risks and benefits of self-hosting, it's all up to your ability to read the manuals and your piggy bank.
+You can find all the [documentation on their webpage](https://matrix.org/docs/guides/installing-synapse). Or you could [pay someone to do it for you](https://element.io/pricing). You might also want to use a VPS, but that's out of scope for this section.
 
-### Changing servers
+### Migrating from your server
 
-Nomad identities are not implemented yet (I think), this tool is currently what we have --> <https://ems.element.io/tools/matrix-migration>
+Nomad identities are not implemented yet (I think), this tool is currently what we have --> <https://ems.element.io/tools/matrix-migration>.
 
-## Clients (a.k.a. the program you download to connect.)
+## Clients
 
-> The most feature full client currently it's Element, you can either use the Desktop version or the Web client. The technologies are the same as Discord in regards to using Electron for the desktop client, so if you are not into that, pick other. Some parts of this guide will be focused on Element.
+As I said, Element is the most feature complete client so you will probably want to start with this one. However you might not like it for X or Y, so you can choose another client!
 
-### Choosing your client
+### Alternative clients
 
 The best way of picking a client is using the official comparison chart! --> <https://matrix.org/clients-matrix>
 
-> Nooo don't do this, choose for me!
+If you are looking for my opinion, here is a quick overview of the most popular ones:
 
-Pick one of these:
+* Fluffychat:
 
-* Element (Electron)
+  Good on Android, very laggy on desktop. The UX feels as *glossy* as in Element, it supports a "custom" type of emojis
+  that no other client implement (even Element, which is weird).
 
-* Fluffychat (Flutter)
+* Gomuks:
 
-* Gomuks (I hope you enjoy the Terminal)
+  This is a Terminal client (i.e Windows Terminal, Alacritty, etc), so if you are not it cya!. It supports ASCII image rendering and you can download them with shortcuts if you were curious about that.
 
-* Nheko reborn (Qt)
+* Nheko reborn:
 
-What you should look for primarily is that it **supports E2EE, since that's one of the main benefits of Matrix**
+  Not a lot to say about this one, but that it's written in Qt at contrast Element is made on Electron, which some groups dislike.
+
+What you should look for primarily is that it **supports E2EE**, since that's one of the main benefits of Matrix
 
 ## Encryption keys
+
+> Oh here we go again.
 
 After you make your account in Element there will be 3~ pop-ups **read them**:
 
@@ -107,11 +115,11 @@ After you make your account in Element there will be 3~ pop-ups **read them**:
 
   * You either copy that key into your clipboard, I recommend that you store it on your password manager if possible
 
-I might be slightly wrong on that last part since it has been months after I signed up, but I am sure you will pick it up :)
+I might be slightly wrong on that last part since it has been months after I signed up, but I am sure you will pick it up!
 
-That key will be important to verify your device in other clients you might be logging in, you can also verify with **emojis**! (I am not kidding).
+That key will be important to verify your device in other clients you might be logging in, some clients allow you to verify with Emojis (😎😎😎) but if they don't support it you will have to import that key.
 
-If your key is lost then all your messages are now lost :(, you gotta reset the keys on settings... and this time be careful...
+If your key is lost then all your messages are now lost 😢, you gotta reset the keys on settings... and this time be careful...
 
 ## Some leaving notes
 
@@ -123,11 +131,12 @@ If your key is lost then all your messages are now lost :(, you gotta reset the 
 
     If you are on the web version, you will have to use the configuration made by whoever is hosting it. You could also use [Element develop to obtain labs](https://develop.element.io/), instead of using the normal URL <https://element.io>.
 
-* Element was used to be called Riot.im, but was changed because issues with *that* other Riot, and before that it was Vector (I think).
+* Element was used to be called Riot.im, but was changed because issues with the game company... and also the real riots 😳.
 
 * There are some "problematic servers", be wary of joining them since these servers might be not allowed to interact with other servers ([called servers ACL](https://matrix.org/docs/guides/moderation#banning-servers-from-rooms-server-acls)).
 
 * [Some rooms are "bridged"](https://matrix.org/bridges/) which means you can interact with people from other platforms!
+a bridged user normally will have a weird MXID such as @_discord_563563485638563:example.com which you can infer it's a Discord.
 
 Have fun :)
 
