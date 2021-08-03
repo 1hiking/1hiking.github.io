@@ -8,7 +8,7 @@ categories = ["Articles","Posts"]
 
 It's common for many Android enthusiasts to customize their devices and while Swiftkey and  GBoard are good alternatives, the companies behind them don't have a good privacy record , this turns many people for other alternatives, many which are found in the Play-Store and F-droid repositories, I will compare them and give my opinion over which one is "the best".
 
-1. AnySoftKeyboard ![AnySoftKeyboard logo](/posts/AnySoftKeyboard.png)
+1. AnySoftKeyboard ![AnySoftKeyboard logo](/posts/fosskeybaords/AnySoftKeyboard.png)
 
     This one is the most "feature-full" of all the ones I have found, since it's the most customizable... at least for now...
 
@@ -27,7 +27,7 @@ It's common for many Android enthusiasts to customize their devices and while Sw
 
     ___
 
-2. FlorisBoard ![FlorisBoard logo](/posts/FlorisBoard.png)
+2. FlorisBoard ![FlorisBoard logo](/posts/fosskeyboards/FlorisBoard.png)
 
     As of posting this article, I believe FlorisBoard is the most youngest alternative out there in F-droid, and it really looks like a good alternative for those who can't or don't like to use ASK.
 
@@ -44,7 +44,7 @@ It's common for many Android enthusiasts to customize their devices and while Sw
 
     ___
 
-3. OpenBoard ![OpenBoard logo](/posts/OpenBoard.png)
+3. OpenBoard ![OpenBoard logo](/posts/fosskeyboards/OpenBoard.png)
 
     This is my mainly drive, at difference of ASK and FlorisBoard this one is very minimal. Some people compare the layout and design to GBoard too.
 
@@ -60,7 +60,7 @@ It's common for many Android enthusiasts to customize their devices and while Sw
 
     ___
 
-4. aaaaa ![aaaa logo](/posts/aaaa.png)
+4. aaaaa ![aaaa logo](/posts/fosskeyboards/aaaa.png)
 
     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
