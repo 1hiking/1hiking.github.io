@@ -1,6 +1,7 @@
 +++
 title = "Hiking's curated list of F-droid apps"
 description = "Part of my collection of lists"
+date = 2021-01-19
 lastmod = 2021-07-25
 tags = ["F-droid"]
 categories = ["Lists"]
