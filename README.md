@@ -2,11 +2,14 @@
 
 Code of my webpage using the notepadium theme...
 
-# Build instructions (wip)
+# Build instructions
 
-* `mkdir webpage`
-* `cd .\webpage`
-* Clone Notepadium theme (see instructions in Hugo's webpage).
-* Clone this repository.
-* Run jobs.
-* Deploy gh-pages on Github.
+* Download Hugo
+* `mkdir 1hiking.github.io`
+* `cd 1hiking.github.io`
+* `git clone https://github.com/1hiking/1hiking.github.io.git`
+* `hugo serve`
+
+# Deploying
+
+The yml file takes care of it, it's based on this Hugo page: <https://gohugo.io/hosting-and-deployment/hosting-on-github/>
