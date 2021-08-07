@@ -1,4 +1,31 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Matrix on Hiking's webpage</title><link>https://1hiking.github.io/tags/matrix/</link><description>Recent content in Matrix on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>©2021 hiking.</copyright><lastBuildDate>Wed, 28 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/tags/matrix/index.xml" rel="self" type="application/rss+xml"/><item><title>Matrix 101 for your friends</title><link>https://1hiking.github.io/2021/07/matrix-101-for-your-friends/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/07/matrix-101-for-your-friends/</guid><description>&lt;p>In recent years the Matrix protocol, messaging service, decentralised conversation store or whatever you want to call it has been gaining a lot of traction as a replacement in many communities for many reasons, it might be because IRC isn&amp;rsquo;t cutting it or you are using a service which doesn&amp;rsquo;t respect your privacy or has horrible security.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Matrix on Hiking's webpage</title><link>https://1hiking.github.io/tags/matrix/</link><description>Recent content in Matrix on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>©2021 hiking.</copyright><lastBuildDate>Wed, 28 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/tags/matrix/index.xml" rel="self" type="application/rss+xml"/><item><title>The Freedom Phone manufacturer hardware problems</title><link>https://1hiking.github.io/2021/08/the-freedom-phone-manufacturer-hardware-problems/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/08/the-freedom-phone-manufacturer-hardware-problems/</guid><description>&lt;p>As we all know, some months ago it came out the highly ridiculed &amp;ldquo;Freedom Phone&amp;rdquo;, with very suspicious claims like having an &amp;ldquo;Uncensorable App Store&amp;rdquo; which is actually just a rebranded &lt;a href="https://auroraoss.com/download/AuroraStore/"target="_blank" rel="noopener noreferrer">Aurora Store&lt;/a>
+or the claim that the OS is a blend of AOSP, LineageOS and GrapheneOS (&lt;em>What did he mean by this?&lt;/em>)&lt;/p>
+&lt;p>But one of the things that came to my attention was the hardware&amp;hellip; wich according to this &lt;a href="https://www.thedailybeast.com/maga-worlds-freedom-phone-actually-budget-chinese-phone"target="_blank" rel="noopener noreferrer">article&lt;/a>
+it&amp;rsquo;s an Umidigi phone, at first I said just laughed, but then&amp;hellip; I laughed even more.&lt;/p>
+&lt;h2 id="the-problem">The problem&lt;/h2>
+&lt;p>Okay, so if you don&amp;rsquo;t own an Umidigi phone or know somebody who owns one you will likely never hear about this, but Umidigi phones are incredibly buggy in regards to updates.&lt;/p>
+&lt;p>I have a known familiar that one day after attempting to update his device just got a &lt;a href="https://source.android.com/security/verifiedboot/boot-flow#dm-verity-corruption"target="_blank" rel="noopener noreferrer">dm-verity error&lt;/a>
+, if you don&amp;rsquo;t believe me, here is a &lt;a href="https://web.archive.org/web/20210807204933/https://www.reddit.com/r/umidigi/comments/ofg6ib/a9_pro_6gb128gb_phone_corrupted_after_umidigi/"target="_blank" rel="noopener noreferrer">Reddit post showing it off&lt;/a>
+&lt;/p>
+&lt;p>Even more laughable was the response they gave according to another redditor in that same post:&lt;/p>
+&lt;blockquote>
+&lt;p>Hello Dear buyer&lt;/p>
+&lt;p>Thank you very much for your order.
+Sorry for your inconvenience.&lt;/p>
+&lt;p>Please select your own model link to flash.
+&lt;a href="https://community.umidigi.com/forum.php?mod=forumdisplay&amp;amp;fid=212"target="_blank" rel="noopener noreferrer">https://community.umidigi.com/forum.php?mod=forumdisplay&amp;fid=212&lt;/a>
+&lt;/p>
+&lt;p>If this method could not work well, you are suggested give a priority to contact us for the next help. Thanks in advance.&lt;/p>
+&lt;p>Thank you for your understanding and patience.&lt;/p>
+&lt;p>Please feel free to contact us with any questins.&lt;/p>
+&lt;p>Sincerely, Nancy&lt;/p>
+&lt;p>UMIDIGI Official Store&lt;/p>
+&lt;/blockquote>
+&lt;p>This is horrible, consider that your average Jimmy is not going to know how to flash his ROM or have the ability to recognize his exact model variant, so yeah&amp;hellip; the Umidigi phones are hot garbage, and so is the Freedom Phone, hey a perfect match!&lt;/p>
+&lt;p>But if I&amp;rsquo;m honest these phones probably will never receive updates of any type so I guess they are safe &lt;em>from this problem&lt;/em>.&lt;/p>
+&lt;h2 id="what-do-i-use-for-privacy-and-security">What do I use for privacy and security?&lt;/h2>
+&lt;p>Get a modern Pixel phone and flash &lt;a href="https://grapheneos.org/"target="_blank" rel="noopener noreferrer">GrapheneOS&lt;/a>
+, their developers are competent and so is their manufacturer when it comes to security.&lt;/p></description></item><item><title>Matrix 101 for your friends</title><link>https://1hiking.github.io/2021/07/matrix-101-for-your-friends/</link><pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/07/matrix-101-for-your-friends/</guid><description>&lt;p>In recent years the Matrix protocol, messaging service, decentralised conversation store or whatever you want to call it has been gaining a lot of traction as a replacement in many communities for many reasons, it might be because IRC isn&amp;rsquo;t cutting it or you are using a service which doesn&amp;rsquo;t respect your privacy or has horrible security.&lt;/p>
 &lt;p>However many technical terms or user choices are hard to understand for newcomers, because of this I made this guide (is it one? 🤔) in hopes you can pick the service up easily.&lt;/p>
 &lt;h2 id="terminology">Terminology&lt;/h2>
 &lt;h3 id="server-and-guilds">Server and Guilds&lt;/h3>
