@@ -1,6 +1,7 @@
 +++
 title = "Making a browser from Scratch!"
 date = 2021-04-26
+lastmod = 2021-08-12
 description = "A blog about my experiences making a web browser"
 tags = ["Web-dev", "Development"]
 categories = ["Guides","Posts"]
@@ -32,6 +33,8 @@ Making a web browser was a real challenge, after all [you need to support all of
 
 ## Inspired by
 
-* <https://kilianvalkhof.com/2020/design/how-i-built-my-own-browser/> [Dead link, try finding on the archives]
+* <https://kilianvalkhof.com/2020/design/how-i-built-my-own-browser/>
 
 * <https://www.producthunt.com/posts/sizzy-8#comment-789519>
+
+* <https://minbrowser.org/>
