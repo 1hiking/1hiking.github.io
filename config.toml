@@ -27,7 +27,7 @@ style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: bas
 dateFormat = "02 of January of 2006"   # if unset, default is "2006-01-02"
 logo = "/img/PolarBear.png"  # if you have a logo png
 slogan = "Look at him go!"
-license = "<a rel=license href=http://creativecommons.org/licenses/by-sa/4.0/><img alt=Creative Commons License style=border-width:0 src=https://i.creativecommons.org/l/by-sa/4.0/88x31.png /></a><br />This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-sa/4.0/>Creative Commons Attribution-ShareAlike 4.0 International License</a>."  # CC License
+license = "<a rel=license href=https://creativecommons.org/licenses/by-sa/4.0/><img alt=Creative Commons License style=border-width:0 src=https://i.creativecommons.org/l/by-sa/4.0/88x31.png /></a><br />This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-sa/4.0/>Creative Commons Attribution-ShareAlike 4.0 International License</a>."  # CC License
 fullRss = false # Puts entire HTML post into rss 'description' tag. If unset, default is false.
 ipv6ready = false # Show IPV6Ready logo on footer.
 mainSections = "posts" # Declares which folder from content will be shown in main page. This is behaviour of the theme.
@@ -68,6 +68,10 @@ url = "/about/"
 [[params.nav.custom]]
 title = "Lists"
 url = "/lists/"
+
+[[params.nav.custom]]
+title = "Posts"
+url = "/posts/"
 
 [permalinks]
 posts = "/:year/:month/:title/" # Adds url date to only posts folder
