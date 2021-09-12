@@ -4,7 +4,7 @@ date = 2021-07-28
 lastmod = 2021-08-02
 description = "A guide for your Discord user to understand principles of Matrix and its ecosystem"
 tags = ["Matrix","Discord"]
-categories = ["Guides","Matrix","Articles","Posts"]
+categories = ["Guides","Matrix","Posts"]
 +++
 
 In recent years the Matrix protocol, messaging service, decentralised conversation store or whatever you want to call it has been gaining a lot of traction as a replacement in many communities for many reasons, it might be because IRC isn't cutting it or you are using a service which doesn't respect your privacy or has horrible security.

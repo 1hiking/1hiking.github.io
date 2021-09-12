@@ -1,7 +1,7 @@
 +++
 title = "The Freedom Phone manufacturer hardware problems"
 date = 2021-08-07
-description ="This post discusses a problem that is currently happening with the manufacturer of the Freedom Phone"
+description = "This post discusses a problem that is currently happening with the manufacturer of the Freedom Phone"
 tags = ["Android","Security","Privacy"]
 categories = ["Articles","Posts"]
 +++
