@@ -26,7 +26,7 @@ alt="An image demonstrating the Jerma sticker on Element"/>&lt;/p>
 &lt;p>Implemented on this &lt;a href="https://github.com/matrix-org/matrix-doc/pull/1158"target="_blank" rel="noopener noreferrer">Pull Request&lt;/a>
 &lt;/p>
 &lt;/blockquote>
-&lt;p>This solution is much more clean and human readable one popular implementation is the Element&amp;rsquo;s sticker picker for example.&lt;/p>
+&lt;p>This solution is much more clean and human readable, one popular implementation is the Element&amp;rsquo;s sticker picker for example.&lt;/p>
 &lt;p>Why &lt;code>m.sticker&lt;/code> and not &lt;code>m.room.sticker&lt;/code>? Well, because &lt;a href="https://github.com/matrix-org/matrix-doc/pull/1158#issuecomment-373335074"target="_blank" rel="noopener noreferrer">&amp;ldquo;i explicitly asked rick to s/m.room.sticker/m.sticker/g in some flu-riddled malaise last week&amp;rdquo;&lt;/a>
 &lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JSON" data-lang="JSON">&lt;span class="p">{&lt;/span>
@@ -46,7 +46,8 @@ alt="An image demonstrating the Jerma sticker on Element"/>&lt;/p>
 &lt;span class="p">},&lt;/span>
 &lt;span class="nt">&amp;#34;url&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;mxc://matrix.org/sHhqkFCvSkFwtmvtETOtKnLP&amp;#34;&lt;/span>
 &lt;span class="p">}&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="../posts/matrixstickers/Bunny_sticker.png"
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>And here is how it looks:&lt;/p>
+&lt;p>&lt;img src="../posts/matrixstickers/Bunny_sticker.png"
 alt="An image demonstrating the Bunny sticker on Element"/>&lt;/p>
 &lt;h2 id="implementation-examples">Implementation examples&lt;/h2>
 &lt;blockquote>
