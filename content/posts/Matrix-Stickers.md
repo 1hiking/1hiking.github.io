@@ -47,7 +47,7 @@ Which will print you a Jerma amogus "sticker". I would personally not use these,
 
 > Implemented on this [Pull Request](https://github.com/matrix-org/matrix-doc/pull/1158)
 
-This solution is much more clean and human readable one popular implementation is the Element's sticker picker for example.
+This solution is much more clean and human readable, one popular implementation is the Element's sticker picker for example.
 
 Why `m.sticker` and not `m.room.sticker`? Well, because ["i explicitly asked rick to s/m.room.sticker/m.sticker/g in some flu-riddled malaise last week"](https://github.com/matrix-org/matrix-doc/pull/1158#issuecomment-373335074)
 
@@ -70,6 +70,8 @@ Why `m.sticker` and not `m.room.sticker`? Well, because ["i explicitly asked ric
     "url": "mxc://matrix.org/sHhqkFCvSkFwtmvtETOtKnLP"
 }
 ```
+
+And here is how it looks:
 
 ![An image demonstrating the Bunny sticker on Element](/posts/matrixstickers/Bunny_sticker.png)
 
