@@ -1,4 +1,77 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Hiking's webpage</title><link>https://1hiking.github.io/tags/security/</link><description>Recent content in Security on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>©2021 hiking.</copyright><lastBuildDate>Sat, 07 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>The Freedom Phone manufacturer hardware problems</title><link>https://1hiking.github.io/2021/08/the-freedom-phone-manufacturer-hardware-problems/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/08/the-freedom-phone-manufacturer-hardware-problems/</guid><description>&lt;p>As we all know, some months ago it came out the highly ridiculed &amp;ldquo;Freedom Phone&amp;rdquo;, with very suspicious claims like having an &amp;ldquo;Uncensorable App Store&amp;rdquo; which is actually just a rebranded &lt;a href="https://auroraoss.com/download/AuroraStore/"target="_blank" rel="noopener noreferrer">Aurora Store&lt;/a>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Hiking's webpage</title><link>https://1hiking.github.io/tags/security/</link><description>Recent content in Security on Hiking's webpage</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>©2021 hiking.</copyright><lastBuildDate>Sat, 07 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>Matrix Stickers</title><link>https://1hiking.github.io/2021/09/matrix-stickers/</link><pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/09/matrix-stickers/</guid><description>&lt;p>You possibly don&amp;rsquo;t know matrix stickers.&lt;/p>
+&lt;p>I have collected over these past few months some JSON&amp;rsquo;s, curiously I have found 2 types of &amp;ldquo;stickers&amp;rdquo;, so I will share and discuss them. Moreover I will also explain how some clients implement stickers.&lt;/p>
+&lt;p>Let&amp;rsquo;s open the dev console!&lt;/p>
+&lt;h2 id="the-mroommessage-hack">The m.room.message &amp;ldquo;hack&amp;rdquo;&lt;/h2>
+&lt;p>This type of sticker is more of a inline message, you probably have seen this variant if a room has a discord bridge bot and users in the Discord room post custom emojis.&lt;/p>
+&lt;p>Here is the JSON data:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JSON" data-lang="JSON">&lt;span class="p">{&lt;/span>
+&lt;span class="nt">&amp;#34;body&amp;#34;&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;sticker name&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;format&amp;#34;&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;org.matrix.custom.html&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;formatted_body&amp;#34;&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;&amp;lt;img data-mx-emoticon=\&amp;#34;\&amp;#34;
+&lt;/span>&lt;span class="s2">src =\ &amp;#34;&lt;/span>&lt;span class="err">mxc&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="err">//example.org/hashid\&lt;/span>&lt;span class="s2">&amp;#34; alt = \&amp;#34;sticker name\&amp;#34; title = \&amp;#34;sticker name\&amp;#34; height = \&amp;#34;12345\&amp;#34; vertical-align = \&amp;#34;middle\&amp;#34; /&amp;gt;&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;msgtype&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;m.text&amp;#34;&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Here is one real example, courtesy of Jaafar.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JSON" data-lang="JSON">&lt;span class="p">{&lt;/span>
+&lt;span class="nt">&amp;#34;body&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;:jerma: &amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;format&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;org.matrix.custom.html&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;formatted_body&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;&amp;lt;img data-mx-emoticon=\&amp;#34;\&amp;#34; src=\&amp;#34;mxc://kde.org/6b7facfc815238e85175193ffe9a2bf5c46fb35c\&amp;#34; alt=\&amp;#34;:jerma:\&amp;#34; title=\&amp;#34;:jerma:\&amp;#34; height=\&amp;#34;32\&amp;#34; vertical-align=\&amp;#34;middle\&amp;#34; /&amp;gt;&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;msgtype&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;m.text&amp;#34;&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Which will print you a Jerma amogus &amp;ldquo;sticker&amp;rdquo;. I would personally not use these, however they are very easy to craft&lt;/p>
+&lt;p>&lt;img src="../../posts/matrixstickers/Jerma_sticker.png"
+alt="An image demonstrating the Jerma sticker on Element"/>&lt;/p>
+&lt;h2 id="the-real-method-msticker">The real method: m.sticker&lt;/h2>
+&lt;blockquote>
+&lt;p>Implemented on this &lt;a href="https://github.com/matrix-org/matrix-doc/pull/1158"target="_blank" rel="noopener noreferrer">Pull Request&lt;/a>
+&lt;/p>
+&lt;/blockquote>
+&lt;p>This solution is much more clean and human readable one popular implementation is the Element&amp;rsquo;s sticker picker for example.&lt;/p>
+&lt;p>Why &lt;code>m.sticker&lt;/code> and not &lt;code>m.room.sticker&lt;/code>? Well, because &lt;a href="https://github.com/matrix-org/matrix-doc/pull/1158#issuecomment-373335074"target="_blank" rel="noopener noreferrer">&amp;ldquo;i explicitly asked rick to s/m.room.sticker/m.sticker/g in some flu-riddled malaise last week&amp;rdquo;&lt;/a>
+&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-JSON" data-lang="JSON">&lt;span class="p">{&lt;/span>
+&lt;span class="nt">&amp;#34;body&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Landing&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;info&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="nt">&amp;#34;mimetype&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;image/png&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;thumbnail_info&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="nt">&amp;#34;mimetype&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;image/png&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;h&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">200&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;w&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">140&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;size&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">73602&lt;/span>
+&lt;span class="p">},&lt;/span>
+&lt;span class="nt">&amp;#34;h&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">200&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;thumbnail_url&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;mxc://matrix.org/sHhqkFCvSkFwtmvtETOtKnLP&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;w&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">140&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nt">&amp;#34;size&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">73602&lt;/span>
+&lt;span class="p">},&lt;/span>
+&lt;span class="nt">&amp;#34;url&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;mxc://matrix.org/sHhqkFCvSkFwtmvtETOtKnLP&amp;#34;&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="../../posts/matrixstickers/Bunny_sticker.png"
+alt="An image demonstrating the Bunny sticker on Element"/>&lt;/p>
+&lt;h2 id="implementation-examples">Implementation examples&lt;/h2>
+&lt;blockquote>
+&lt;p>This section won&amp;rsquo;t go over a lot of technical details but instead provide a general overview of how some clients add stickers.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Element uses their own &amp;ldquo;Integration Manager&amp;rdquo; to provide a service for stickers, which in turn connects to scalar.vector.im. You will then be able to choose from a limited collection of sticker packs, my favorite pack is the KDE one 😎.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="../../posts/matrixstickers/Integration_manager.png"
+alt="The integration manager, as viewed on the settings. Showing information and allowing the user to toggle it"/>&lt;/p>
+&lt;ul>
+&lt;li>Fluffychat has a very interesting implementation, they have both room stickers &lt;em>and&lt;/em> user stickers, I suspect the room&amp;rsquo;s stickers are stored on whatever server they are hosted at, and similarly user stickers are stored on your homeserver.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="../../posts/matrixstickers/Fluffychat_stickers.png"
+alt="The Fluffychat sticker creator as viewed on settings"/>&lt;/p>
+&lt;blockquote>
+&lt;p>Sadly I believe my homeserver (KDE) does not allow for user stickers, and about that, I think user stickers are just inline messages. (research needed!)&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="the-future-of-stickers">The Future of Stickers&lt;/h2>
+&lt;p>Currently if you want to make your own stickerpicker it&amp;rsquo;s using this &lt;a href="https://github.com/maunium/stickerpicker"target="_blank" rel="noopener noreferrer">project&lt;/a>
+(By the way I have not been able to pull dependencies on Windows, heeelpp). However this is not user friendly.&lt;/p>
+&lt;p>An interesting Pull Request for &amp;ldquo;Image Packs&amp;rdquo; is being discussed on &lt;a href="https://github.com/matrix-org/matrix-doc/pull/2545"target="_blank" rel="noopener noreferrer">GitHub&lt;/a>
+and hopefully it will be merged once it&amp;rsquo;s stable.&lt;/p>
+&lt;p>Also see: &lt;a href="https://matrix.org/blog/2021/07/23/this-week-in-matrix-2021-07-23"target="_blank" rel="noopener noreferrer">https://matrix.org/blog/2021/07/23/this-week-in-matrix-2021-07-23&lt;/a>
+&lt;/p></description></item><item><title>The Freedom Phone manufacturer hardware problems</title><link>https://1hiking.github.io/2021/08/the-freedom-phone-manufacturer-hardware-problems/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/08/the-freedom-phone-manufacturer-hardware-problems/</guid><description>&lt;p>As we all know, some months ago it came out the highly ridiculed &amp;ldquo;Freedom Phone&amp;rdquo;, with very suspicious claims like having an &amp;ldquo;Uncensorable App Store&amp;rdquo; which is actually just a rebranded &lt;a href="https://auroraoss.com/download/AuroraStore/"target="_blank" rel="noopener noreferrer">Aurora Store&lt;/a>
 or the claim that the OS is a blend of AOSP, LineageOS and GrapheneOS (&lt;em>What did he mean by this?&lt;/em>)&lt;/p>
 &lt;p>But one of the things that came to my attention was the hardware&amp;hellip; wich according to this &lt;a href="https://www.thedailybeast.com/maga-worlds-freedom-phone-actually-budget-chinese-phone"target="_blank" rel="noopener noreferrer">article&lt;/a>
 it&amp;rsquo;s an Umidigi phone, at first I said just laughed, but then&amp;hellip; I laughed even more.&lt;/p>
@@ -320,7 +393,7 @@ a bridged user normally will have a weird MXID such as @_discord_563563485638563
 &lt;/ul>
 &lt;/li>
 &lt;/ul></description></item><item><title>A comparison of FOSS Android keyboards</title><link>https://1hiking.github.io/2021/06/a-comparison-of-foss-android-keyboards/</link><pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/06/a-comparison-of-foss-android-keyboards/</guid><description>&lt;p>It&amp;rsquo;s common for many Android enthusiasts to customize their devices and while Swiftkey and GBoard are good alternatives, the companies behind them don&amp;rsquo;t have a good privacy record , this turns many people for other alternatives, many which are found in the Play-Store and F-droid repositories, I will compare them and give my opinion over which one is &amp;ldquo;the best&amp;rdquo;.&lt;/p>
-&lt;ol>
+&lt;ul>
 &lt;li>
 &lt;p>AnySoftKeyboard &lt;img src="../../posts/fosskeyboards/AnySoftKeyboard.png"
 alt="AnySoftKeyboard logo"/>&lt;/p>
@@ -338,12 +411,12 @@ alt="AnySoftKeyboard logo"/>&lt;/p>
 &lt;li>
 &lt;p>One dislike I have over this Keyboard is that if you want a new language package, you have to install an &amp;ldquo;app&amp;rdquo; instead of using the System language configuration for this.
 If your language is not in the repo, then pick something else. I also cannot find documentation for making new layouts :/.&lt;/p>
-&lt;/li>
-&lt;/ul>
 &lt;p>As a note: on F-droid their name and icon every few days, I don&amp;rsquo;t know if this is to blame on the F-droid build services or in the ASK metadata.&lt;/p>
 &lt;p>Link: &lt;a href="https://f-droid.org/es/packages/com.menny.android.anysoftkeyboard"target="_blank" rel="noopener noreferrer">https://f-droid.org/es/packages/com.menny.android.anysoftkeyboard&lt;/a>
 &lt;/p>
 &lt;hr>
+&lt;/li>
+&lt;/ul>
 &lt;/li>
 &lt;li>
 &lt;p>FlorisBoard &lt;img src="../../posts/fosskeyboards/FlorisBoard.png"
@@ -359,12 +432,12 @@ alt="FlorisBoard logo"/>&lt;/p>
 &lt;li>
 &lt;p>There is also a glide typing and gestures. I think Floris has better gestures than ASK but I might
 be a little biased.&lt;/p>
-&lt;/li>
-&lt;/ul>
 &lt;p>Many features present in ASK will be here too, one of them being adaptative themes. Floris also has a better configuration app and other tiny good details, I think I will start recommending it once it leaves beta :).&lt;/p>
 &lt;p>Link: &lt;a href="https://f-droid.org/es/packages/dev.patrickgold.florisboard/"target="_blank" rel="noopener noreferrer">https://f-droid.org/es/packages/dev.patrickgold.florisboard/&lt;/a>
 &lt;/p>
 &lt;hr>
+&lt;/li>
+&lt;/ul>
 &lt;/li>
 &lt;li>
 &lt;p>OpenBoard &lt;img src="../../posts/fosskeyboards/OpenBoard.png"
@@ -382,11 +455,11 @@ alt="OpenBoard logo"/>&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>In general the presets are good enough, I have never experienced a lag or crash unlike others (FlorisBoard pleaseee&amp;hellip;)&lt;/p>
-&lt;/li>
-&lt;/ul>
 &lt;p>Link: &lt;a href="https://f-droid.org/es/packages/org.dslul.openboard.inputmethod.latin/"target="_blank" rel="noopener noreferrer">https://f-droid.org/es/packages/org.dslul.openboard.inputmethod.latin/&lt;/a>
 &lt;/p>
 &lt;hr>
+&lt;/li>
+&lt;/ul>
 &lt;/li>
 &lt;li>
 &lt;p>aaaaa &lt;img src="../../posts/fosskeyboards/aaaa.png"
@@ -396,7 +469,7 @@ alt="aaaa logo"/>&lt;/p>
 &lt;/p>
 &lt;hr>
 &lt;/li>
-&lt;/ol>
+&lt;/ul>
 &lt;p>Who won? aaaa, good night&lt;/p></description></item><item><title>Making a browser from Scratch!</title><link>https://1hiking.github.io/2021/04/making-a-browser-from-scratch/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/2021/04/making-a-browser-from-scratch/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>So let&amp;rsquo;s talk about developing a browser, one of the most complex programs in your computer!&lt;/p>
 &lt;p>As most people know, since the 90&amp;rsquo;s web browsers have been an essential program in anyone&amp;rsquo;s computer, they allow you to connect with your friends online, play videogames, read scientific papers, or even niche functions to connect to FTP&amp;hellip;! oh actually nevermind.&lt;/p>

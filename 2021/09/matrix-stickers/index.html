@@ -1,0 +1,84 @@
+<!doctype html><html lang=en><meta charset=utf-8><meta name=generator content="Hugo 0.88.1"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name=color-scheme content="light dark">
+<meta name=supported-color-schemes content="light dark"><title>Matrix Stickers&nbsp;&ndash;&nbsp;Hiking's webpage</title><link rel=stylesheet href=../../../css/core.min.9e958365cf0319ede466a402e1369f31dc1f205c868aa836fe25581725c829d3f3545d9f142cccafe35363950a63e2a6.css integrity=sha384-npWDZc8DGe3kZqQC4TafMdwfIFyGiqg2/iVYFyXIKdPzVF2fFCzMr+NTY5UKY+Km><meta name=twitter:card content="summary">
+<meta name=twitter:title content="Matrix Stickers"><body><section id=header>
+<div class="header wrap"><span class="header left-side"><a class="site home" href=../../../><img class="site logo" src=../../../img/PolarBear.png alt><span class="site name">Hiking's webpage</span></a></span>
+<span class="header right-side"><div class="nav wrap"><nav class=nav><a class="nav item" href=../../../categories/>Categories</a><a class="nav item" href=../../../tags/>Tags</a><a class="nav item" href=../../../about/>About</a><a class="nav item" href=../../../lists/>Lists</a><a class="nav item" href=../../../posts/>Posts</a></nav></div></span></div><div class="site slogan"><span class=title>Look at him go!</span></div></section><section id=content><div class=article-container><section class="article header">
+<h1 class="article title">Matrix Stickers</h1><p class="article date">17 of September of 2021</p></section><article class="article markdown-body"><p>You possibly don&rsquo;t know matrix stickers.</p>
+<p>I have collected over these past few months some JSON&rsquo;s, curiously I have found 2 types of &ldquo;stickers&rdquo;, so I will share and discuss them. Moreover I will also explain how some clients implement stickers.</p>
+<p>Let&rsquo;s open the dev console!</p>
+<h2 id=the-mroommessage-hack>The m.room.message &ldquo;hack&rdquo;</h2>
+<p>This type of sticker is more of a inline message, you probably have seen this variant if a room has a discord bridge bot and users in the Discord room post custom emojis.</p>
+<p>Here is the JSON data:</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-JSON data-lang=JSON><span class=p>{</span>
+<span class=nt>&#34;body&#34;</span> <span class=p>:</span> <span class=s2>&#34;sticker name&#34;</span><span class=p>,</span>
+<span class=nt>&#34;format&#34;</span> <span class=p>:</span> <span class=s2>&#34;org.matrix.custom.html&#34;</span><span class=p>,</span>
+<span class=nt>&#34;formatted_body&#34;</span> <span class=p>:</span> <span class=s2>&#34;&lt;img data-mx-emoticon=\&#34;\&#34;
+</span><span class=s2>src =\ &#34;</span><span class=err>mxc</span><span class=p>:</span><span class=err>//example.org/hashid\</span><span class=s2>&#34; alt = \&#34;sticker name\&#34; title = \&#34;sticker name\&#34; height = \&#34;12345\&#34; vertical-align = \&#34;middle\&#34; /&gt;&#34;</span><span class=p>,</span>
+ <span class=nt>&#34;msgtype&#34;</span><span class=p>:</span> <span class=s2>&#34;m.text&#34;</span>
+<span class=p>}</span>
+</code></pre></div><p>Here is one real example, courtesy of Jaafar.</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-JSON data-lang=JSON><span class=p>{</span>
+    <span class=nt>&#34;body&#34;</span><span class=p>:</span> <span class=s2>&#34;:jerma: &#34;</span><span class=p>,</span>
+    <span class=nt>&#34;format&#34;</span><span class=p>:</span> <span class=s2>&#34;org.matrix.custom.html&#34;</span><span class=p>,</span>
+    <span class=nt>&#34;formatted_body&#34;</span><span class=p>:</span> <span class=s2>&#34;&lt;img data-mx-emoticon=\&#34;\&#34; src=\&#34;mxc://kde.org/6b7facfc815238e85175193ffe9a2bf5c46fb35c\&#34; alt=\&#34;:jerma:\&#34; title=\&#34;:jerma:\&#34; height=\&#34;32\&#34; vertical-align=\&#34;middle\&#34; /&gt;&#34;</span><span class=p>,</span>
+    <span class=nt>&#34;msgtype&#34;</span><span class=p>:</span> <span class=s2>&#34;m.text&#34;</span>
+<span class=p>}</span>
+</code></pre></div><p>Which will print you a Jerma amogus &ldquo;sticker&rdquo;. I would personally not use these, however they are very easy to craft</p>
+<p><img src=../../../posts/matrixstickers/Jerma_sticker.png alt="An image demonstrating the Jerma sticker on Element"></p>
+<h2 id=the-real-method-msticker>The real method: m.sticker</h2>
+<blockquote>
+<p>Implemented on this <a href=https://github.com/matrix-org/matrix-doc/pull/1158 target=_blank rel="noopener noreferrer">Pull Request</a>
+</p>
+</blockquote>
+<p>This solution is much more clean and human readable one popular implementation is the Element&rsquo;s sticker picker for example.</p>
+<p>Why <code>m.sticker</code> and not <code>m.room.sticker</code>? Well, because <a href=https://github.com/matrix-org/matrix-doc/pull/1158#issuecomment-373335074 target=_blank rel="noopener noreferrer">&ldquo;i explicitly asked rick to s/m.room.sticker/m.sticker/g in some flu-riddled malaise last week&rdquo;</a>
+</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-JSON data-lang=JSON><span class=p>{</span>
+    <span class=nt>&#34;body&#34;</span><span class=p>:</span> <span class=s2>&#34;Landing&#34;</span><span class=p>,</span>
+    <span class=nt>&#34;info&#34;</span><span class=p>:</span> <span class=p>{</span>
+      <span class=nt>&#34;mimetype&#34;</span><span class=p>:</span> <span class=s2>&#34;image/png&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;thumbnail_info&#34;</span><span class=p>:</span> <span class=p>{</span>
+        <span class=nt>&#34;mimetype&#34;</span><span class=p>:</span> <span class=s2>&#34;image/png&#34;</span><span class=p>,</span>
+        <span class=nt>&#34;h&#34;</span><span class=p>:</span> <span class=mi>200</span><span class=p>,</span>
+        <span class=nt>&#34;w&#34;</span><span class=p>:</span> <span class=mi>140</span><span class=p>,</span>
+        <span class=nt>&#34;size&#34;</span><span class=p>:</span> <span class=mi>73602</span>
+      <span class=p>},</span>
+      <span class=nt>&#34;h&#34;</span><span class=p>:</span> <span class=mi>200</span><span class=p>,</span>
+      <span class=nt>&#34;thumbnail_url&#34;</span><span class=p>:</span> <span class=s2>&#34;mxc://matrix.org/sHhqkFCvSkFwtmvtETOtKnLP&#34;</span><span class=p>,</span>
+      <span class=nt>&#34;w&#34;</span><span class=p>:</span> <span class=mi>140</span><span class=p>,</span>
+      <span class=nt>&#34;size&#34;</span><span class=p>:</span> <span class=mi>73602</span>
+    <span class=p>},</span>
+    <span class=nt>&#34;url&#34;</span><span class=p>:</span> <span class=s2>&#34;mxc://matrix.org/sHhqkFCvSkFwtmvtETOtKnLP&#34;</span>
+<span class=p>}</span>
+</code></pre></div><p><img src=../../../posts/matrixstickers/Bunny_sticker.png alt="An image demonstrating the Bunny sticker on Element"></p>
+<h2 id=implementation-examples>Implementation examples</h2>
+<blockquote>
+<p>This section won&rsquo;t go over a lot of technical details but instead provide a general overview of how some clients add stickers.</p>
+</blockquote>
+<ul>
+<li>Element uses their own &ldquo;Integration Manager&rdquo; to provide a service for stickers, which in turn connects to scalar.vector.im. You will then be able to choose from a limited collection of sticker packs, my favorite pack is the KDE one 😎.</li>
+</ul>
+<p><img src=../../../posts/matrixstickers/Integration_manager.png alt="The integration manager, as viewed on the settings. Showing information and allowing the user to toggle it"></p>
+<ul>
+<li>Fluffychat has a very interesting implementation, they have both room stickers <em>and</em> user stickers, I suspect the room&rsquo;s stickers are stored on whatever server they are hosted at, and similarly user stickers are stored on your homeserver.</li>
+</ul>
+<p><img src=../../../posts/matrixstickers/Fluffychat_stickers.png alt="The Fluffychat sticker creator as viewed on settings"></p>
+<blockquote>
+<p>Sadly I believe my homeserver (KDE) does not allow for user stickers, and about that, I think user stickers are just inline messages. (research needed!)</p>
+</blockquote>
+<h2 id=the-future-of-stickers>The Future of Stickers</h2>
+<p>Currently if you want to make your own stickerpicker it&rsquo;s using this <a href=https://github.com/maunium/stickerpicker target=_blank rel="noopener noreferrer">project</a>
+(By the way I have not been able to pull dependencies on Windows, heeelpp). However this is not user friendly.</p>
+<p>An interesting Pull Request for &ldquo;Image Packs&rdquo; is being discussed on <a href=https://github.com/matrix-org/matrix-doc/pull/2545 target=_blank rel="noopener noreferrer">GitHub</a>
+and hopefully it will be merged once it&rsquo;s stable.</p>
+<p>Also see: <a href=https://matrix.org/blog/2021/07/23/this-week-in-matrix-2021-07-23 target=_blank rel="noopener noreferrer">https://matrix.org/blog/2021/07/23/this-week-in-matrix-2021-07-23</a>
+</p>
+</article><section class="article labels"><a class=category href=../../../categories/matrix/>Matrix</a><a class=category href=../../../categories/posts/>Posts</a><a class=tag href=../../../tags/matrix/>Matrix</a></section><section class="article license"><a rel=license href=https://creativecommons.org/licenses/by-sa/4.0/><img alt=Creative commons license style=border-width:0 src=https://i.creativecommons.org/l/by-sa/4.0/88x31.png></a><br>This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-sa/4.0/>Creative Commons Attribution-ShareAlike 4.0 International License</a>.</section><section class="article author"><div class=details><a class=item href=https://github.com/1hiking target=_blank rel="noopener noreferrer"><span class="iconfont icon-github"></span>&nbsp;1hiking</a></div>
+</section>
+</div>
+<div class="article bottom"><section class="article navigation"><p><a class=link href=../../../2021/08/the-freedom-phone-manufacturer-hardware-problems/><span class="iconfont icon-article"></span>The Freedom Phone manufacturer hardware problems</a></p></section></div></section><section id=footer><div class=footer-wrap>
+<p class=copyright>©2021 hiking.</p>
+<p class=powerby><span>Powered&nbsp;by&nbsp;</span><a href=https://gohugo.io target=_blank rel="noopener noreferrer">Hugo</a><span>&nbsp;&&nbsp;</span><a href=https://themes.gohugo.io/hugo-notepadium/ target=_blank rel="noopener noreferrer">Notepadium</a></p></div>
+</section></body>
+</html>
