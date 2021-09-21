@@ -2,7 +2,7 @@
 title = "Hiking's curated list of F-droid apps"
 description = "Part of my collection of lists"
 date = 2021-01-19
-lastmod = 2021-07-25
+lastmod = 2021-09-21
 tags = ["F-droid"]
 categories = ["Lists"]
 +++
@@ -29,6 +29,8 @@ Consider that some programs that are not here (like [Vanadium](https://github.co
 12. [Launchers](#Launchers)
 13. [2FA](#2FA)
 14. [Games](#Games)
+
+Table of Contents is broken for now (and is gonna be for a while), I apologize.
 
 ## Browsers
 
