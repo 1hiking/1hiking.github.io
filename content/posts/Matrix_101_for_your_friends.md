@@ -60,7 +60,7 @@ I recommend for a new user to pick [matrix.org](https://matrix.org), the only do
 
 * ...or your friends Timmy & Bob are shilling X server.
 
-There is not an official list of all the possible servers (there are hundreds!) but there are some [unofficial ones](https://www.hello-matrix.net/public_servers.php).
+There is not an official list of all the possible servers (there are hundreds!) but there are some [unofficial ones](https://austinhuang.me/matrix-homeservers.html).
 
 ### Self-hosting
 
