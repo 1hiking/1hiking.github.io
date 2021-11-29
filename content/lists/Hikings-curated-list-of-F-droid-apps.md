@@ -3,7 +3,7 @@ title = "Hiking's curated list of F-droid apps"
 description = "List of various curated F-droid apps which I or have used."
 date = 2021-01-19
 lastmod = 2021-09-21
-tags = ["F-droid", "Gaga"]
+tags = ["F-droid"]
 categories = ["Lists"]
 +++
 
