@@ -1,0 +1,7 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false,
+  "prettier.printWidth": 80,
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "prettier.proseWrap": "always",
+}

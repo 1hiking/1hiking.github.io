@@ -1,77 +1,29 @@
 baseURL = "https://1hiking.github.io"
-title = "Hiking's webpage"
-theme = "hugo-notepadium"
-copyright = "©2021 hiking."
-
-languageCode = "en-US"
-defaultContentLanguage = "en"
-hasCJKLanguage = false
-
-enableRobotsTXT = true
-
-# Enable relativeURLs if your site hosted on GitHub.io
+languageCode = "en-us"
 relativeURLs = true
-
-# markup
-
-[markup.highlight]
-codeFences = true
-noClasses = false
-
-[markup.goldmark.renderer]
-unsafe = false  # enable raw HTML in Markdown
+title = "1hiking's site"
+theme = "SimpleTheme"
+# Enables automatic nav
+sectionPagesMenu = "main"
 
 [params]
-author = "hiking" # all posts are made by me anyways
-style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
-dateFormat = "02 of January of 2006"   # if unset, default is "2006-01-02"
-logo = "/img/PolarBear.png"  # if you have a logo png
-slogan = "Look at him go!"
-license = "<a rel=license href=https://creativecommons.org/licenses/by-sa/4.0/><img alt=Creative Commons License style=border-width:0 src=https://i.creativecommons.org/l/by-sa/4.0/88x31.png /></a><br />This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-sa/4.0/>Creative Commons Attribution-ShareAlike 4.0 International License</a>."  # CC License
-fullRss = false # Puts entire HTML post into rss 'description' tag. If unset, default is false.
-ipv6ready = false # Show IPV6Ready logo on footer.
-mainSections = "posts" # Declares which folder from content will be shown in main page. This is behaviour of the theme.
+dateFormat = "02 of January of 2006"
+copyright = "1hiking" # Will be displayed on Footer
+footerText = "\"Nice page bro\"" # Any text you might want to display will go here.
+logo = "/img/PolarBear.svg" # Supports SVG.
+logoalt = "A white polar bear" # alt description of the logo.
 
-[params.comments]
-enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
-
-[params.math]
-enable = false  # optional: true, false. Enable globally, default: false. You can always enable math on per page.
-use = "katex"  # option: "katex", "mathjax". default: "katex"
-
-[params.syntax]
-use = "Chroma"  # builtin: "prismjs", "hljs". "none" means Chroma
-theme = "xcode"
-darkTheme = "xcode-dark"  # apply this theme in dark mode
-
-[params.share]
-enable = false
-addThisId = ""
-inlineToolId = ""
-
-# custom header right items
-
-[params.nav]
-showCategories = true       # /categories/
-showTags = true             # /tags/
-
-# custom navigation items
-
-[params.profile]
-enable = true
-github = "1hiking"  # https://github.com/XXX
-
-[[params.nav.custom]]
-title = "About"
-url = "/about/"
-
-[[params.nav.custom]]
-title = "Lists"
-url = "/lists/"
-
-[[params.nav.custom]]
-title = "Posts"
-url = "/posts/"
+[author]
+name = "1hiking"
+github = "1hiking" # https://github.com/XXXX
 
 [permalinks]
-posts = "/:year/:month/:title/" # Adds url date to only posts folder
+posts = '/:year/:month/:title/'
+
+[markup]
+  [markup.highlight]
+    style = 'nord'
+  [markup.tableOfContents]
+    endLevel = 6
+    ordered = false
+    startLevel = 2
