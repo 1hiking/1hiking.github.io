@@ -1,7 +1,7 @@
 +++
 title = "New theme New year"
 date = 2021-12-03
-description = "Talking about my new website theme and my own theme."
+description = "Talking about my new website theme which I made."
 tags = ["Posts"]
 categories = ["Matrix","Posts"]
 +++
