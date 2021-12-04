@@ -8,17 +8,14 @@ categories = ["Matrix","Posts"]
 
 {{< toc >}}
 
-You possibly don't know matrix stickers. e I have collected over these past few
-months some JSON's, curiously I have found 2 types of "stickers", so I will
-share and discuss them. Moreover I will also explain how some clients implement
-stickers.
+You possibly don't know matrix stickers. e I have collected over these past few months some JSON's, curiously I have found 2 types of "stickers", so I will
+share and discuss them. Moreover I will also explain how some clients implement stickers.
 
 Let's open the dev console!
 
 ## The m.room.message "hack"
 
-This type of sticker is more of a inline message, you probably have seen this
-variant if a room has a discord bridge bot and users in the Discord room post
+This type of sticker is more of a inline message, you probably have seen this variant if a room has a discord bridge bot and users in the Discord room post
 custom emojis.
 
 Here is the JSON data:
@@ -44,18 +41,15 @@ Here is one real example, courtesy of Jaafar.
 }
 ```
 
-Which will print you a Jerma amogus "sticker". I would personally not use these,
-however they are very easy to craft
+Which will print you a Jerma amogus "sticker". I would personally not use these, however they are very easy to craft
 
-{{< images src="img/posts/Matrix-Stickers/Jerma_sticker.png" alt="An image demonstrating the Jerma sticker on Element" >}}
+![An image demonstrating the Jerma sticker on Element](/img/posts/Matrix-Stickers/Jerma_sticker.png)
 
 ## The real method: m.sticker
 
-> Implemented on this
-> [Pull Request](https://github.com/matrix-org/matrix-doc/pull/1158)
+> Implemented on this [Pull Request](https://github.com/matrix-org/matrix-doc/pull/1158)
 
-This solution is much more clean and human readable, one popular implementation
-is the Element's sticker picker for example.
+This solution is much more clean and human readable, one popular implementation is the Element's sticker picker for example.
 
 Why `m.sticker` and not `m.room.sticker`? Well, because
 ["i explicitly asked rick to s/m.room.sticker/m.sticker/g in some flu-riddled malaise last week"](https://github.com/matrix-org/matrix-doc/pull/1158#issuecomment-373335074)
@@ -82,39 +76,30 @@ Why `m.sticker` and not `m.room.sticker`? Well, because
 
 And here is how it looks:
 
-{{< images src="img/posts/Matrix-Stickers/Bunny_sticker.png" alt="An image demonstrating the Bunny sticker on Element" >}}
+![An image demonstrating the Bunny sticker on Element](/img/posts/Matrix-Stickers/Bunny_sticker.png)
 
 ## Implementation examples
 
-> This section won't go over a lot of technical details but instead provide a
-> general overview of how some clients add stickers.
+> This section won't go over a lot of technical details but instead provide a general overview of how some clients add stickers.
 
-- Element uses their own "Integration Manager" to provide a service for
-  stickers, which in turn connects to scalar.vector.im. You will then be able to
-  choose from a limited collection of sticker packs, my favorite pack is the KDE
-  one 😎.
+- Element uses their own "Integration Manager" to provide a service for stickers, which in turn connects to scalar.vector.im. You will then be able to choose
+  from a limited collection of sticker packs, my favorite pack is the KDE one 😎.
 
-{{< images src="img/posts/Matrix-Stickers/Integration_manager.png" alt="The integration manager, as viewed on the settings. Showing information and allowing the user to toggle it">}}
+![The integration manager, as viewed on the settings. Showing information and allowing the user to toggle it](/img/posts/Matrix-Stickers/Integration_manager.png)
 
-- Fluffychat has a very interesting implementation, they have both room stickers
-  _and_ user stickers, I suspect the room's stickers are stored on whatever
-  server they are hosted at, and similarly user stickers are stored on your
-  homeserver.
+- Fluffychat has a very interesting implementation, they have both room stickers _and_ user stickers, I suspect the room's stickers are stored on whatever
+  server they are hosted at, and similarly user stickers are stored on your homeserver.
 
-{{< images src="img/posts/Matrix-Stickers/Fluffychat_stickers.png" alt="The Fluffychat sticker creator as viewed on settings" >}}
+![The Fluffychat sticker creator as viewed on settings](/img/posts/Matrix-Stickers/Fluffychat_stickers.png)
 
-> Sadly I believe my homeserver (KDE) does not allow for user stickers, and
-> about that, I think user stickers are just inline messages. (research needed!)
+> Sadly I believe my homeserver (KDE) does not allow for user stickers, and about that, I think user stickers are just inline messages. (research needed!)
 
 ## The Future of Stickers
 
-Currently if you want to make your own stickerpicker it's using this
-[project](https://github.com/maunium/stickerpicker) (By the way I have not been
-able to pull dependencies on Windows, heeelpp). However this is not user
-friendly.
+Currently if you want to make your own stickerpicker it's using this [project](https://github.com/maunium/stickerpicker) (By the way I have not been able to
+pull dependencies on Windows, heeelpp). However this is not user friendly.
 
-An interesting Pull Request for "Image Packs" is being discussed on
-[GitHub](https://github.com/matrix-org/matrix-doc/pull/2545) and hopefully it
-will be merged once it's stable.
+An interesting Pull Request for "Image Packs" is being discussed on [GitHub](https://github.com/matrix-org/matrix-doc/pull/2545) and hopefully it will be merged
+once it's stable.
 
 Also see: <https://matrix.org/blog/2021/07/23/this-week-in-matrix-2021-07-23>
