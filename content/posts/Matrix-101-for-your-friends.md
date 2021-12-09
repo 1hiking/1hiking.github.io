@@ -34,7 +34,7 @@ In Matrix, a **room** could be considered the equivalent of **a single Discord c
 
 I might add that in the past we had "communities" and "badges" but you will rarely see them now.
 
-![A meme of old times, rest in peace badges, we will miss you"](/img/posts/Matrix-101-for-your-friends/Old_meme.png)
+![A meme of old times, rest in peace badges, we will miss you"](images/posts/Matrix-101-for-your-friends/Old_meme.png)
 
 ### Homeservers and their relationship with Matrix
 

@@ -23,7 +23,7 @@ a chapter, it got me determined to keep going by myself and gave me confidence t
 Finally I have to do the classic shotouts to Jaafar and this time to Duck since I stole (sort of?) his anchor shortcode. Also special credits to the Hugo theme
 for creating this tool that quickly made my life easier for me and hundreds of developers.
 
-![My old site made by hand HTML at the start of this year, and now at the end of the year.](/img/posts/New-theme-New-year/Old_theme_and_new_theme_scaled.png)
+![My old site made by hand HTML at the start of this year, and now at the end of the year.](images/posts/New-theme-New-year/Old_theme_and_new_theme_scaled.png)
 
 Currently, as you might see... my current problem is resizing images to fit on mobile devices, but that's an issue for another day...
 
