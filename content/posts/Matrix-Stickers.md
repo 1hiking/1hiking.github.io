@@ -43,7 +43,7 @@ Here is one real example, courtesy of Jaafar.
 
 Which will print you a Jerma amogus "sticker". I would personally not use these, however they are very easy to craft
 
-![An image demonstrating the Jerma sticker on Element](images/posts/Matrix-Stickers/Jerma_sticker.webp)
+![A message on Element demonstrating the Jerma \'amogus' sticker. Nothing else to comment\...](images/posts/Matrix-Stickers/Jerma_sticker.webp)
 
 ## The real method: m.sticker
 
@@ -76,7 +76,7 @@ Why `m.sticker` and not `m.room.sticker`? Well, because
 
 And here is how it looks:
 
-![An image demonstrating the Bunny sticker on Element](images/posts/Matrix-Stickers/Bunny_sticker.webp)
+![A message on Element demonstrating the Bunny sticker with red sticks.](images/posts/Matrix-Stickers/Bunny_sticker.webp)
 
 ## Implementation examples
 
