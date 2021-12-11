@@ -6,6 +6,9 @@ theme = "SimpleTheme"
 # Enables automatic nav
 sectionPagesMenu = "main"
 
+[build]
+writeStats = true
+
 [params]
 dateFormat = "02 of January of 2006"
 copyright = "1hiking" # Will be displayed on Footer
