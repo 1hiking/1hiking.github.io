@@ -12,6 +12,7 @@ copyright = "1hiking" # Will be displayed on Footer
 footerText = "\"Nice page bro\"" # Any text you might want to display will go here.
 logo = "/img/PolarBear.svg" # Supports SVG.
 logoalt = "A white polar bear" # alt description of the logo.
+postCSS = true # For postCSS support.
 
 [author]
 name = "1hiking"
