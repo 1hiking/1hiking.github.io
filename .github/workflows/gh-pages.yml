@@ -19,7 +19,10 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
-
+          
+      - name: Install dependencies
+        run: cd themes/SimpleTheme && npm install
+        
       - name: Build
         run: hugo --minify
 
