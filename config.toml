@@ -18,7 +18,7 @@ name = "1hiking"
 github = "1hiking" # https://github.com/XXXX
 
 [permalinks]
-posts = '/:year/:month/:title/'
+posts = ':section/:year/:month/:title/'
 
 [markup]
   [markup.highlight]
