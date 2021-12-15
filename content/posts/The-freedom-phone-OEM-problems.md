@@ -3,7 +3,7 @@ title = "The Freedom Phone OEM problems"
 date = 2021-08-07
 description = "A problem that is currently happening with the manufacturer of the Freedom Phone..."
 tags = ["Android","Security","Privacy"]
-categories = ["Articles","Posts"]
+categories = ["Posts"]
 +++
 
 {{< toc >}}

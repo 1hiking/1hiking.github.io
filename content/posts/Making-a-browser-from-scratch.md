@@ -5,7 +5,6 @@ lastmod = 2021-08-12
 description = "A \"blog\" about my experiences \"developing\" a web browser. This post is sarcastic (of course it is)."
 tags = ["Web-dev", "Development"]
 categories = ["Guides","Posts"]
-author = "1hiking"
 +++
 
 {{< toc >}}
