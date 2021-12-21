@@ -1,7 +1,7 @@
 +++
 title = "New theme New year"
 date = 2021-12-03
-lastmod = 2021-12-17
+lastmod = 2021-12-21
 description = "Talking about my new website theme which I made."
 tags = ["Posts"]
 categories = ["Matrix","Posts"]
@@ -26,6 +26,8 @@ for creating this tool that quickly made my life easier for me and hundreds of d
 
 ![On the left my old site made by hand, on the right with my own Hugo theme. Both made on plain CSS/HTML, but thanks to Hugo I have been able to make slightly more complex design choices](images/posts/New-theme-New-year/Old_theme_and_new_theme_scaled.webp)
 
-Currently, as you might see... is resizing images to fit on mobile devices, but that's an issue for another day...
+Currently, as you might see... I have a problem resizing images to fit on mobile devices, but that's an issue for another day...
+
+December 2021: Not anymore :)
 
 Happy christmas and new year! 🐻‍❄️
