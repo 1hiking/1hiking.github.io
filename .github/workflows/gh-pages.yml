@@ -21,7 +21,7 @@ jobs:
           extended: true
           
       - name: Install dependencies
-        run: npm install @fullhuman/postcss-purgecss autoprefixer postcss postcss-cli
+        run: npm ci
         
       - name: Build
         run: hugo --minify
