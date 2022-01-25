@@ -29,15 +29,15 @@ This tag has [great browser support](https://caniuse.com/details) and for such i
 
 The new code now looks like this:
 
-````HTML
+```HTML
 <details>
   <summary>Table of Contents</summary>
 
 {{- .Page.TableOfContents }}
 
 </details>
+
 ```
-````
 
 On the CSS side I would add these little changes:
 
@@ -49,4 +49,8 @@ summary {
 summary:hover {
   cursor: pointer;
 }
+```
+
+```
+
 ```

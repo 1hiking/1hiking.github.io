@@ -3,11 +3,23 @@ languageCode = "en-us"
 relativeURLs = true
 title = "Nice Polar Blog"
 theme = "SimpleTheme"
-# Enables automatic nav
-sectionPagesMenu = "main"
 
 [build]
 writeStats = true
+
+[menu]
+
+[[menu.main]]
+identifier = "Lists"
+name = "Lists"
+url = "/lists/"
+weight = 10
+
+[[menu.main]]
+homepage = "Posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
 
 [params]
 dateFormat = "02 of January of 2006"
