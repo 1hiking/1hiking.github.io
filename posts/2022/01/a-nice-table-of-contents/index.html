@@ -8,7 +8,7 @@
 <meta name=description content="Making a nice table of contents with an underrated html element">
 <meta property="og:author" content="1hiking">
 <meta property="og:url" content="https://1hiking.github.io/posts/2022/01/a-nice-table-of-contents/">
-<link rel=stylesheet href="/css/main.min.f5a5d6af294db7aed04192cf9218d97c9555fd45c5b9292b12e18c9f4a98b88f.css">
+<link rel=stylesheet href="/css/main.min.d938e5711eeeb6b1920ab3467ac584e69399b1b57ff9150564191df33874a3e5.css">
 <link rel=icon href=../../../../favicon/favicon.ico>
 <link rel=apple-touch-icon sizes=180x180 href=../../../../favicon/apple-touch-icon.png>
 <link rel=icon type=image/png sizes=32x32 href=../../../../favicon/favicon-32x32.png>
@@ -23,19 +23,20 @@
 </a>
 </header>
 <nav>
-<a href=../../../../lists/> Lists</a>
-<a href=../../../../posts/> Posts</a>
+<a href=../../../../lists/ title>Lists</a>
+<a href=../../../../posts/ title>Posts</a>
 </nav>
 </div>
 <div class=article-labels>
 <div class=categories>
-<p> <a href=../../../../categories>Categories</a> <a href=../../../../categories/guides>[Guides]</a> <a href=../../../../categories/posts>[Posts]</a> </p>
+<p> <a href=../../../../categories>Categories: </a> <a href=../../../../categories/guides>[Guides]</a> <a href=../../../../categories/posts>[Posts]</a> </p>
 </div>
 <div class=tags>
-<p> <a href=../../../../tags>Tags</a> <a href=../../../../tags/web-dev>[Web-dev]</a> <a href=../../../../tags/development>[Development]</a> </p>
+<p> <a href=../../../../tags>Tags: </a> <a href=../../../../tags/web-dev>[Web-dev]</a> <a href=../../../../tags/development>[Development]</a> </p>
 </div>
 </div>
 <main>
+<article>
 <div class=article-header>
 <h1>A nice table of contents</h1>
 <span class=author-date>
@@ -64,7 +65,7 @@ This tag has <a href=https://caniuse.com/details>great browser support</a> and f
 {{- .Page.TableOfContents }}
 
 <span style=color:#eceff4>&lt;/</span><span style=color:#81a1c1>details</span><span style=color:#eceff4>&gt;</span>
-```
+
 </code></pre></div><p>On the CSS side I would add these little changes:</p>
 <div class=highlight><pre tabindex=0 style=color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-CSS data-lang=CSS><span style=color:#81a1c1>summary</span> <span style=color:#eceff4>{</span>
   <span style=color:#81a1c1;font-weight:700>user-select</span><span style=color:#eceff4>:</span> <span style=color:#81a1c1;font-weight:700>none</span><span style=color:#eceff4>;</span>
@@ -73,7 +74,9 @@ This tag has <a href=https://caniuse.com/details>great browser support</a> and f
 <span style=color:#81a1c1>summary</span><span style=color:#eceff4>:</span><span style=color:#d08770>hover</span> <span style=color:#eceff4>{</span>
   <span style=color:#81a1c1;font-weight:700>cursor</span><span style=color:#eceff4>:</span> <span style=color:#81a1c1;font-weight:700>pointer</span><span style=color:#eceff4>;</span>
 <span style=color:#eceff4>}</span>
-</code></pre></div></div>
+</code></pre></div><pre tabindex=0><code>
+</code></pre></div>
+</article>
 </main>
 <div class=article-related>
 <p>
