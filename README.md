@@ -1,6 +1,6 @@
 # 1hiking.github.io
 
-Code of my webpage using the notepadium theme...
+Code of my webpage...
 
 ## Build instructions
 
