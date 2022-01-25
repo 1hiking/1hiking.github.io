@@ -50,7 +50,3 @@ summary:hover {
   cursor: pointer;
 }
 ```
-
-```
-
-```
