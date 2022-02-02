@@ -43,7 +43,7 @@ Here is one real example, courtesy of Jaafar.
 
 Which will print you a Jerma amogus "sticker". I would personally not use these, however they are very easy to craft
 
-![A message on Element demonstrating the Jerma \'amogus' sticker. Nothing else to comment\...](images/posts/Matrix-Stickers/Jerma_sticker.webp)
+![A message on Element demonstrating the Jerma \'amogus' sticker. Nothing else to comment\...](Jerma_sticker.webp)
 
 ## The real method: m.sticker
 
@@ -76,7 +76,7 @@ Why `m.sticker` and not `m.room.sticker`? Well, because
 
 And here is how it looks:
 
-![A message on Element demonstrating the Bunny sticker with red sticks.](images/posts/Matrix-Stickers/Bunny_sticker.webp)
+![A message on Element demonstrating the Bunny sticker with red sticks.](Bunny_sticker.webp)
 
 ## Implementation examples
 
@@ -85,12 +85,12 @@ And here is how it looks:
 - Element uses their own "Integration Manager" to provide a service for stickers, which in turn connects to scalar.vector.im. You will then be able to choose
   from a limited collection of sticker packs, my favorite pack is the KDE one 😎.
 
-![The integration manager, as viewed on the settings. Showing information and allowing the user to toggle it](images/posts/Matrix-Stickers/Integration_manager.webp)
+![The integration manager, as viewed on the settings. Showing information and allowing the user to toggle it](Integration_manager.webp)
 
 - Fluffychat has a very interesting implementation, they have both room stickers _and_ user stickers, I suspect the room's stickers are stored on whatever
   server they are hosted at, and similarly user stickers are stored on your homeserver.
 
-![The Fluffychat sticker creator as viewed on settings](images/posts/Matrix-Stickers/Fluffychat_stickers.webp)
+![The Fluffychat sticker creator as viewed on settings](Fluffychat_stickers.webp)
 
 > Sadly I believe my homeserver (KDE) does not allow for user stickers, and about that, I think user stickers are just inline messages. (research needed!)
 

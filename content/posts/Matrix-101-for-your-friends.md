@@ -5,6 +5,7 @@ lastmod = 2021-08-02
 description = "A guide for your Discord user to understand principles of Matrix and its ecosystem."
 tags = ["Matrix","Discord"]
 categories = ["Guides","Matrix","Posts"]
+draft = true
 +++
 
 {{< toc >}}
@@ -33,8 +34,6 @@ In Matrix, a **room** could be considered the equivalent of **a single Discord c
 [currently Spaces](https://element.io/blog/spaces-the-next-frontier/) could be considered a "Guild" equivalent, altough it's not exactly the same.
 
 I might add that in the past we had "communities" and "badges" but you will rarely see them now.
-
-![A meme I made back in the day, in the right side we have the \'Privacy Apple shill' and in the left one we have the \'Privacy Linux/Android shill'](images/posts/Matrix-101-for-your-friends/Old_meme.webp)
 
 ### Homeservers and their relationship with Matrix
 
