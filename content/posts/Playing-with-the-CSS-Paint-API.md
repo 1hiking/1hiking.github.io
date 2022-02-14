@@ -1,6 +1,7 @@
 +++
 title = "Playing with the CSS Paint API"
 date = 2022-02-11
+lastmod = 2022-02-14
 description = "Experimenting with the new Paint API part of CSS Houdini."
 tags = ["Web-dev", "Development"]
 categories = ["Articles","Posts"]
@@ -15,7 +16,7 @@ The same way HTML has the DOM, CSS has the CSS Object Model (CSSOM) and the CSS 
 of it in the form of Worklets, these can be reusable and shared between projects. It's basically a way to allow developers to not wait for a browser standard
 and instead develop their own little features.
 
-Currently Paint is the first one of the APIs which received W3C recommendation, it is available on Chromium and with Firefox through a polifyll script.
+Currently Paint is the first one of the APIs which has received a W3C recommendation, it is available on Chromium natively and on Firefox currently through a polifyll script.
 
 ## How to create one
 
@@ -79,13 +80,13 @@ Now going back to `paint()`, there are three arguments: ctx, geometry and proper
 Now that the JS is out of the way, let's go to our CSS file and add a div with our worklet:
 
 ```CSS
-// main.css
+/* main.css */
 .my-funny-div {
-    // you can also use background-image !
+    /* you can also use background-image ! */
     background: paint(feature);
     --feature-gum: 12
     --feature-gam : 10%
-    //...
+    /*... */
 }
 ```
 
