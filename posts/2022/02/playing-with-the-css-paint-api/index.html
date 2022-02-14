@@ -41,7 +41,7 @@
 <h1>Playing with the CSS Paint API</h1>
 <span class=author-date>
 <p>
-By <a href=https://github.com/1hiking>1hiking </a> · Made at: 11 of February of 2022
+By <a href=https://github.com/1hiking>1hiking </a> · Made at: 11 of February of 2022 · Edited: 14 of February of 2022
 </p>
 </span>
 </div>
@@ -53,7 +53,7 @@ future.</p>
 <p>The same way HTML has the DOM, CSS has the CSS Object Model (CSSOM) and the CSS Houdini group are developing APIs that are meant to allow developers to make use
 of it in the form of Worklets, these can be reusable and shared between projects. It&rsquo;s basically a way to allow developers to not wait for a browser standard
 and instead develop their own little features.</p>
-<p>Currently Paint is the first one of the APIs which received W3C recommendation, it is available on Chromium and with Firefox through a polifyll script.</p>
+<p>Currently Paint is the first one of the APIs which has received a W3C recommendation, it is available on Chromium natively and on Firefox currently through a polifyll script.</p>
 <h2 id=how-to-create-one>How to create one
 <a class=anchor href=#how-to-create-one>🔗</a>
 </h2>
@@ -100,13 +100,13 @@ reference of what you may be able to do.</li>
 <li><code>properties</code> allows you to access the data from the CSS custom properties, if you didn&rsquo;t set a syntax as explained before expect errors.</li>
 </ul>
 <p>Now that the JS is out of the way, let&rsquo;s go to our CSS file and add a div with our worklet:</p>
-<div class=highlight><pre tabindex=0 style=color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-CSS data-lang=CSS><span style=color:#81a1c1>//</span> <span style=color:#81a1c1>main</span><span style=color:#eceff4>.</span><span style=color:#8fbcbb>css</span>
+<div class=highlight><pre tabindex=0 style=color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-CSS data-lang=CSS><span style=color:#616e87;font-style:italic>/* main.css */</span>
 <span style=color:#eceff4>.</span><span style=color:#8fbcbb>my-funny-div</span> <span style=color:#eceff4>{</span>
-    <span style=color:#bf616a>//</span> <span style=color:#bf616a>you</span> <span style=color:#bf616a>can</span> <span style=color:#bf616a>also</span> <span style=color:#bf616a>use</span> <span style=color:#bf616a>background-image</span> <span style=color:#bf616a>!</span>
+    <span style=color:#616e87;font-style:italic>/* you can also use background-image ! */</span>
     <span style=color:#81a1c1;font-weight:700>background</span><span style=color:#eceff4>:</span> <span style=color:#88c0d0>paint</span><span style=color:#eceff4>(</span>feature<span style=color:#eceff4>);</span>
     --feature-gum<span style=color:#eceff4>:</span> <span style=color:#b48ead>12</span>
     <span style=color:#81a1c1>--</span>feature-gam <span style=color:#81a1c1>:</span> <span style=color:#b48ead>10</span><span style=color:#81a1c1>%</span>
-    <span style=color:#81a1c1>//...</span>
+    <span style=color:#616e87;font-style:italic>/*... */</span>
 <span style=color:#eceff4>}</span>
 </code></pre></div><p>As a quick showcase, see my <a href=https://css-paint-circles.netlify.app/>random circles demo</a>.</p>
 </div>
