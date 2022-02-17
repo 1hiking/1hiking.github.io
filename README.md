@@ -10,6 +10,7 @@ Code of my webpage...
 - `hugo new site .`
 - `git clone https://github.com/1hiking/1hiking.github.io.git .`
 - `git submodule init`
+- `npm init`
 - `hugo serve --minify`
 
 ## Deploying
