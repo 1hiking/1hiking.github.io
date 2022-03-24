@@ -1,72 +1,20 @@
-<!doctype html><html lang=en-us prefix="og: https://ogp.me/ns#"><head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta http-equiv=content-security-policy content="form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; base-uri 'none'">
-<meta property="og:title" content="Making a browser from Scratch! - Nice Polar Blog">
-<title>Making a browser from Scratch! - Nice Polar Blog</title><meta property="og:description" content="A &#34;blog&#34; about my experiences &#34;developing&#34; a web browser. This post is sarcastic (of course it is).">
-<meta name=description content="A &#34;blog&#34; about my experiences &#34;developing&#34; a web browser. This post is sarcastic (of course it is).">
-<meta property="og:author" content="1hiking">
-<meta property="og:url" content="https://1hiking.github.io/posts/2021/04/making-a-browser-from-scratch/">
-<link rel=stylesheet href="/scss/main.min.852ff947285fd0fe58cd3167e790da813ff9584370e4a22efecebc3978c65bab.css">
-<link rel=icon href=../../../../favicon/favicon.ico>
-<link rel=apple-touch-icon sizes=180x180 href=../../../../favicon/apple-touch-icon.png>
-<link rel=icon type=image/png sizes=32x32 href=../../../../favicon/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=../../../../favicon/favicon-16x16.png>
-<meta property="og:image" content="/favicon/og-image.png">
-</head><body><div class=header-nav>
-<header>
-<a href=../../../../>
-<img src=../../../../img/PolarBear.svg alt="A white polar bear" width=50 height=50>
-<h1>Nice Polar Blog</h1></a>
-</header><nav>
-<a href=../../../../lists/ title>Lists</a>
-<a href=../../../../posts/ title>Posts</a>
-</nav></div><div class=article-labels>
-<div class=categories>
-<p> <a href=../../../../categories>Categories: </a> <a href=../../../../categories/guides>[Guides]</a> <a href=../../../../categories/posts>[Posts]</a> </p></div><div class=tags>
-<p> <a href=../../../../tags>Tags: </a> <a href=../../../../tags/web-dev>[Web-dev]</a> <a href=../../../../tags/development>[Development]</a> </p></div></div><main>
-<article>
-<div class=article-header>
-<h1>Making a browser from Scratch!</h1><span class=author-date>
-<p>
-By <a href=https://github.com/1hiking>1hiking </a> · Made at: 26 of April of 2021 · Edited: 12 of August of 2021
-</p></span>
-</div><div class=article-content><details>
-<summary>Table of Contents</summary><nav id=TableOfContents>
-<ul>
-<li><a href=#introduction>Introduction</a></li><li><a href=#requirements>Requirements</a></li><li><a href=#conclusions>Conclusions</a></li><li><a href=#inspired-by>Inspired by</a></li></ul></nav></details>
-<h2 id=introduction>Introduction
-<a class=anchor href=#introduction>🔗</a>
-</h2><p>So let&rsquo;s talk about developing a browser, one of the most complex programs in
+<!doctype html><html lang=en-us prefix="og: https://ogp.me/ns#"><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=content-security-policy content="form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; base-uri 'none'"><meta property="og:title" content="Making a browser from Scratch! - Nice Polar Blog"><title>Making a browser from Scratch! - Nice Polar Blog</title><meta property="og:description" content="A &#34;blog&#34; about my experiences &#34;developing&#34; a web browser. This post is sarcastic (of course it is)."><meta name=description content="A &#34;blog&#34; about my experiences &#34;developing&#34; a web browser. This post is sarcastic (of course it is)."><meta property="og:author" content="1hiking"><meta property="og:url" content="https://1hiking.github.io/posts/2021/04/making-a-browser-from-scratch/"><link rel=stylesheet href="/scss/main.min.852ff947285fd0fe58cd3167e790da813ff9584370e4a22efecebc3978c65bab.css"><link rel=icon href=../../../../favicon/favicon.ico><link rel=apple-touch-icon sizes=180x180 href=../../../../favicon/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=../../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../../favicon/favicon-16x16.png><meta property="og:image" content="/favicon/og-image.png"></head><body><div class=header-nav><header><a href=../../../../><img src=../../../../img/PolarBear.svg alt="A white polar bear" width=50 height=50><h1>Nice Polar Blog</h1></a></header><nav><a href=../../../../lists/ title>Lists</a>
+<a href=../../../../posts/ title>Posts</a></nav></div><div class=article-labels><div class=categories><p><a href=../../../../categories>Categories:</a> <a href=../../../../categories/guides>[Guides]</a> <a href=../../../../categories/posts>[Posts]</a></p></div><div class=tags><p><a href=../../../../tags>Tags:</a> <a href=../../../../tags/web-dev>[Web-dev]</a> <a href=../../../../tags/development>[Development]</a></p></div></div><main><article><div class=article-header><h1>Making a browser from Scratch!</h1><span class=author-date><p>By <a href=https://github.com/1hiking>1hiking</a> · Made at: 26 of April of 2021 · Edited: 12 of August of 2021</p></span></div><div class=article-content><details><summary>Table of Contents</summary><nav id=TableOfContents><ul><li><a href=#introduction>Introduction</a></li><li><a href=#requirements>Requirements</a></li><li><a href=#conclusions>Conclusions</a></li><li><a href=#inspired-by>Inspired by</a></li></ul></nav></details><h2 id=introduction>Introduction
+<a class=anchor href=#introduction>🔗</a></h2><p>So let&rsquo;s talk about developing a browser, one of the most complex programs in
 your computer!</p><p>As most people know, since the 90&rsquo;s web browsers have been an essential program
 in anyone&rsquo;s computer, they allow you to connect with your friends online, play
 videogames, read scientific papers, or even niche functions to connect to
 FTP&mldr;! oh actually nevermind.</p><p>Well with that quick recap, I will teach you how to make your own browser from
 scratch!</p><h2 id=requirements>Requirements
-<a class=anchor href=#requirements>🔗</a>
-</h2><ul>
-<li>
-<p>Install latest Electron release on
-<a href=https://github.com/electron/electron/releases>here</a>.</p></li><li>
-<p>Have a computer, buy one in your nearest Walmart :).</p></li><li>
-<p>An Operating System, the choice is yours!.</p></li></ul><h2 id=conclusions>Conclusions
-<a class=anchor href=#conclusions>🔗</a>
-</h2><p>Making a web browser was a real challenge, after all
+<a class=anchor href=#requirements>🔗</a></h2><ul><li><p>Install latest Electron release on
+<a href=https://github.com/electron/electron/releases>here</a>.</p></li><li><p>Have a computer, buy one in your nearest Walmart :).</p></li><li><p>An Operating System, the choice is yours!.</p></li></ul><h2 id=conclusions>Conclusions
+<a class=anchor href=#conclusions>🔗</a></h2><p>Making a web browser was a real challenge, after all
 <a href=https://en.wikipedia.org/wiki/Web_standards>you need to support all of the Web standards</a>
 :) and that&rsquo;s soooo tiresome! Well I hope you guys have a good time, goodbye and
 until our next blog!</p><h2 id=inspired-by>Inspired by
-<a class=anchor href=#inspired-by>🔗</a>
-</h2><ul>
-<li>
-<p><a href=https://kilianvalkhof.com/2020/design/how-i-built-my-own-browser/>How I built my own browser by Kilian Valkhof</a></p></li><li>
-<p><a href=https://www.producthunt.com/posts/sizzy-8#comment-789519>Sizzy browser</a></p></li><li>
-<p><a href=https://minbrowser.org/>Minbrowser</a></p></li></ul></div></article></main><div class=article-related>
-<p> Previous: <a href=https://1hiking.github.io/posts/2021/04/first-post/>First post</a> </p><p> Next: <a href=https://1hiking.github.io/posts/2021/06/a-comparison-of-foss-android-keyboards/>A comparison of FOSS Android keyboards</a> </p></div><div class=article-license><p xmlns:cc=http://creativecommons.org/ns#>This work is licensed under
+<a class=anchor href=#inspired-by>🔗</a></h2><ul><li><p><a href=https://kilianvalkhof.com/2020/design/how-i-built-my-own-browser/>How I built my own browser by Kilian Valkhof</a></p></li><li><p><a href=https://www.producthunt.com/posts/sizzy-8#comment-789519>Sizzy browser</a></p></li><li><p><a href=https://minbrowser.org/>Minbrowser</a></p></li></ul></div></article></main><div class=article-related><p>Previous: <a href=https://1hiking.github.io/posts/2021/04/first-post/>First post</a></p><p>Next: <a href=https://1hiking.github.io/posts/2021/06/a-comparison-of-foss-android-keyboards/>A comparison of FOSS Android keyboards</a></p></div><div class=article-license><p xmlns:cc=http://creativecommons.org/ns#>This work is licensed under
 <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target=_blank rel="license noopener noreferrer" style=display:inline-block>CC BY-SA 4.0
 <img style=height:22px!important;margin-left:3px;vertical-align:text-bottom alt="A circle with the letters CC in the middle" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1">
 <img style=height:22px!important;margin-left:3px;vertical-align:text-bottom alt="A circle with the shape of a human in the middle" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1">
-<img style=height:22px!important;margin-left:3px;vertical-align:text-bottom alt="A circle with an arrow circling to point itself" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">
-</a>
-</p></div><footer>
-<p>© 2022 - 1hiking
+<img style=height:22px!important;margin-left:3px;vertical-align:text-bottom alt="A circle with an arrow circling to point itself" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p></div><footer><p>© 2022 - 1hiking
 · "Nice page bro"</p></footer></body></html>

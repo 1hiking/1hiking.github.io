@@ -1,48 +1,12 @@
-<!doctype html><html lang=en-us prefix="og: https://ogp.me/ns#"><head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta http-equiv=content-security-policy content="form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; base-uri 'none'">
-<meta property="og:title" content="A quick change to featured posts in Hugo - Nice Polar Blog">
-<title>A quick change to featured posts in Hugo - Nice Polar Blog</title><meta property="og:description" content="A small variable change to a guide about adding featured posts in Hugo">
-<meta name=description content="A small variable change to a guide about adding featured posts in Hugo">
-<meta property="og:author" content="1hiking">
-<meta property="og:url" content="https://1hiking.github.io/posts/2022/01/a-quick-change-to-featured-posts-in-hugo/">
-<link rel=stylesheet href="/scss/main.min.852ff947285fd0fe58cd3167e790da813ff9584370e4a22efecebc3978c65bab.css">
-<link rel=icon href=../../../../favicon/favicon.ico>
-<link rel=apple-touch-icon sizes=180x180 href=../../../../favicon/apple-touch-icon.png>
-<link rel=icon type=image/png sizes=32x32 href=../../../../favicon/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=../../../../favicon/favicon-16x16.png>
-<meta property="og:image" content="/favicon/og-image.png">
-</head><body><div class=header-nav>
-<header>
-<a href=../../../../>
-<img src=../../../../img/PolarBear.svg alt="A white polar bear" width=50 height=50>
-<h1>Nice Polar Blog</h1></a>
-</header><nav>
-<a href=../../../../lists/ title>Lists</a>
-<a href=../../../../posts/ title>Posts</a>
-</nav></div><div class=article-labels>
-<div class=categories>
-<p> <a href=../../../../categories>Categories: </a> <a href=../../../../categories/guides>[Guides]</a> <a href=../../../../categories/posts>[Posts]</a> </p></div><div class=tags>
-<p> <a href=../../../../tags>Tags: </a> <a href=../../../../tags/web-dev>[Web-dev]</a> <a href=../../../../tags/development>[Development]</a> </p></div></div><main>
-<article>
-<div class=article-header>
-<h1>A quick change to featured posts in Hugo</h1><span class=author-date>
-<p>
-By <a href=https://github.com/1hiking>1hiking </a> · Made at: 24 of January of 2022
-</p></span>
-</div><div class=article-content><p>I have been recently looking about how to add latests posts in my index page, since it has a giant space that has no purpose. I quickly glanced at this
+<!doctype html><html lang=en-us prefix="og: https://ogp.me/ns#"><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=content-security-policy content="form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; base-uri 'none'"><meta property="og:title" content="A quick change to featured posts in Hugo - Nice Polar Blog"><title>A quick change to featured posts in Hugo - Nice Polar Blog</title><meta property="og:description" content="A small variable change to a guide about adding featured posts in Hugo"><meta name=description content="A small variable change to a guide about adding featured posts in Hugo"><meta property="og:author" content="1hiking"><meta property="og:url" content="https://1hiking.github.io/posts/2022/01/a-quick-change-to-featured-posts-in-hugo/"><link rel=stylesheet href="/scss/main.min.852ff947285fd0fe58cd3167e790da813ff9584370e4a22efecebc3978c65bab.css"><link rel=icon href=../../../../favicon/favicon.ico><link rel=apple-touch-icon sizes=180x180 href=../../../../favicon/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=../../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../../favicon/favicon-16x16.png><meta property="og:image" content="/favicon/og-image.png"></head><body><div class=header-nav><header><a href=../../../../><img src=../../../../img/PolarBear.svg alt="A white polar bear" width=50 height=50><h1>Nice Polar Blog</h1></a></header><nav><a href=../../../../lists/ title>Lists</a>
+<a href=../../../../posts/ title>Posts</a></nav></div><div class=article-labels><div class=categories><p><a href=../../../../categories>Categories:</a> <a href=../../../../categories/guides>[Guides]</a> <a href=../../../../categories/posts>[Posts]</a></p></div><div class=tags><p><a href=../../../../tags>Tags:</a> <a href=../../../../tags/web-dev>[Web-dev]</a> <a href=../../../../tags/development>[Development]</a></p></div></div><main><article><div class=article-header><h1>A quick change to featured posts in Hugo</h1><span class=author-date><p>By <a href=https://github.com/1hiking>1hiking</a> · Made at: 24 of January of 2022</p></span></div><div class=article-content><p>I have been recently looking about how to add latests posts in my index page, since it has a giant space that has no purpose. I quickly glanced at this
 <a href=https://damien.co/blog/2020-06-13-hugo-featured-posts-list/>article by Damien</a> in which he shared this snippet of code:</p><div class=highlight><pre tabindex=0 style=color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-HTML data-lang=HTML><span style=display:flex><span>{{ range first 3 ( where .Site.Pages &#34;Type&#34; &#34;in&#34; site.Params.mainSections )}}
 </span></span><span style=display:flex><span>...
 </span></span><span style=display:flex><span>{{ end }}
 </span></span></code></pre></div><p>However, it should add <code>.Site.RegularPages</code> instead of <code>.Site.Pages</code> because as the <a href=https://gohugo.io/variables/site/#site-pages>Hugo documentation states</a>,
-.Site.Pages will include <em>everything</em> which could lead to unexpected entries, such as a list entry, while RegularPages will only include <em>regular</em> pages.</p><p>I write this post in the hopes that anyone who has this problem will be able to find a quick fix.</p></div></article></main><div class=article-related>
-<p> Previous: <a href=https://1hiking.github.io/posts/2022/01/a-nice-table-of-contents/>A nice table of contents</a> </p><p> Next: <a href=https://1hiking.github.io/posts/2022/02/playing-with-the-css-paint-api/>Playing with the CSS Paint API</a> </p></div><div class=article-license><p xmlns:cc=http://creativecommons.org/ns#>This work is licensed under
+.Site.Pages will include <em>everything</em> which could lead to unexpected entries, such as a list entry, while RegularPages will only include <em>regular</em> pages.</p><p>I write this post in the hopes that anyone who has this problem will be able to find a quick fix.</p></div></article></main><div class=article-related><p>Previous: <a href=https://1hiking.github.io/posts/2022/01/a-nice-table-of-contents/>A nice table of contents</a></p><p>Next: <a href=https://1hiking.github.io/posts/2022/02/playing-with-the-css-paint-api/>Playing with the CSS Paint API</a></p></div><div class=article-license><p xmlns:cc=http://creativecommons.org/ns#>This work is licensed under
 <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target=_blank rel="license noopener noreferrer" style=display:inline-block>CC BY-SA 4.0
 <img style=height:22px!important;margin-left:3px;vertical-align:text-bottom alt="A circle with the letters CC in the middle" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1">
 <img style=height:22px!important;margin-left:3px;vertical-align:text-bottom alt="A circle with the shape of a human in the middle" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1">
-<img style=height:22px!important;margin-left:3px;vertical-align:text-bottom alt="A circle with an arrow circling to point itself" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">
-</a>
-</p></div><footer>
-<p>© 2022 - 1hiking
+<img style=height:22px!important;margin-left:3px;vertical-align:text-bottom alt="A circle with an arrow circling to point itself" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p></div><footer><p>© 2022 - 1hiking
 · "Nice page bro"</p></footer></body></html>

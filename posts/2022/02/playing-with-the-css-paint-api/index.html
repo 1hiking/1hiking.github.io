@@ -1,44 +1,10 @@
-<!doctype html><html lang=en-us prefix="og: https://ogp.me/ns#"><head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta http-equiv=content-security-policy content="form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; base-uri 'none'">
-<meta property="og:title" content="Playing with the CSS Paint API - Nice Polar Blog">
-<title>Playing with the CSS Paint API - Nice Polar Blog</title><meta property="og:description" content="Experimenting with the new Paint API part of CSS Houdini.">
-<meta name=description content="Experimenting with the new Paint API part of CSS Houdini.">
-<meta property="og:author" content="1hiking">
-<meta property="og:url" content="https://1hiking.github.io/posts/2022/02/playing-with-the-css-paint-api/">
-<link rel=stylesheet href="/scss/main.min.852ff947285fd0fe58cd3167e790da813ff9584370e4a22efecebc3978c65bab.css">
-<link rel=icon href=../../../../favicon/favicon.ico>
-<link rel=apple-touch-icon sizes=180x180 href=../../../../favicon/apple-touch-icon.png>
-<link rel=icon type=image/png sizes=32x32 href=../../../../favicon/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=../../../../favicon/favicon-16x16.png>
-<meta property="og:image" content="/favicon/og-image.png">
-</head><body><div class=header-nav>
-<header>
-<a href=../../../../>
-<img src=../../../../img/PolarBear.svg alt="A white polar bear" width=50 height=50>
-<h1>Nice Polar Blog</h1></a>
-</header><nav>
-<a href=../../../../lists/ title>Lists</a>
-<a href=../../../../posts/ title>Posts</a>
-</nav></div><div class=article-labels>
-<div class=categories>
-<p> <a href=../../../../categories>Categories: </a> <a href=../../../../categories/articles>[Articles]</a> <a href=../../../../categories/posts>[Posts]</a> </p></div><div class=tags>
-<p> <a href=../../../../tags>Tags: </a> <a href=../../../../tags/web-dev>[Web-dev]</a> <a href=../../../../tags/development>[Development]</a> </p></div></div><main>
-<article>
-<div class=article-header>
-<h1>Playing with the CSS Paint API</h1><span class=author-date>
-<p>
-By <a href=https://github.com/1hiking>1hiking </a> · Made at: 11 of February of 2022 · Edited: 14 of February of 2022
-</p></span>
-</div><div class=article-content><p>Some weeks ago while studying about CSS, I stumbled upon <a href=https://houdini.how>https://houdini.how</a> and it seems as a fun feature to experiment and integrate in your projects in the
+<!doctype html><html lang=en-us prefix="og: https://ogp.me/ns#"><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=content-security-policy content="form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; base-uri 'none'"><meta property="og:title" content="Playing with the CSS Paint API - Nice Polar Blog"><title>Playing with the CSS Paint API - Nice Polar Blog</title><meta property="og:description" content="Experimenting with the new Paint API part of CSS Houdini."><meta name=description content="Experimenting with the new Paint API part of CSS Houdini."><meta property="og:author" content="1hiking"><meta property="og:url" content="https://1hiking.github.io/posts/2022/02/playing-with-the-css-paint-api/"><link rel=stylesheet href="/scss/main.min.852ff947285fd0fe58cd3167e790da813ff9584370e4a22efecebc3978c65bab.css"><link rel=icon href=../../../../favicon/favicon.ico><link rel=apple-touch-icon sizes=180x180 href=../../../../favicon/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=../../../../favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=../../../../favicon/favicon-16x16.png><meta property="og:image" content="/favicon/og-image.png"></head><body><div class=header-nav><header><a href=../../../../><img src=../../../../img/PolarBear.svg alt="A white polar bear" width=50 height=50><h1>Nice Polar Blog</h1></a></header><nav><a href=../../../../lists/ title>Lists</a>
+<a href=../../../../posts/ title>Posts</a></nav></div><div class=article-labels><div class=categories><p><a href=../../../../categories>Categories:</a> <a href=../../../../categories/articles>[Articles]</a> <a href=../../../../categories/posts>[Posts]</a></p></div><div class=tags><p><a href=../../../../tags>Tags:</a> <a href=../../../../tags/web-dev>[Web-dev]</a> <a href=../../../../tags/development>[Development]</a></p></div></div><main><article><div class=article-header><h1>Playing with the CSS Paint API</h1><span class=author-date><p>By <a href=https://github.com/1hiking>1hiking</a> · Made at: 11 of February of 2022 · Edited: 14 of February of 2022</p></span></div><div class=article-content><p>Some weeks ago while studying about CSS, I stumbled upon <a href=https://houdini.how>https://houdini.how</a> and it seems as a fun feature to experiment and integrate in your projects in the
 future.</p><h2 id=what-is-it>What is it?
-<a class=anchor href=#what-is-it>🔗</a>
-</h2><p>The same way HTML has the DOM, CSS has the CSS Object Model (CSSOM) and the CSS Houdini group are developing APIs that are meant to allow developers to make use
+<a class=anchor href=#what-is-it>🔗</a></h2><p>The same way HTML has the DOM, CSS has the CSS Object Model (CSSOM) and the CSS Houdini group are developing APIs that are meant to allow developers to make use
 of it in the form of Worklets, these can be reusable and shared between projects. It&rsquo;s basically a way to allow developers to not wait for a browser standard
 and instead develop their own little features.</p><p>Currently Paint is the first one of the APIs which has received a W3C recommendation, it is available on Chromium natively and on Firefox currently through a polifyll script.</p><h2 id=how-to-create-one>How to create one
-<a class=anchor href=#how-to-create-one>🔗</a>
-</h2><p>To create a worklet first load it with the following script:</p><div class=highlight><pre tabindex=0 style=color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-JS data-lang=JS><span style=display:flex><span><span style=color:#616e87;font-style:italic>// main.js
+<a class=anchor href=#how-to-create-one>🔗</a></h2><p>To create a worklet first load it with the following script:</p><div class=highlight><pre tabindex=0 style=color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-JS data-lang=JS><span style=display:flex><span><span style=color:#616e87;font-style:italic>// main.js
 </span></span></span><span style=display:flex><span><span style=color:#616e87;font-style:italic></span><span style=color:#81a1c1;font-weight:700>if</span> <span style=color:#eceff4>(</span><span style=color:#a3be8c>&#34;paintWorklet&#34;</span> <span style=color:#81a1c1;font-weight:700>in</span> CSS<span style=color:#eceff4>)</span> <span style=color:#eceff4>{</span> <span style=color:#616e87;font-style:italic>//This if can be skipped if wanted.
 </span></span></span><span style=display:flex><span><span style=color:#616e87;font-style:italic></span>    CSS<span style=color:#eceff4>.</span>paintWorklet<span style=color:#eceff4>.</span>addModule<span style=color:#eceff4>(</span><span style=color:#a3be8c>&#34;worklet.js&#34;</span><span style=color:#eceff4>);</span>
 </span></span><span style=display:flex><span>    <span style=color:#616e87;font-style:italic>//...
@@ -67,8 +33,7 @@ down a class; in which we will pass two methods: <code>inputProperties()</code> 
 </span></span><span style=display:flex><span>    <span style=color:#616e87;font-style:italic>//...
 </span></span></span><span style=display:flex><span><span style=color:#616e87;font-style:italic></span><span style=color:#eceff4>}</span>
 </span></span></code></pre></div><p>The types we can add on syntax can be found on <a href=https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units>MDN</a>, I highly suggest to set it to avoid
-any parsing errors.</p><p>Now going back to <code>paint()</code>, there are three arguments: ctx, geometry and properties.</p><ul>
-<li><code>ctx</code> behaves almost exactly like the HTML5 Canvas API, you can just use <a href=https://bucephalus.org/text/CanvasHandbook/CanvasHandbook.html>this handbook</a> as a
+any parsing errors.</p><p>Now going back to <code>paint()</code>, there are three arguments: ctx, geometry and properties.</p><ul><li><code>ctx</code> behaves almost exactly like the HTML5 Canvas API, you can just use <a href=https://bucephalus.org/text/CanvasHandbook/CanvasHandbook.html>this handbook</a> as a
 reference of what you may be able to do.</li><li><code>geometry</code> from what I understand allows you to get the size and width of the HTML element (can anyone confirm?).</li><li><code>properties</code> allows you to access the data from the CSS custom properties, if you didn&rsquo;t set a syntax as explained before expect errors.</li></ul><p>Now that the JS is out of the way, let&rsquo;s go to our CSS file and add a div with our worklet:</p><div class=highlight><pre tabindex=0 style=color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-CSS data-lang=CSS><span style=display:flex><span><span style=color:#616e87;font-style:italic>/* main.css */</span>
 </span></span><span style=display:flex><span><span style=color:#eceff4>.</span><span style=color:#8fbcbb>my-funny-div</span> <span style=color:#eceff4>{</span>
 </span></span><span style=display:flex><span>    <span style=color:#616e87;font-style:italic>/* you can also use background-image ! */</span>
@@ -77,13 +42,9 @@ reference of what you may be able to do.</li><li><code>geometry</code> from what
 </span></span><span style=display:flex><span>    <span style=color:#81a1c1>--</span>feature-gam <span style=color:#81a1c1>:</span> <span style=color:#b48ead>10</span><span style=color:#81a1c1>%</span>
 </span></span><span style=display:flex><span>    <span style=color:#616e87;font-style:italic>/*... */</span>
 </span></span><span style=display:flex><span><span style=color:#eceff4>}</span>
-</span></span></code></pre></div><p>As a quick showcase, see my <a href=https://css-paint-circles.netlify.app/>random circles demo</a>.</p></div></article></main><div class=article-related>
-<p> Previous: <a href=https://1hiking.github.io/posts/2022/01/a-quick-change-to-featured-posts-in-hugo/>A quick change to featured posts in Hugo</a> </p></div><div class=article-license><p xmlns:cc=http://creativecommons.org/ns#>This work is licensed under
+</span></span></code></pre></div><p>As a quick showcase, see my <a href=https://css-paint-circles.netlify.app/>random circles demo</a>.</p></div></article></main><div class=article-related><p>Previous: <a href=https://1hiking.github.io/posts/2022/01/a-quick-change-to-featured-posts-in-hugo/>A quick change to featured posts in Hugo</a></p></div><div class=article-license><p xmlns:cc=http://creativecommons.org/ns#>This work is licensed under
 <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target=_blank rel="license noopener noreferrer" style=display:inline-block>CC BY-SA 4.0
 <img style=height:22px!important;margin-left:3px;vertical-align:text-bottom alt="A circle with the letters CC in the middle" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1">
 <img style=height:22px!important;margin-left:3px;vertical-align:text-bottom alt="A circle with the shape of a human in the middle" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1">
-<img style=height:22px!important;margin-left:3px;vertical-align:text-bottom alt="A circle with an arrow circling to point itself" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">
-</a>
-</p></div><footer>
-<p>© 2022 - 1hiking
+<img style=height:22px!important;margin-left:3px;vertical-align:text-bottom alt="A circle with an arrow circling to point itself" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p></div><footer><p>© 2022 - 1hiking
 · "Nice page bro"</p></footer></body></html>
