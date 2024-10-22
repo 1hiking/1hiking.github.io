@@ -7,6 +7,8 @@ tags = ["Web-dev", "Development"]
 categories = ["Articles","Posts"]
 +++
 
+{{< toc >}}
+
 Some weeks ago while studying about CSS, I stumbled upon <https://houdini.how> and it seems as a fun feature to experiment and integrate in your projects in the
 future.
 
