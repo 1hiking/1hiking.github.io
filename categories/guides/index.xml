@@ -1,8 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guides on Nice Polar Blog</title><link>https://1hiking.github.io/categories/guides/</link><description>Recent content in Guides on Nice Polar Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 24 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/categories/guides/index.xml" rel="self" type="application/rss+xml"/><item><title>A quick change to featured posts in Hugo</title><link>https://1hiking.github.io/posts/2022/01/a-quick-change-to-featured-posts-in-hugo/</link><pubDate>Mon, 24 Jan 2022 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2022/01/a-quick-change-to-featured-posts-in-hugo/</guid><description>I have been recently looking about how to add latests posts in my index page, since it has a giant space that has no purpose. I quickly glanced at this article by Damien in which he shared this snippet of code:
-{{ range first 3 ( where .Site.Pages &amp;#34;Type&amp;#34; &amp;#34;in&amp;#34; site.Params.mainSections )}} ... {{ end }} However, it should add .Site.RegularPages instead of .Site.Pages because as the Hugo documentation states, .</description></item><item><title>A nice table of contents</title><link>https://1hiking.github.io/posts/2022/01/a-nice-table-of-contents/</link><pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2022/01/a-nice-table-of-contents/</guid><description>Until now, I have used the following snippet to make a table of contents.
-&amp;lt;div class=&amp;#34;toc&amp;#34;&amp;gt; &amp;lt;p&amp;gt;Table of Contents&amp;lt;/p&amp;gt; {{- .Page.TableOfContents }} &amp;lt;/div&amp;gt; However, when you have a lot of sections it becomes a bit annoying for the visitor to scroll to read.
-An easy solution would be to use JS to detect a click and expand the table, or using CSS :hover events but in each case you will add unnecessary complexity as the project grows.</description></item><item><title>VS Code privacy settings</title><link>https://1hiking.github.io/posts/2021/12/vs-code-privacy-settings/</link><pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/12/vs-code-privacy-settings/</guid><description>Table of Contents Deprecated settings New telemetry settings Settings you might want to check Wrapping it up In contrast to some popular beliefs, it is possible to make VS Code a very private code editor without the need of using forks such as VSCodium.
-Deprecated settings 🔗 The settings &amp;quot;telemetry.enableCrashReporter&amp;quot;: false and &amp;quot;telemetry.enableTelemetry&amp;quot;: false are deprecated and useless.
-New telemetry settings 🔗 &amp;quot;telemetry.telemetryLevel&amp;quot;: &amp;quot;off&amp;quot; will disable all telemetry and crash reporting.</description></item><item><title>Making a browser from Scratch!</title><link>https://1hiking.github.io/posts/2021/04/making-a-browser-from-scratch/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/04/making-a-browser-from-scratch/</guid><description>Table of Contents Introduction Requirements Conclusions Inspired by Introduction 🔗 So let&amp;rsquo;s talk about developing a browser, one of the most complex programs in your computer!
-As most people know, since the 90&amp;rsquo;s web browsers have been an essential program in anyone&amp;rsquo;s computer, they allow you to connect with your friends online, play videogames, read scientific papers, or even niche functions to connect to FTP&amp;hellip;! oh actually nevermind.
-Well with that quick recap, I will teach you how to make your own browser from scratch!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guides on Nice Polar Blog</title><link>https://1hiking.github.io/categories/guides/</link><description>Recent content in Guides on Nice Polar Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 24 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/categories/guides/index.xml" rel="self" type="application/rss+xml"/><item><title>A quick change to featured posts in Hugo</title><link>https://1hiking.github.io/posts/2022/01/a-quick-change-to-featured-posts-in-hugo/</link><pubDate>Mon, 24 Jan 2022 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2022/01/a-quick-change-to-featured-posts-in-hugo/</guid><description>&lt;p>I have been recently looking about how to add latests posts in my index page, since it has a giant space that has no purpose. I quickly glanced at this
+&lt;a href="https://damien.co/blog/2020-06-13-hugo-featured-posts-list/">article by Damien&lt;/a> in which he shared this snippet of code:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-HTML" data-lang="HTML">&lt;span style="display:flex;">&lt;span>{{ range first 3 ( where .Site.Pages &amp;#34;Type&amp;#34; &amp;#34;in&amp;#34; site.Params.mainSections )}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{ end }}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>However, it should add &lt;code>.Site.RegularPages&lt;/code> instead of &lt;code>.Site.Pages&lt;/code> because as the &lt;a href="https://gohugo.io/variables/site/#site-pages">Hugo documentation states&lt;/a>,
+.Site.Pages will include &lt;em>everything&lt;/em> which could lead to unexpected entries, such as a list entry, while RegularPages will only include &lt;em>regular&lt;/em> pages.&lt;/p></description></item><item><title>A nice table of contents</title><link>https://1hiking.github.io/posts/2022/01/a-nice-table-of-contents/</link><pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2022/01/a-nice-table-of-contents/</guid><description>&lt;p>Until now, I have used the following snippet to make a table of contents.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-HTML" data-lang="HTML">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#eceff4">&amp;lt;&lt;/span>&lt;span style="color:#81a1c1">div&lt;/span> &lt;span style="color:#8fbcbb">class&lt;/span>&lt;span style="color:#81a1c1">=&lt;/span>&lt;span style="color:#a3be8c">&amp;#34;toc&amp;#34;&lt;/span>&lt;span style="color:#eceff4">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#eceff4">&amp;lt;&lt;/span>&lt;span style="color:#81a1c1">p&lt;/span>&lt;span style="color:#eceff4">&amp;gt;&lt;/span>Table of Contents&lt;span style="color:#eceff4">&amp;lt;/&lt;/span>&lt;span style="color:#81a1c1">p&lt;/span>&lt;span style="color:#eceff4">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{- .Page.TableOfContents }}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#eceff4">&amp;lt;/&lt;/span>&lt;span style="color:#81a1c1">div&lt;/span>&lt;span style="color:#eceff4">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>However, when you have a lot of sections it becomes a bit annoying for the visitor to scroll to read.&lt;/p>
+&lt;p>An easy solution would be to use JS to detect a click and expand the table, or using CSS :hover events but in each case you will add unnecessary complexity as
+the project grows.&lt;/p></description></item><item><title>VS Code privacy settings</title><link>https://1hiking.github.io/posts/2021/12/vs-code-privacy-settings/</link><pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/12/vs-code-privacy-settings/</guid><description>&lt;details>
+ &lt;summary>Table of Contents&lt;/summary>&lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>&lt;a href="#deprecated-settings">Deprecated settings&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#new-telemetry-settings">New telemetry settings&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#settings-you-might-want-to-check">Settings you might want to check&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#wrapping-it-up">Wrapping it up&lt;/a>&lt;/li>
+ &lt;/ul>
+&lt;/nav>
+&lt;/details>
+
+&lt;p>In contrast to some popular beliefs, it is possible to make VS Code a very private code editor without the need of using forks such as VSCodium.&lt;/p>
+
+&lt;h2 id="deprecated-settings">Deprecated settings
+ &lt;a class="anchor" href="#deprecated-settings">🔗&lt;/a>
+&lt;/h2>
+
+
+&lt;p>The settings &lt;code>&amp;quot;telemetry.enableCrashReporter&amp;quot;: false&lt;/code> and &lt;code>&amp;quot;telemetry.enableTelemetry&amp;quot;: false&lt;/code> are deprecated and useless.&lt;/p>
+
+&lt;h2 id="new-telemetry-settings">New telemetry settings
+ &lt;a class="anchor" href="#new-telemetry-settings">🔗&lt;/a>
+&lt;/h2>
+
+
+&lt;p>&lt;code>&amp;quot;telemetry.telemetryLevel&amp;quot;: &amp;quot;off&amp;quot;&lt;/code> will disable all telemetry and crash reporting.&lt;/p></description></item><item><title>Making a browser from Scratch!</title><link>https://1hiking.github.io/posts/2021/04/making-a-browser-from-scratch/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/04/making-a-browser-from-scratch/</guid><description>&lt;details>
+ &lt;summary>Table of Contents&lt;/summary>&lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>&lt;a href="#introduction">Introduction&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#requirements">Requirements&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#conclusions">Conclusions&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#inspired-by">Inspired by&lt;/a>&lt;/li>
+ &lt;/ul>
+&lt;/nav>
+&lt;/details>
+
+
+&lt;h2 id="introduction">Introduction
+ &lt;a class="anchor" href="#introduction">🔗&lt;/a>
+&lt;/h2>
+
+
+&lt;p>So let&amp;rsquo;s talk about developing a browser, one of the most complex programs in
+your computer!&lt;/p>
+&lt;p>As most people know, since the 90&amp;rsquo;s web browsers have been an essential program
+in anyone&amp;rsquo;s computer, they allow you to connect with your friends online, play
+videogames, read scientific papers, or even niche functions to connect to
+FTP&amp;hellip;! oh actually nevermind.&lt;/p>
+&lt;p>Well with that quick recap, I will teach you how to make your own browser from
+scratch!&lt;/p></description></item></channel></rss>

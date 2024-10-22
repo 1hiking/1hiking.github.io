@@ -1,2 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Nice Polar Blog</title><link>https://1hiking.github.io/tags/security/</link><description>Recent content in Security on Nice Polar Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 07 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>The Freedom Phone OEM problems</title><link>https://1hiking.github.io/posts/2021/08/the-freedom-phone-oem-problems/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/08/the-freedom-phone-oem-problems/</guid><description>Table of Contents The problem What do I use for privacy and security? As we all know, some months ago it came out the highly ridiculed &amp;ldquo;Freedom Phone&amp;rdquo;, with very suspicious claims like having an &amp;ldquo;Uncensorable App Store&amp;rdquo; which is actually just a rebranded Aurora Store or the claim that the OS is a blend of AOSP, LineageOS and GrapheneOS (What did he mean by this?)
-But one of the things that came to my attention was the hardware&amp;hellip; wich according to this article it&amp;rsquo;s an Umidigi phone, at first I said just laughed, but then&amp;hellip; I laughed even more.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Nice Polar Blog</title><link>https://1hiking.github.io/tags/security/</link><description>Recent content in Security on Nice Polar Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 07 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>The Freedom Phone OEM problems</title><link>https://1hiking.github.io/posts/2021/08/the-freedom-phone-oem-problems/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/08/the-freedom-phone-oem-problems/</guid><description>&lt;details>
+ &lt;summary>Table of Contents&lt;/summary>&lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>&lt;a href="#the-problem">The problem&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#what-do-i-use-for-privacy-and-security">What do I use for privacy and security?&lt;/a>&lt;/li>
+ &lt;/ul>
+&lt;/nav>
+&lt;/details>
+
+&lt;p>As we all know, some months ago it came out the highly ridiculed &amp;ldquo;Freedom
+Phone&amp;rdquo;, with very suspicious claims like having an &amp;ldquo;Uncensorable App Store&amp;rdquo;
+which is actually just a rebranded
+&lt;a href="https://auroraoss.com/download/AuroraStore/">Aurora Store&lt;/a> or the claim that
+the OS is a blend of AOSP, LineageOS and GrapheneOS (&lt;em>What did he mean by
+this?&lt;/em>)&lt;/p>
+&lt;p>But one of the things that came to my attention was the hardware&amp;hellip; wich
+according to this
+&lt;a href="https://www.thedailybeast.com/maga-worlds-freedom-phone-actually-budget-chinese-phone">article&lt;/a>
+it&amp;rsquo;s an Umidigi phone, at first I said just laughed, but then&amp;hellip; I laughed even
+more.&lt;/p></description></item></channel></rss>

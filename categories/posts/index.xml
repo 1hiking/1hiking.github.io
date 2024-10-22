@@ -1,15 +1,157 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Nice Polar Blog</title><link>https://1hiking.github.io/categories/posts/</link><description>Recent content in Posts on Nice Polar Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/categories/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Playing with the CSS Paint API</title><link>https://1hiking.github.io/posts/2022/02/playing-with-the-css-paint-api/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2022/02/playing-with-the-css-paint-api/</guid><description>Some weeks ago while studying about CSS, I stumbled upon https://houdini.how and it seems as a fun feature to experiment and integrate in your projects in the future.
-What is it? 🔗 The same way HTML has the DOM, CSS has the CSS Object Model (CSSOM) and the CSS Houdini group are developing APIs that are meant to allow developers to make use of it in the form of Worklets, these can be reusable and shared between projects.</description></item><item><title>A quick change to featured posts in Hugo</title><link>https://1hiking.github.io/posts/2022/01/a-quick-change-to-featured-posts-in-hugo/</link><pubDate>Mon, 24 Jan 2022 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2022/01/a-quick-change-to-featured-posts-in-hugo/</guid><description>I have been recently looking about how to add latests posts in my index page, since it has a giant space that has no purpose. I quickly glanced at this article by Damien in which he shared this snippet of code:
-{{ range first 3 ( where .Site.Pages &amp;#34;Type&amp;#34; &amp;#34;in&amp;#34; site.Params.mainSections )}} ... {{ end }} However, it should add .Site.RegularPages instead of .Site.Pages because as the Hugo documentation states, .</description></item><item><title>A nice table of contents</title><link>https://1hiking.github.io/posts/2022/01/a-nice-table-of-contents/</link><pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2022/01/a-nice-table-of-contents/</guid><description>Until now, I have used the following snippet to make a table of contents.
-&amp;lt;div class=&amp;#34;toc&amp;#34;&amp;gt; &amp;lt;p&amp;gt;Table of Contents&amp;lt;/p&amp;gt; {{- .Page.TableOfContents }} &amp;lt;/div&amp;gt; However, when you have a lot of sections it becomes a bit annoying for the visitor to scroll to read.
-An easy solution would be to use JS to detect a click and expand the table, or using CSS :hover events but in each case you will add unnecessary complexity as the project grows.</description></item><item><title>VS Code privacy settings</title><link>https://1hiking.github.io/posts/2021/12/vs-code-privacy-settings/</link><pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/12/vs-code-privacy-settings/</guid><description>Table of Contents Deprecated settings New telemetry settings Settings you might want to check Wrapping it up In contrast to some popular beliefs, it is possible to make VS Code a very private code editor without the need of using forks such as VSCodium.
-Deprecated settings 🔗 The settings &amp;quot;telemetry.enableCrashReporter&amp;quot;: false and &amp;quot;telemetry.enableTelemetry&amp;quot;: false are deprecated and useless.
-New telemetry settings 🔗 &amp;quot;telemetry.telemetryLevel&amp;quot;: &amp;quot;off&amp;quot; will disable all telemetry and crash reporting.</description></item><item><title>New theme New year</title><link>https://1hiking.github.io/posts/2021/12/new-theme-new-year/</link><pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/12/new-theme-new-year/</guid><description>It has been a while since I have posted anything, however it has not been without a reason since I have done a Hugo theme for my own website! (and anyone really).
-One of the key aspects over the change were some features I didn&amp;rsquo;t have in the last one, for example, a Table of Contents or an automatic nav and instead had other features that I wasn&amp;rsquo;t using and added size to the page such as Google Analytics.</description></item><item><title>Matrix Stickers</title><link>https://1hiking.github.io/posts/2021/09/matrix-stickers/</link><pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/09/matrix-stickers/</guid><description>Table of Contents The m.room.message &amp;ldquo;hack&amp;rdquo; The real method: m.sticker Implementation examples The Future of Stickers You possibly don&amp;rsquo;t know matrix stickers. e I have collected over these past few months some JSON&amp;rsquo;s, curiously I have found 2 types of &amp;ldquo;stickers&amp;rdquo;, so I will share and discuss them. Moreover I will also explain how some clients implement stickers.
-Let&amp;rsquo;s open the dev console!
-The m.room.message &amp;ldquo;hack&amp;rdquo; 🔗 This type of sticker is more of a inline message, you probably have seen this variant if a room has a discord bridge bot and users in the Discord room post custom emojis.</description></item><item><title>The Freedom Phone OEM problems</title><link>https://1hiking.github.io/posts/2021/08/the-freedom-phone-oem-problems/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/08/the-freedom-phone-oem-problems/</guid><description>Table of Contents The problem What do I use for privacy and security? As we all know, some months ago it came out the highly ridiculed &amp;ldquo;Freedom Phone&amp;rdquo;, with very suspicious claims like having an &amp;ldquo;Uncensorable App Store&amp;rdquo; which is actually just a rebranded Aurora Store or the claim that the OS is a blend of AOSP, LineageOS and GrapheneOS (What did he mean by this?)
-But one of the things that came to my attention was the hardware&amp;hellip; wich according to this article it&amp;rsquo;s an Umidigi phone, at first I said just laughed, but then&amp;hellip; I laughed even more.</description></item><item><title>A comparison of FOSS Android keyboards</title><link>https://1hiking.github.io/posts/2021/06/a-comparison-of-foss-android-keyboards/</link><pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/06/a-comparison-of-foss-android-keyboards/</guid><description>Table of Contents AnySoftKeyboard FlorisBoard OpenBoard aaaaa Conclusions It&amp;rsquo;s common for many Android enthusiasts to customize their devices and while Swiftkey and GBoard are good alternatives, the companies behind them don&amp;rsquo;t have a good privacy record , this turns many people for other alternatives, many which are found in the Play-Store and F-droid repositories, I will compare them and give my opinion over which one is &amp;ldquo;the best&amp;rdquo;.
-AnySoftKeyboard 🔗 This one is the most &amp;ldquo;feature-full&amp;rdquo; of all the ones I have found, since it&amp;rsquo;s the most customizable&amp;hellip; at least for now&amp;hellip;</description></item><item><title>Making a browser from Scratch!</title><link>https://1hiking.github.io/posts/2021/04/making-a-browser-from-scratch/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/04/making-a-browser-from-scratch/</guid><description>Table of Contents Introduction Requirements Conclusions Inspired by Introduction 🔗 So let&amp;rsquo;s talk about developing a browser, one of the most complex programs in your computer!
-As most people know, since the 90&amp;rsquo;s web browsers have been an essential program in anyone&amp;rsquo;s computer, they allow you to connect with your friends online, play videogames, read scientific papers, or even niche functions to connect to FTP&amp;hellip;! oh actually nevermind.
-Well with that quick recap, I will teach you how to make your own browser from scratch!</description></item><item><title>First post</title><link>https://1hiking.github.io/posts/2021/04/first-post/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/04/first-post/</guid><description>So after many time I finally decided to start using a static site generator, specifically Hugo. In general I believe this will help me make my content more easy and I will not have to screw around all day with html and css, not because I hate it but because it&amp;rsquo;s very tiresome the copypaste.
-Another thing to note is that before choosing Hugo I tried JBake and Jekyll, I enjoyed the first hours of JBake not before realizing the lack of public themes to choose from&amp;hellip; and with Jekyll it was a pain to install on Wingblows and I don&amp;rsquo;t enjoy having to setup Cywing or having to use WSL.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Nice Polar Blog</title><link>https://1hiking.github.io/categories/posts/</link><description>Recent content in Posts on Nice Polar Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 14 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/categories/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Playing with the CSS Paint API</title><link>https://1hiking.github.io/posts/2022/02/playing-with-the-css-paint-api/</link><pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2022/02/playing-with-the-css-paint-api/</guid><description>&lt;details>
+ &lt;summary>Table of Contents&lt;/summary>&lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>&lt;a href="#what-is-it">What is it?&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#how-to-create-one">How to create one&lt;/a>&lt;/li>
+ &lt;/ul>
+&lt;/nav>
+&lt;/details>
+
+&lt;p>Some weeks ago while studying about CSS, I stumbled upon &lt;a href="https://houdini.how">https://houdini.how&lt;/a> and it seems as a fun feature to experiment and integrate in your projects in the
+future.&lt;/p>
+
+&lt;h2 id="what-is-it">What is it?
+ &lt;a class="anchor" href="#what-is-it">🔗&lt;/a>
+&lt;/h2>
+
+
+&lt;p>The same way HTML has the DOM, CSS has the CSS Object Model (CSSOM) and the CSS Houdini group are developing APIs that are meant to allow developers to make use
+of it in the form of Worklets, these can be reusable and shared between projects. It&amp;rsquo;s basically a way to allow developers to not wait for a browser standard
+and instead develop their own little features.&lt;/p></description></item><item><title>A quick change to featured posts in Hugo</title><link>https://1hiking.github.io/posts/2022/01/a-quick-change-to-featured-posts-in-hugo/</link><pubDate>Mon, 24 Jan 2022 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2022/01/a-quick-change-to-featured-posts-in-hugo/</guid><description>&lt;p>I have been recently looking about how to add latests posts in my index page, since it has a giant space that has no purpose. I quickly glanced at this
+&lt;a href="https://damien.co/blog/2020-06-13-hugo-featured-posts-list/">article by Damien&lt;/a> in which he shared this snippet of code:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-HTML" data-lang="HTML">&lt;span style="display:flex;">&lt;span>{{ range first 3 ( where .Site.Pages &amp;#34;Type&amp;#34; &amp;#34;in&amp;#34; site.Params.mainSections )}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{ end }}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>However, it should add &lt;code>.Site.RegularPages&lt;/code> instead of &lt;code>.Site.Pages&lt;/code> because as the &lt;a href="https://gohugo.io/variables/site/#site-pages">Hugo documentation states&lt;/a>,
+.Site.Pages will include &lt;em>everything&lt;/em> which could lead to unexpected entries, such as a list entry, while RegularPages will only include &lt;em>regular&lt;/em> pages.&lt;/p></description></item><item><title>A nice table of contents</title><link>https://1hiking.github.io/posts/2022/01/a-nice-table-of-contents/</link><pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2022/01/a-nice-table-of-contents/</guid><description>&lt;p>Until now, I have used the following snippet to make a table of contents.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-HTML" data-lang="HTML">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#eceff4">&amp;lt;&lt;/span>&lt;span style="color:#81a1c1">div&lt;/span> &lt;span style="color:#8fbcbb">class&lt;/span>&lt;span style="color:#81a1c1">=&lt;/span>&lt;span style="color:#a3be8c">&amp;#34;toc&amp;#34;&lt;/span>&lt;span style="color:#eceff4">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#eceff4">&amp;lt;&lt;/span>&lt;span style="color:#81a1c1">p&lt;/span>&lt;span style="color:#eceff4">&amp;gt;&lt;/span>Table of Contents&lt;span style="color:#eceff4">&amp;lt;/&lt;/span>&lt;span style="color:#81a1c1">p&lt;/span>&lt;span style="color:#eceff4">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{- .Page.TableOfContents }}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#eceff4">&amp;lt;/&lt;/span>&lt;span style="color:#81a1c1">div&lt;/span>&lt;span style="color:#eceff4">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>However, when you have a lot of sections it becomes a bit annoying for the visitor to scroll to read.&lt;/p>
+&lt;p>An easy solution would be to use JS to detect a click and expand the table, or using CSS :hover events but in each case you will add unnecessary complexity as
+the project grows.&lt;/p></description></item><item><title>VS Code privacy settings</title><link>https://1hiking.github.io/posts/2021/12/vs-code-privacy-settings/</link><pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/12/vs-code-privacy-settings/</guid><description>&lt;details>
+ &lt;summary>Table of Contents&lt;/summary>&lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>&lt;a href="#deprecated-settings">Deprecated settings&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#new-telemetry-settings">New telemetry settings&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#settings-you-might-want-to-check">Settings you might want to check&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#wrapping-it-up">Wrapping it up&lt;/a>&lt;/li>
+ &lt;/ul>
+&lt;/nav>
+&lt;/details>
+
+&lt;p>In contrast to some popular beliefs, it is possible to make VS Code a very private code editor without the need of using forks such as VSCodium.&lt;/p>
+
+&lt;h2 id="deprecated-settings">Deprecated settings
+ &lt;a class="anchor" href="#deprecated-settings">🔗&lt;/a>
+&lt;/h2>
+
+
+&lt;p>The settings &lt;code>&amp;quot;telemetry.enableCrashReporter&amp;quot;: false&lt;/code> and &lt;code>&amp;quot;telemetry.enableTelemetry&amp;quot;: false&lt;/code> are deprecated and useless.&lt;/p>
+
+&lt;h2 id="new-telemetry-settings">New telemetry settings
+ &lt;a class="anchor" href="#new-telemetry-settings">🔗&lt;/a>
+&lt;/h2>
+
+
+&lt;p>&lt;code>&amp;quot;telemetry.telemetryLevel&amp;quot;: &amp;quot;off&amp;quot;&lt;/code> will disable all telemetry and crash reporting.&lt;/p></description></item><item><title>New theme New year</title><link>https://1hiking.github.io/posts/2021/12/new-theme-new-year/</link><pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/12/new-theme-new-year/</guid><description>&lt;p>It has been a while since I have posted anything, however it has not been without a reason since I have done a
+&lt;a href="https://github.com/1hiking/SimpleTheme">Hugo theme&lt;/a> for my own website! (and anyone really).&lt;/p>
+&lt;p>One of the key aspects over the change were some features I didn&amp;rsquo;t have in the last one, for example, a Table of Contents or an automatic nav and instead had
+other features that I wasn&amp;rsquo;t using and added size to the page such as Google Analytics.&lt;/p></description></item><item><title>Matrix Stickers</title><link>https://1hiking.github.io/posts/2021/09/matrix-stickers/</link><pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/09/matrix-stickers/</guid><description>&lt;details>
+ &lt;summary>Table of Contents&lt;/summary>&lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>&lt;a href="#the-mroommessage-hack">The m.room.message &amp;ldquo;hack&amp;rdquo;&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#the-real-method-msticker">The real method: m.sticker&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#implementation-examples">Implementation examples&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#the-future-of-stickers">The Future of Stickers&lt;/a>&lt;/li>
+ &lt;/ul>
+&lt;/nav>
+&lt;/details>
+
+&lt;p>You possibly don&amp;rsquo;t know matrix stickers. e I have collected over these past few months some JSON&amp;rsquo;s, curiously I have found 2 types of &amp;ldquo;stickers&amp;rdquo;, so I will
+share and discuss them. Moreover I will also explain how some clients implement stickers.&lt;/p>
+&lt;p>Let&amp;rsquo;s open the dev console!&lt;/p>
+
+&lt;h2 id="the-mroommessage-hack">The m.room.message &amp;ldquo;hack&amp;rdquo;
+ &lt;a class="anchor" href="#the-mroommessage-hack">🔗&lt;/a>
+&lt;/h2>
+
+
+&lt;p>This type of sticker is more of a inline message, you probably have seen this variant if a room has a discord bridge bot and users in the Discord room post
+custom emojis.&lt;/p></description></item><item><title>The Freedom Phone OEM problems</title><link>https://1hiking.github.io/posts/2021/08/the-freedom-phone-oem-problems/</link><pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/08/the-freedom-phone-oem-problems/</guid><description>&lt;details>
+ &lt;summary>Table of Contents&lt;/summary>&lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>&lt;a href="#the-problem">The problem&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#what-do-i-use-for-privacy-and-security">What do I use for privacy and security?&lt;/a>&lt;/li>
+ &lt;/ul>
+&lt;/nav>
+&lt;/details>
+
+&lt;p>As we all know, some months ago it came out the highly ridiculed &amp;ldquo;Freedom
+Phone&amp;rdquo;, with very suspicious claims like having an &amp;ldquo;Uncensorable App Store&amp;rdquo;
+which is actually just a rebranded
+&lt;a href="https://auroraoss.com/download/AuroraStore/">Aurora Store&lt;/a> or the claim that
+the OS is a blend of AOSP, LineageOS and GrapheneOS (&lt;em>What did he mean by
+this?&lt;/em>)&lt;/p>
+&lt;p>But one of the things that came to my attention was the hardware&amp;hellip; wich
+according to this
+&lt;a href="https://www.thedailybeast.com/maga-worlds-freedom-phone-actually-budget-chinese-phone">article&lt;/a>
+it&amp;rsquo;s an Umidigi phone, at first I said just laughed, but then&amp;hellip; I laughed even
+more.&lt;/p></description></item><item><title>A comparison of FOSS Android keyboards</title><link>https://1hiking.github.io/posts/2021/06/a-comparison-of-foss-android-keyboards/</link><pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/06/a-comparison-of-foss-android-keyboards/</guid><description>&lt;details>
+ &lt;summary>Table of Contents&lt;/summary>&lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>&lt;a href="#anysoftkeyboard">AnySoftKeyboard&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#florisboard">FlorisBoard&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#openboard">OpenBoard&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#aaaaa">aaaaa&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#conclusions">Conclusions&lt;/a>&lt;/li>
+ &lt;/ul>
+&lt;/nav>
+&lt;/details>
+
+&lt;p>It&amp;rsquo;s common for many Android enthusiasts to customize their devices and while
+Swiftkey and GBoard are good alternatives, the companies behind them don&amp;rsquo;t have
+a good privacy record , this turns many people for other alternatives, many
+which are found in the Play-Store and F-droid repositories, I will compare them
+and give my opinion over which one is &amp;ldquo;the best&amp;rdquo;.&lt;/p>
+
+&lt;h2 id="anysoftkeyboard">AnySoftKeyboard
+ &lt;a class="anchor" href="#anysoftkeyboard">🔗&lt;/a>
+&lt;/h2>
+
+
+&lt;p>This one is the most &amp;ldquo;feature-full&amp;rdquo; of all the ones I have found, since it&amp;rsquo;s the
+most customizable&amp;hellip; at least for now&amp;hellip;&lt;/p></description></item><item><title>Making a browser from Scratch!</title><link>https://1hiking.github.io/posts/2021/04/making-a-browser-from-scratch/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/04/making-a-browser-from-scratch/</guid><description>&lt;details>
+ &lt;summary>Table of Contents&lt;/summary>&lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>&lt;a href="#introduction">Introduction&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#requirements">Requirements&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#conclusions">Conclusions&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#inspired-by">Inspired by&lt;/a>&lt;/li>
+ &lt;/ul>
+&lt;/nav>
+&lt;/details>
+
+
+&lt;h2 id="introduction">Introduction
+ &lt;a class="anchor" href="#introduction">🔗&lt;/a>
+&lt;/h2>
+
+
+&lt;p>So let&amp;rsquo;s talk about developing a browser, one of the most complex programs in
+your computer!&lt;/p>
+&lt;p>As most people know, since the 90&amp;rsquo;s web browsers have been an essential program
+in anyone&amp;rsquo;s computer, they allow you to connect with your friends online, play
+videogames, read scientific papers, or even niche functions to connect to
+FTP&amp;hellip;! oh actually nevermind.&lt;/p>
+&lt;p>Well with that quick recap, I will teach you how to make your own browser from
+scratch!&lt;/p></description></item><item><title>First post</title><link>https://1hiking.github.io/posts/2021/04/first-post/</link><pubDate>Fri, 23 Apr 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/04/first-post/</guid><description>&lt;p>So after many time I finally decided to start using a static site generator,
+specifically Hugo. In general I believe this will help me make my content more
+easy and I will not have to screw around all day with html and css, not because
+I hate it but because it&amp;rsquo;s very tiresome the copypaste.&lt;/p>
+&lt;p>Another thing to note is that before choosing Hugo I tried JBake and Jekyll, I
+enjoyed the first hours of JBake not before realizing the lack of public themes
+to choose from&amp;hellip; and with Jekyll it was a pain to install on Wingblows and I
+don&amp;rsquo;t enjoy having to setup Cywing or having to use WSL.&lt;/p></description></item></channel></rss>

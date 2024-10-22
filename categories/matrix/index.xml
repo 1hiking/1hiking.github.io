@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Matrix on Nice Polar Blog</title><link>https://1hiking.github.io/categories/matrix/</link><description>Recent content in Matrix on Nice Polar Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 03 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/categories/matrix/index.xml" rel="self" type="application/rss+xml"/><item><title>New theme New year</title><link>https://1hiking.github.io/posts/2021/12/new-theme-new-year/</link><pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/12/new-theme-new-year/</guid><description>It has been a while since I have posted anything, however it has not been without a reason since I have done a Hugo theme for my own website! (and anyone really).
-One of the key aspects over the change were some features I didn&amp;rsquo;t have in the last one, for example, a Table of Contents or an automatic nav and instead had other features that I wasn&amp;rsquo;t using and added size to the page such as Google Analytics.</description></item><item><title>Matrix Stickers</title><link>https://1hiking.github.io/posts/2021/09/matrix-stickers/</link><pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/09/matrix-stickers/</guid><description>Table of Contents The m.room.message &amp;ldquo;hack&amp;rdquo; The real method: m.sticker Implementation examples The Future of Stickers You possibly don&amp;rsquo;t know matrix stickers. e I have collected over these past few months some JSON&amp;rsquo;s, curiously I have found 2 types of &amp;ldquo;stickers&amp;rdquo;, so I will share and discuss them. Moreover I will also explain how some clients implement stickers.
-Let&amp;rsquo;s open the dev console!
-The m.room.message &amp;ldquo;hack&amp;rdquo; 🔗 This type of sticker is more of a inline message, you probably have seen this variant if a room has a discord bridge bot and users in the Discord room post custom emojis.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Matrix on Nice Polar Blog</title><link>https://1hiking.github.io/categories/matrix/</link><description>Recent content in Matrix on Nice Polar Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 21 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://1hiking.github.io/categories/matrix/index.xml" rel="self" type="application/rss+xml"/><item><title>New theme New year</title><link>https://1hiking.github.io/posts/2021/12/new-theme-new-year/</link><pubDate>Fri, 03 Dec 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/12/new-theme-new-year/</guid><description>&lt;p>It has been a while since I have posted anything, however it has not been without a reason since I have done a
+&lt;a href="https://github.com/1hiking/SimpleTheme">Hugo theme&lt;/a> for my own website! (and anyone really).&lt;/p>
+&lt;p>One of the key aspects over the change were some features I didn&amp;rsquo;t have in the last one, for example, a Table of Contents or an automatic nav and instead had
+other features that I wasn&amp;rsquo;t using and added size to the page such as Google Analytics.&lt;/p></description></item><item><title>Matrix Stickers</title><link>https://1hiking.github.io/posts/2021/09/matrix-stickers/</link><pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate><guid>https://1hiking.github.io/posts/2021/09/matrix-stickers/</guid><description>&lt;details>
+ &lt;summary>Table of Contents&lt;/summary>&lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>&lt;a href="#the-mroommessage-hack">The m.room.message &amp;ldquo;hack&amp;rdquo;&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#the-real-method-msticker">The real method: m.sticker&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#implementation-examples">Implementation examples&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#the-future-of-stickers">The Future of Stickers&lt;/a>&lt;/li>
+ &lt;/ul>
+&lt;/nav>
+&lt;/details>
+
+&lt;p>You possibly don&amp;rsquo;t know matrix stickers. e I have collected over these past few months some JSON&amp;rsquo;s, curiously I have found 2 types of &amp;ldquo;stickers&amp;rdquo;, so I will
+share and discuss them. Moreover I will also explain how some clients implement stickers.&lt;/p>
+&lt;p>Let&amp;rsquo;s open the dev console!&lt;/p>
+
+&lt;h2 id="the-mroommessage-hack">The m.room.message &amp;ldquo;hack&amp;rdquo;
+ &lt;a class="anchor" href="#the-mroommessage-hack">🔗&lt;/a>
+&lt;/h2>
+
+
+&lt;p>This type of sticker is more of a inline message, you probably have seen this variant if a room has a discord bridge bot and users in the Discord room post
+custom emojis.&lt;/p></description></item></channel></rss>
