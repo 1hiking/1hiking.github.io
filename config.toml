@@ -10,12 +10,6 @@ writeStats = true
 [menu]
 
 [[menu.main]]
-identifier = "Lists"
-name = "Lists"
-url = "/lists/"
-weight = 10
-
-[[menu.main]]
 homepage = "Posts"
 name = "Posts"
 url = "/posts/"
@@ -24,14 +18,12 @@ weight = 10
 [params]
 dateFormat = "02 of January of 2006"
 copyright = "1hiking" # Will be displayed on Footer
-footerText = "\"Nice page bro\"" # Any text you might want to display will go here.
 logo = "/img/PolarBear.svg" # Supports SVG.
 logoalt = "A white polar bear" # alt description of the logo.
-postCSS = true # For postCSS support.
+  [params.author]
+    name = "1hiking"
+    github = "1hiking" # https://github.com/XXXX
 
-[author]
-name = "1hiking"
-github = "1hiking" # https://github.com/XXXX
 
 [permalinks]
 posts = ':section/:year/:month/:title/'
